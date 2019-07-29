@@ -1,0 +1,153 @@
+<template>
+    <div>
+       <header class="header">
+            <div>
+            <img class="logo__image" src="/../images/logo.png" alt="logo">       
+            </div>
+            <div class="contact">
+                <span>Contact: 12345677899</span>
+            </div>
+
+            <div class="header__links">
+                <router-link class="header__link" to=""> <img class="link__icon" src="/../images/lock.png" alt=""> Se connecter</router-link>
+                <router-link class="header__link" to=""> <img class="link__icon" src="/../images/writing.png" alt=""> S'inscrire</router-link>
+            </div>
+            <div class="menu">
+                    <span class="menu__button" @click="open">&#9776;</span>
+            </div>
+       </header>
+       <nav class="nav">
+           <router-link class="nav__links" to="">SERVICES</router-link>
+           <router-link class="nav__links" to="">FONCTIONNALITES</router-link>
+           <router-link class="nav__links" to="">TARIFS</router-link>
+           <router-link class="nav__links" to="">UTILISATURS</router-link>
+           <router-link class="nav__links" to="">UTILISATIONS</router-link>
+           <router-link class="nav__links" to="">API</router-link>
+           <router-link to="" class=" link__btn"> <img src="/../images/left-arrow.png" class="btn__icon" alt="">  ESSAYEZ GRATUITMENT</router-link>
+       </nav>
+    </div>
+</template>
+
+<script>
+    export default {
+        
+    }
+</script>
+
+<style lang="scss" scoped>
+@import  '../assets/base.scss';
+
+   .logo__image{
+       width:200px;
+   }
+
+   .header{
+       display: flex;
+       align-items: center;
+       padding: 1.5rem;
+   }
+
+.link__btn{
+ 
+    box-shadow: 0 22px 33px 0 rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to bottom, #ff54c4, #fe2a91);
+    text-decoration: none;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    
+}
+   .menu{
+       margin-left: auto;
+
+       &__button{
+           color:$color-primary;   
+           display: block;
+           width: 3rem;
+          font-size: 2rem;
+
+
+           
+       }
+   }
+
+   .btn__icon{
+     margin-right: 1rem;
+     
+   }
+
+   .contact, .header__links{
+       display: none;
+   }
+
+   .nav{
+        width: 80%;
+           margin: 0 auto;
+       box-shadow: 0 9px 20px 2px rgba(0, 0, 0, 0.24);
+       &__links{
+           display: block;
+           text-decoration: none;
+           text-align: left;
+           border-bottom: 0.5px solid #dbdbdb;
+            padding: .5rem;
+            font-size: .8rem;
+           color: $color-black;
+          
+           
+       }
+   }
+
+   @media(min-width: 64rem){
+       .logo__image{
+           width: 300px;
+       }
+       .menu{
+           display: none;
+       }
+       .contact{
+           display: block;
+         
+           font-weight: bold;
+           
+       }
+       .header{
+           width: 60%;
+           margin: 0 auto;
+           justify-content: space-between;
+       }
+      .header__links{
+          display: block;
+          font-weight: bold;
+      }
+       .header__link{
+         text-decoration: none;
+         margin-right: 1rem;
+         color:$color-secondary;
+       }
+     .nav{
+         padding: 1rem;
+         box-shadow: none;
+     }
+     .link__btn{
+         margin-left: 1rem;
+         padding: 1.5rem;
+     }
+       .nav__links,.link__btn{
+           display: inline-block;
+           border: none;
+           padding-left: 1rem;
+           font-size: 1rem;
+
+          
+       }
+       .nav__links{
+           &:hover{
+               color: $color-secondary;
+           }
+       }
+     
+   }
+
+</style>
