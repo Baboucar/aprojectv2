@@ -99,7 +99,10 @@
        }
    }
 
-   @media(min-width: 64rem){
+@media(min-width: 834px){
+    
+}
+   @media(min-width: 780px){
        .logo__image{
            width: 300px;
        }
@@ -113,7 +116,7 @@
            
        }
        .header{
-           width: 60%;
+           width: 75%;
            margin: 0 auto;
            justify-content: space-between;
        }
