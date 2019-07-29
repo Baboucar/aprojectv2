@@ -129,10 +129,7 @@
          margin-right: 1rem;
          color:$color-secondary;
        }
-     .nav{
-         padding: 1rem;
-         box-shadow: none;
-     }
+    
      .link__btn{
          margin-left: 1rem;
          padding: 1.5rem;
