@@ -4,3 +4,34 @@ $color-black:#000000;
 $color-white:#FFFFFF;
 $color-grey:#f8f8f8;
 $color-text:#5e5e5e;
+
+
+
+.title{
+    color:$color-primary;
+}
+
+body{
+    line-height: 1.8;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.spacer-1{
+    margin-top: 2rem;
+}
+
+.section__container{
+    width: 75%;
+    margin: 0 auto;
+}
+.spacer-2{
+    margin-top: 4rem;
+}
+
+.img{
+    max-width: 100%;
+    height: auto;
+}

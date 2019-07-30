@@ -17,12 +17,14 @@
             </div>
        </header>
        <nav class="nav">
+           <div>
            <router-link class="nav__links" to="">SERVICES</router-link>
            <router-link class="nav__links" to="">FONCTIONNALITES</router-link>
            <router-link class="nav__links" to="">TARIFS</router-link>
            <router-link class="nav__links" to="">UTILISATURS</router-link>
            <router-link class="nav__links" to="">UTILISATIONS</router-link>
            <router-link class="nav__links" to="">API</router-link>
+           </div>
            <router-link to="" class=" link__btn"> <img src="/../images/left-arrow.png" class="btn__icon" alt="">  ESSAYEZ GRATUITMENT</router-link>
        </nav>
     </div>
@@ -30,7 +32,18 @@
 
 <script>
     export default {
-        
+        methods:{
+            open(){
+               
+                let item =  document.querySelector('.nav');
+                  if(item.style.display == 'none'){
+                      item.style.display = 'block';
+                  }
+                  else{
+                      item.style.display = 'none';
+                  }
+            }
+        }
     }
 </script>
 
@@ -67,6 +80,7 @@
            display: block;
            width: 3rem;
           font-size: 2rem;
+          cursor: pointer;
 
 
            
@@ -84,6 +98,7 @@
 
    .nav{
         width: 80%;
+        display: none;
            margin: 0 auto;
        box-shadow: 0 9px 20px 2px rgba(0, 0, 0, 0.24);
        &__links{
@@ -97,6 +112,7 @@
           
            
        }
+
    }
 
 @media(min-width: 834px){
@@ -131,16 +147,33 @@
        }
     
      .link__btn{
-         margin-left: 1rem;
-         padding: 1.5rem;
+        //  margin-left: 1rem;
+        //  padding: 1.5rem;
+        //  margin-left: 7.9rem;
+        margin-left: auto;
+      
+
+          
+        
      }
-       .nav__links,.link__btn{
+     .nav{
+         display: flex;
+         width: 56%;
+        align-items: center;
+         justify-content: center;
+
+     }
+       .nav__links{
            display: inline-block;
            border: none;
+
            padding-left: 1rem;
            font-size: 1rem;
 
           
+       }
+       .link__btn{
+           padding: 1.5rem;
        }
        .nav__links{
            &:hover{
