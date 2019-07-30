@@ -158,7 +158,7 @@
      }
      .nav{
          display: flex;
-         width: 56%;
+         
         align-items: center;
          justify-content: center;
 
