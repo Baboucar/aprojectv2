@@ -10,10 +10,11 @@ $color-text:#5e5e5e;
 .title{
     color:$color-primary;
 }
-
-body{
-    line-height: 1.8;
+.center__text{
+    text-align: center;
 }
+
+
 .container{
     width: 90%;
     margin: 0 auto;
