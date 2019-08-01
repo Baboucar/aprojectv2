@@ -3,12 +3,12 @@
     <Navigation />
     <section class="sms__pro section__container spacer-2">
       <div>
-        <p class="solution spacer-1">SOLUTION PRO</p>
+        <!-- <p class="solution spacer-1">SOLUTION PRO</p> -->
         <h1 class="title home__title">Nos services SMS</h1>
 
-        <!-- <p class="sms__description">
-               La solution simple et rapide pour envoyer vos messages dans le monde entier en quelques secondes.
-        </p>-->
+         <p class="sms__description">
+               Toutes nos solutions sur-mesure
+        </p>
         <button class="btn">ESSAYEZ GRATUITEMENT</button>
       </div>
       <div class="phone spacer-2">
@@ -27,7 +27,7 @@
          </h1>
         <div class="services__cards">
 
-            <div class="services__card">
+            <div class="services__card spacer-1">
                 <img class="card__image" src="/../images/icone-bulle-petit-1.png" alt="sms">
                    <p class="card__title">SMS Low Cost</p>
                    <p class="card__description">
@@ -95,14 +95,34 @@
         </div>
    
     </section>
+
+     <section class="revolution spacer-1">
+       <div class="section__container sms__revolution">
+
+    
+         <img class="img container revolution__img" src="/../images/octopush-sms-pro.png" alt="revolution">
+          <div class="container revolution__description">
+             <h2 class="title revolution__title">La révolution SMS
+à votre portée</h2>
+               
+               <button class="revolution__btn btn spacer-1">ESSAYER GRATUITEMENT</button>
+          </div>
+             </div>
+     </section>
+   <Footer/>
+
+
+
   </div>
 </template>
 
 <script>
 import Navigation from "./Navigation";
+import Footer from './Footer';
 export default {
   components: {
-    Navigation
+    Navigation,
+    Footer
   }
 };
 </script>
@@ -114,9 +134,10 @@ export default {
   font-weight: bold;
 }
 
-.home__title {
-  font-size: 3rem;
+.revolution{
+  background: $color-tertiary;
 }
+
 
 .btn {
   border: none;
@@ -128,6 +149,10 @@ export default {
   font-size: 0.7rem;
 }
 
+.revolution__btn{
+      display: block;
+    margin: 0 auto;
+}
 
 .card__image{
     display: block;
@@ -138,21 +163,59 @@ export default {
     font-weight: bold;
 
 }
+
+.sms__revolution{
+  background: $color-tertiary;
+
+
+}
+
+.revolution__img{
+  display: block;
+
+
+}
+
 @media (min-width: 64rem) {
   .sms__pro {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    background: #fafafa;
   }
+.sms__description{
+      font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.home__title {
+  font-size: 3rem;
+}
 
   .services__cards{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2rem;
   }
 .card__title{
   text-align: left;
 }
   .card__image{
     display: inline-block;
+  }
+.revolution__img{
+  width: 400px;
+   margin-left: 0;
+}
+  .sms__revolution{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .revolution__description{
+    margin: auto;
+  }
+  .revolution__btn{
+    margin: 0;
   }
 }
 </style>
