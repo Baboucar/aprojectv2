@@ -37,59 +37,59 @@
 
                <div class="services__card spacer-1">
                 <img class="card__image" src="/../images/icone-sms-long-petit.png" alt="sms">
-                   <p class="card__title">SMS Low Cost</p>
+                   <p class="card__title">SMS Pro</p>
                    <p class="card__description">
-                      Le moins cher du marché, pour des campagnes publicitaires réussies et économiques
+                     Outil de communication performant avec: Personnalisation de l’émetteur, Statistiques avancées et Sms long de + 160 caractères
                    </p>
             </div>
 
               <div class="services__card spacer-1">
                 <img class="card__image" src="/../images/icone-son-petit-1.png" alt="sms">
-                   <p class="card__title">SMS Low Cost</p>
+                   <p class="card__title">SMS Vocal</p>
                    <p class="card__description">
-                      Le moins cher du marché, pour des campagnes publicitaires réussies et économiques
+                     Convertir un SMS en message Audio puis envoyer sur ligne fixe et mobile , c’est suivre la tendance des meilleurs outils de communication
                    </p>
             </div>
 
               <div class="services__card spacer-1">
                 <img class="card__image" src="/../images/icone-ecran-petit-1.png" alt="sms">
-                   <p class="card__title">SMS Low Cost</p>
+                   <p class="card__title">SMS 2.0</p>
                    <p class="card__description">
-                      Le moins cher du marché, pour des campagnes publicitaires réussies et économiques
+                   Créer et envoyer un Rich SMS ou mini site mobile à vos contacts, pour une expérience utilisateur toujours renouvelée
                    </p>
             </div>
 
               <div class="services__card spacer-1">
                 <img class="card__image" src="/../images/icone-bdd-petit.png" alt="sms">
-                   <p class="card__title">SMS Low Cost</p>
+                   <p class="card__title">Numéro virtuel</p>
                    <p class="card__description">
-                      Le moins cher du marché, pour des campagnes publicitaires réussies et économiques
+                   Location de Numero virtuel dédié. Renforcez le lien avec vos contacts en communiquant sur une ligne unique. Disponible pour plus de 40 pays.
                    </p>
            
             </div>
 
               <div class="services__card spacer-1">
                 <img class="card__image" src="/../images/icone-bulle-petit-1.png" alt="sms">
-                   <p class="card__title">SMS Low Cost</p>
+                   <p class="card__title">Location de bases de données</p>
                    <p class="card__description">
-                      Le moins cher du marché, pour des campagnes publicitaires réussies et économiques
+              Agrandissez vos listes de contacts, Louez des listes de numéros de mobiles qualifiés en fonction de critères choisis selon vos besoins
                    </p>
             </div>
 
               <div class="services__card spacer-1">
                 <img class="card__image" src="/../images/icone-bulle-petit-1.png" alt="sms">
-                   <p class="card__title">SMS Low Cost</p>
+                   <p class="card__title">HLR Lookup</p>
                    <p class="card__description">
-                      Le moins cher du marché, pour des campagnes publicitaires réussies et économiques
+                    Nettoyez vos listes de contacts, réalisez des campagnes mieux ciblées et réduisez vos coûts de messagerie
                    </p>
             </div>
 
 
               <div class="services__card spacer-1">
-                <img class="card__image" src="/../images/icone-son-petit-1.png" alt="sms">
-                   <p class="card__title">SMS Low Cost</p>
+                <img class="card__image" src="/../images/icone_whatsapp.png" alt="sms">
+                   <p class="card__title">Whatsapp</p>
                    <p class="card__description">
-                      Le moins cher du marché, pour des campagnes publicitaires réussies et économiques
+                    Facilitez les échanges avec vos clients en proposant une expérience multimédia avec  Whatsapp for Business
                    </p>
             </div>
         </div>
