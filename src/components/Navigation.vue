@@ -16,7 +16,7 @@
                     <span class="menu__button" @click="open">&#9776;</span>
             </div>
        </header>
-       <nav class="nav">
+       <nav class="section__container nav">
            <div>
            <router-link class="nav__links" to="">SERVICES</router-link>
            <router-link class="nav__links" to="">FONCTIONNALITES</router-link>
@@ -69,7 +69,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1rem;
+
     
 }
    .menu{
@@ -97,7 +97,6 @@
    }
 
    .nav{
-        width: 80%;
         display: none;
            margin: 0 auto;
        box-shadow: 0 9px 20px 2px rgba(0, 0, 0, 0.24);
