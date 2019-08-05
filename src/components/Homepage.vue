@@ -27,7 +27,7 @@
       <div class="services__cards">
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/icone-num-long-petit.png" alt="sms" />
-          <a class="card__title" href="https://www.capitolemobile.com/fr/produits/wap-push-clic-to-call">SMS "Wap Push" &amp; "Clic to Call"</a>
+          <a class="card__title" href="https://www.capitolemobile.com/fr/produits/wap-push-clic-to-call">SMS "Wap Push" &amp; <br> "Clic to Call"</a>
           <p
             class="card__description"
           >Dynamisez votre communication en insérant dans le cœur du SMS un lien vers un Site Mobile ! (Technique aussi connue sous le nom de Wap Push).</p>
@@ -35,7 +35,7 @@
 
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/icone-sms-long-petit.png" alt="sms" />
-          <p class="card__title">SMS Mailing (envoi de mailing SMS)</p>
+          <a class="card__title" href="#">SMS Mailing  (envoi de mailing SMS)</a>
           <p
             class="card__description"
           >Envoyez une mailing SMS à autant de destinataires que vous le souhaitez. Annoncer un événement, une promotion, un nouveau produit, etc.... à plusieurs contacts est réalisable en quelques clics !</p>
@@ -43,20 +43,13 @@
 
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/icone-son-petit-1.png" alt="sms" />
-          <a class="card__title" href="https://www.capitolemobile.com/vocal/sms-vocal">SMS Vocal</a>
+          <a class="card__title" href="https://www.capitolemobile.com/vocal/sms-vocal">SMS <br> Vocal</a>
           <p class="card__description">Convertir un SMS en message Audio puis envoyer sur ligne fixe et mobile , c’est suivre la tendance des meilleurs outils de communication</p>
         </div>
 
      
 
-        <!-- <div class="services__card spacer-1">
-          <img class="card__image" src="/../images/icone-bdd-petit.png" alt="sms" />
-          <p class="card__title">SMS VOCAl</p>
-          <p class="card__description">
-            Notre Plate-forme de SMS Vocal vous permet de programmer en toute simplicité votre campagne de marketing vocal...
-          </p>
-        </div> -->
-
+      
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/icone-bulle-petit-1.png" alt="sms" />
           <a class="card__title" href="https://www.capitolemobile.com/sms/rich-message">La fonction "Rich Message" et le SMS 2.0 ...</a>
@@ -163,9 +156,10 @@ export default {
 }
 
 .card__description{
-  outline: 2px solid;
+  
     height: 110px;
     overflow: hidden;
+    
 }
 
 @media (min-width: 64rem) {
@@ -189,11 +183,13 @@ export default {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 2rem;
   }
+
   .card__title {
     text-align: left;
   }
   .card__image {
     display: inline-block;
+    
   }
   .revolution__img {
     width: 400px;
@@ -210,6 +206,10 @@ export default {
   }
   .revolution__btn {
     margin: 0;
+  }
+
+  .revolution__title{
+    text-align: left;
   }
 }
 </style>
