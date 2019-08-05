@@ -35,7 +35,7 @@
 
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/icone-sms-long-petit.png" alt="sms" />
-          <a class="card__title" href="#">SMS Mailing  <br>  (envoi de mailing SMS)</a>
+          <a class="card__title" href="#">SMS Mailing   <br>  (envoi de mailing SMS)</a>
           <p
             class="card__description"
           >Envoyez une mailing SMS à autant de destinataires que vous le souhaitez. Annoncer un événement, une promotion, un nouveau produit, etc.... à plusieurs contacts est réalisable en quelques clics !</p>

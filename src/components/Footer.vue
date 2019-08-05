@@ -2,7 +2,7 @@
     <footer class="footer section__container">
         <div>
          <h3 class="center__text footer__title">Octopush</h3>
-         <p>Plateforme d’envoi de SMS en masse pour les professionnels</p>
+         <p>Plateforme d’envoi de SMS en <br> masse pour les professionnels</p>
         </div>
   
    
