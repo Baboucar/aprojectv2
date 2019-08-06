@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="fix__navigation">
        <header class="header">
             <div>
             <img class="logo__image" src="/../images/logo.png" alt="logo">       
@@ -17,7 +17,7 @@
             </div>
        </header>
        <nav class="section__container nav">
-           <div>
+           <div class="sub__nav">
            <router-link class="nav__links" to="">SERVICES</router-link>
            <router-link class="nav__links" to="">FONCTIONNALITES</router-link>
            <router-link class="nav__links" to="">TARIFS</router-link>
@@ -42,7 +42,28 @@
                   else{
                       item.style.display = 'none';
                   }
+            },
+            changenavbarcolor(){
+    
+             
+                window.onscroll = () =>{
+                       const navi = document.querySelector(".sub__nav");
+
+                    //   navi.style.background = "red";
+                  if(this.scrollY <= 10){
+                       navi.style.background = ' red';
+                  }
+                  else{
+                       navi.style.background = "#EEE";
+                       
+                  }
+                }
             }
+        },
+
+        mounted:function(){
+            //window.alert("Hello mounted is working ");
+             this.changenavbarcolor();
         }
     }
 </script>
@@ -166,7 +187,7 @@
            display: inline-block;
            border: none;
 
-           padding-left: 1rem;
+           padding:1.5rem;
            font-size: 1rem;
 
           
@@ -179,7 +200,15 @@
                color: $color-secondary;
            }
        }
+
+       .fix__navigation{
+           position: fixed;
+           width: 100%;
+           top: 0;
+           z-index: 1;
+       }
      
+    
    }
 
 </style>

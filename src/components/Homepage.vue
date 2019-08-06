@@ -172,6 +172,9 @@ export default {
     display: grid;
     grid-template-columns: 2fr 1fr;
     background: #fafafa;
+    position: relative;
+    margin-top: 12rem;
+    z-index: -1;
   }
   .sms__description {
     font-weight: bold;
