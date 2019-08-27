@@ -48,6 +48,7 @@
              
                 window.onscroll = () =>{
                        const navi = document.querySelector(".sub__nav");
+                       const n = document.querySelector(".nav");
 
                     //   navi.style.background = "red";
                   if(this.scrollY <= 10){
@@ -55,6 +56,7 @@
                   }
                   else{
                        navi.style.background = "#EEE";
+                       n.style.background = "#EEE";
                        
                   }
                 }
@@ -138,7 +140,7 @@
 @media(min-width: 834px){
     
 }
-   @media(min-width: 780px){
+   @media(min-width: 64rem){
        .logo__image{
            width: 300px;
        }
@@ -189,7 +191,7 @@
            display: inline-block;
            border: none;
 
-           padding:1.5rem;
+        
            font-size: 1rem;
 
           

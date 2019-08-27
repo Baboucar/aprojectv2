@@ -192,6 +192,8 @@ export default {
   overflow: hidden;
 }
 
+
+
 @media (min-width: 64rem) {
   .sms__pro {
     display: grid;
