@@ -152,9 +152,10 @@
            
        }
        .header{
-           width: 75%;
+           width: 80%;
            margin: 0 auto;
            justify-content: space-between;
+           background: #FFFFFF;
        }
       .header__links{
           display: block;
@@ -171,6 +172,7 @@
         //  padding: 1.5rem;
         //  margin-left: 7.9rem;
         margin-left: auto;
+        flex-basis: 30%;
       
 
           
@@ -207,7 +209,9 @@
            top: 0;
            z-index: 1;
        }
-     
+     .sub__nav{
+         flex-basis: 70%;
+     }
     
    }
 

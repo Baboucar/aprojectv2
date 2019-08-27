@@ -2,7 +2,7 @@
   <div>
     <Navigation />
     <section class="sms__pro section__container spacer-2">
-      <div>
+      <div class="service__title">
         <!-- <p class="solution spacer-1">SOLUTION PRO</p> -->
         <h1 class="title home__title">Nos services SMS</h1>
 
@@ -23,11 +23,14 @@
         Une Gamme de Services
         <br />adaptés aux besoins de chacun
       </h1>
-      
+
       <div class="services__cards">
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/icone-bulle-petit-1.png" alt="sms" />
-          <a class="card__title" href="https://www.capitolemobile.com/fr/produits/wap-push-clic-to-call">SMS Low Cost</a>
+          <a
+            class="card__title"
+            href="https://www.capitolemobile.com/fr/produits/wap-push-clic-to-call"
+          >SMS Low Cost</a>
           <p
             class="card__description"
           >Le moins cher du marché, pour des campagnes publicitaires réussies et économiques</p>
@@ -38,44 +41,66 @@
           <a class="card__title" href="#">SMS Pro</a>
           <p
             class="card__description"
-          >
-          Outil de communication performant avec: Personnalisation de l’émetteur, Statistiques avancées et Sms long de + 160 caractères
-          </p>
+          >Outil de communication performant avec: Personnalisation de l’émetteur, Statistiques avancées et Sms long de + 160 caractères</p>
         </div>
 
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/icone-son-petit-1.png" alt="sms" />
-          <a class="card__title" href="https://www.capitolemobile.com/vocal/sms-vocal">SMS <br> Vocal</a>
-          <p class="card__description">Convertir un SMS en message Audio puis envoyer sur ligne fixe et mobile , c’est suivre la tendance des meilleurs outils de communication</p>
-        </div>
-
-     
-
-      
-        <div class="services__card spacer-1">
-          <img class="card__image" src="/../images/icone-bulle-petit-1.png" alt="sms" />
-          <a class="card__title" href="https://www.capitolemobile.com/sms/rich-message">La fonction "Rich Message" et le SMS 2.0 ...</a>
+          <a class="card__title" href="https://www.capitolemobile.com/vocal/sms-vocal">SMS Vocal</a>
           <p
-            class="card__description" >
-            La fonction "Rich Message" vous permet d’associer au message du SMS (contenu strictement textuel) un contenu "web", et ce, grâce à l’insertion d’un lien (court) "cliquable"
-            </p>
+            class="card__description"
+          >Convertir un SMS en message Audio puis envoyer sur ligne fixe et mobile , c’est suivre la tendance des meilleurs outils de communication</p>
         </div>
 
-        <!-- <div class="services__card spacer-1">
-                <img class="card__image" src="/../images/icone-bulle-petit-1.png" alt="sms">
-                   <p class="card__title">HLR Lookup</p>
-                   <p class="card__description">
-                    Nettoyez vos listes de contacts, réalisez des campagnes mieux ciblées et réduisez vos coûts de messagerie
-                   </p>
-        </div>-->
+        <div class="services__card spacer-1">
+          <img class="card__image" src="/../images/icone-ecran-petit-1.png" alt="sms" />
+          <a
+            class="card__title"
+            href="https://www.capitolemobile.com/sms/rich-message"
+          >La fonction "Rich Message" et le SMS 2.0 ...</a>
+          <p
+            class="card__description"
+          >Vous rêvez peut-être de proposer aux destinataires de vos campagnes de SMS publicitaires une interactivité grâce à un message « enrichi » et « cliquable » ...</p>
+        </div>
 
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/icone-bdd-petit.png" alt="sms" />
-          <a class="card__title" href="https://www.capitolemobile.com/prospection/base-opt-in">Location Base de Prospects OPT-IN</a>
-          <p class="card__description">
-            Louer un fichier qualifié et réaliser une campagne de prospection multicanal (SMS, Email...)
-          </p>
-        </div> 
+          <a
+            class="card__title"
+            href="https://www.capitolemobile.com/prospection/base-opt-in"
+          >Location Base de Prospects OPT-IN</a>
+          <p
+            class="card__description"
+          >Louer un fichier qualifié et réaliser une campagne de prospection multicanal (SMS, Email...)</p>
+        </div>
+
+        <div class="services__card spacer-1">
+          <img class="card__image" src="/../images/icone-num-long-petit.png" alt="sms" />
+          <p class="card__title">SMS *wap push* et *clic to call*</p>
+          <p
+            class="card__description"
+          >Le SMS Wap Push et le Clic to Call Dynamisez votre communication en insérant dans le cœur du SMS un lien vers un Site Mobile ! (Technique aussi connue sous le nom de Wap Push). Afin de rendre votre opération SMS interactive et aussi mieux quantifier les retombées d'une telle campagne, nous vous recommandons d'insérer dans votre publicité SMS un n° de téléphone de contact à appeler dans le cas où le prospect souhaiterait avoir plus d'informations concernant l'offre. Cette technique communément appelée "Clic to Call" est disponible dans le cadre de notre Offre SMS Pro.</p>
+        </div>
+
+        <div class="services__card spacer-1">
+          <img class="card__image" src="/../images/icone-qr-code-petit.png" alt="sms" />
+          <p class="card__title"> QR "Web" : un lien vers l'internet mobile
+
+</p>
+          <p
+            class="card__description">Une connexion au Web Mobile et aux réseaux sociaux via un simple "Flash" de code ! "Flashcode"). Rendez votre communication "papier" Web 2.0 compatible ! Notre Logiciel de Gestion de QR code vous permet de personnaliser en toute simplicité la redirection que vous souhaitez appliquer à votre code...
+</p>
+        </div>
+
+        <div class="services__card spacer-1">
+          <img class="card__image" src="/../images/icone-prospect-petit.png" alt="sms" />
+          <p class="card__title">LOCATION DE FICHIERS DE PROSPECTS
+</p>
+          <p
+            class="card__description"
+          >La Base de Prospects OPT-IN. Louer un fichier qualifié et réaliser une campagne de prospection multicanal (SMS, Email...). La réussite d'une campagne de Marketing Direct est généralement en partie liée à la qualité du Fichier de Prospection utilisé ainsi qu'à la pertinence du ciblage. Ciblez votre prospection pour optimiser votre campagne de marketing direct !
+</p>
+        </div>
       </div>
     </section>
 
@@ -132,7 +157,7 @@ export default {
   font-size: 0.7rem;
   cursor: pointer;
 
-  &:hover{
+  &:hover {
     background: #fb057c;
   }
 }
@@ -162,11 +187,9 @@ export default {
   display: block;
 }
 
-.card__description{
-  
-    height: 110px;
-    overflow: hidden;
-    
+.card__description {
+  height: 80px;
+  overflow: hidden;
 }
 
 @media (min-width: 64rem) {
@@ -181,7 +204,6 @@ export default {
   .sms__description {
     font-weight: bold;
     font-size: 1.5rem;
-    
   }
 
   .home__title {
@@ -199,7 +221,6 @@ export default {
   }
   .card__image {
     display: inline-block;
-    
   }
   .revolution__img {
     width: 400px;
@@ -212,14 +233,16 @@ export default {
 
   .revolution__description {
     margin: auto;
-    
   }
   .revolution__btn {
     margin: 0;
   }
 
-  .revolution__title{
+  .revolution__title {
     text-align: left;
+  }
+  .service__title{
+    padding: 2rem;
   }
 }
 </style>
