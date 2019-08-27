@@ -6,9 +6,10 @@
 </template>
   
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css?family=Livvic&display=swap');
 #app {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  -webkit-font-smoothing: antialiased;
+    font-family: 'Livvic', sans-serif;
+     -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.7;
  
