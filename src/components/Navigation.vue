@@ -61,7 +61,7 @@
             }
         },
 
-        mounted:function(){
+        created:function(){
             //window.alert("Hello mounted is working ");
              this.changenavbarcolor();
         }
