@@ -26,19 +26,21 @@
       
       <div class="services__cards">
         <div class="services__card spacer-1">
-          <img class="card__image" src="/../images/icone-num-long-petit.png" alt="sms" />
-          <a class="card__title" href="https://www.capitolemobile.com/fr/produits/wap-push-clic-to-call">SMS "Wap Push" &amp; <br> "Clic to Call"</a>
+          <img class="card__image" src="/../images/icone-bulle-petit-1.png" alt="sms" />
+          <a class="card__title" href="https://www.capitolemobile.com/fr/produits/wap-push-clic-to-call">SMS Low Cost</a>
           <p
             class="card__description"
-          >Dynamisez votre communication en insérant dans le cœur du SMS un lien vers un Site Mobile ! (Technique aussi connue sous le nom de Wap Push).</p>
+          >Le moins cher du marché, pour des campagnes publicitaires réussies et économiques</p>
         </div>
 
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/icone-sms-long-petit.png" alt="sms" />
-          <a class="card__title" href="#">SMS Mailing   <br>  (envoi de mailing SMS)</a>
+          <a class="card__title" href="#">SMS Pro</a>
           <p
             class="card__description"
-          >Envoyez une mailing SMS à autant de destinataires que vous le souhaitez. Annoncer un événement, une promotion, un nouveau produit, etc.... à plusieurs contacts est réalisable en quelques clics !</p>
+          >
+          Outil de communication performant avec: Personnalisation de l’émetteur, Statistiques avancées et Sms long de + 160 caractères
+          </p>
         </div>
 
         <div class="services__card spacer-1">
