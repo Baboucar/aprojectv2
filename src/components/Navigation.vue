@@ -190,6 +190,7 @@
        .nav__links{
            display: inline-block;
            border: none;
+           padding:1rem;
 
         
            font-size: 1rem;

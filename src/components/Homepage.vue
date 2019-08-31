@@ -25,8 +25,9 @@
       </h1>
 
       <div class="services__cards">
+
         <div class="services__card spacer-1">
-          <img class="card__image" src="/../images/icone-bulle-petit-1.png" alt="sms" />
+          <img class="card__image" src="/../images/icone_.gif" alt="sms" />
           <a
             class="card__title"
             href="https://www.capitolemobile.com/fr/produits/wap-push-clic-to-call"
@@ -37,7 +38,7 @@
         </div>
 
         <div class="services__card spacer-1">
-          <img class="card__image" src="/../images/icone-sms-long-petit.png" alt="sms" />
+          <img class="card__image" src="/../images/icone_low.gif" alt="sms" />
           <a class="card__title" href="#">SMS Pro</a>
           <p
             class="card__description"
@@ -45,7 +46,7 @@
         </div>
 
         <div class="services__card spacer-1">
-          <img class="card__image" src="/../images/icone-son-petit-1.png" alt="sms" />
+          <img class="card__image" src="/../images/icone_vocal.gif" alt="sms" />
           <a class="card__title" href="https://www.capitolemobile.com/vocal/sms-vocal">SMS Vocal</a>
           <p
             class="card__description"
@@ -53,7 +54,7 @@
         </div>
 
         <div class="services__card spacer-1">
-          <img class="card__image" src="/../images/icone-ecran-petit-1.png" alt="sms" />
+          <img class="card__image" src="/../images/icone_2.0.gif" alt="sms" />
           <a
             class="card__title"
             href="https://www.capitolemobile.com/sms/rich-message"
@@ -63,8 +64,8 @@
           >Vous rêvez peut-être de proposer aux destinataires de vos campagnes de SMS publicitaires une interactivité grâce à un message « enrichi » et « cliquable » ...</p>
         </div>
 
-        <div class="services__card spacer-1">
-          <img class="card__image" src="/../images/icone-bdd-petit.png" alt="sms" />
+        <!-- <div class="services__card spacer-1">
+          <img class="card__image" src="/../images/icone_long.gif" alt="sms" />
           <a
             class="card__title"
             href="https://www.capitolemobile.com/prospection/base-opt-in"
@@ -72,10 +73,20 @@
           <p
             class="card__description"
           >Louer un fichier qualifié et réaliser une campagne de prospection multicanal (SMS, Email...)</p>
+        </div> -->
+
+        <div class="services__card spacer-1">
+          <img class="card__image" src="/../images/icone_base.gif" alt="sms" />
+          <p class="card__title">LOCATION DE FICHIERS DE PROSPECTS</p>
+          <p
+            class="card__description"
+          >
+          La Base de Prospects OPT-IN. Louer un fichier qualifié et réaliser une campagne de prospection multicanal (SMS, Email...). La réussite d'une campagne de Marketing Direct est généralement en partie liée à la qualité du Fichier de Prospection utilisé ainsi qu'à la pertinence du ciblage. Ciblez votre prospection pour optimiser votre campagne de marketing direct !
+          </p>
         </div>
 
         <div class="services__card spacer-1">
-          <img class="card__image" src="/../images/icone-num-long-petit.png" alt="sms" />
+          <img class="card__image" src="/../images/icone_long.gif" alt="sms" />
           <p class="card__title">SMS *wap push* et *clic to call*</p>
           <p
             class="card__description"
@@ -83,27 +94,25 @@
         </div>
 
         <div class="services__card spacer-1">
-          <img class="card__image" src="/../images/icone-qr-code-petit.png" alt="sms" />
-          <p class="card__title"> QR "Web" : un lien vers l'internet mobile
-
-</p>
+          <img class="card__image" src="/../images/icone_qr.gif" alt="sms" />
+          <p class="card__title">QR "Web" : un lien vers l'internet mobile</p>
           <p
-            class="card__description">Une connexion au Web Mobile et aux réseaux sociaux via un simple "Flash" de code ! "Flashcode"). Rendez votre communication "papier" Web 2.0 compatible ! Notre Logiciel de Gestion de QR code vous permet de personnaliser en toute simplicité la redirection que vous souhaitez appliquer à votre code...
-</p>
+            class="card__description"
+          >Une connexion au Web Mobile et aux réseaux sociaux via un simple "Flash" de code ! "Flashcode"). Rendez votre communication "papier" Web 2.0 compatible ! Notre Logiciel de Gestion de QR code vous permet de personnaliser en toute simplicité la redirection que vous souhaitez appliquer à votre code...</p>
         </div>
 
         <div class="services__card spacer-1">
-          <img class="card__image" src="/../images/icone-prospect-petit.png" alt="sms" />
-          <p class="card__title">LOCATION DE FICHIERS DE PROSPECTS
-</p>
-          <p
-            class="card__description"
-          >La Base de Prospects OPT-IN. Louer un fichier qualifié et réaliser une campagne de prospection multicanal (SMS, Email...). La réussite d'une campagne de Marketing Direct est généralement en partie liée à la qualité du Fichier de Prospection utilisé ainsi qu'à la pertinence du ciblage. Ciblez votre prospection pour optimiser votre campagne de marketing direct !
-</p>
+          <img class="card__image" src="/../images/icone_bus.gif" alt="sms" />
+          <p class="card__title">Rat'pas ton bus</p>
+          <p class="card__description">
+            Si vous ne voulez plus attendre dans le froid ou sous le soleil ou la pluie ?
+            Si vous ne voulez plus courir après votre bus ?
+            Si vous trouvez le temps des dépliants dépassé ?
+            Informez-vous sur notre plate-forme tous les horaires des bus et TATA partout au Sénégal
+          </p>
         </div>
       </div>
     </section>
-
     <section class="revolution spacer-1">
       <div class="section__container sms__revolution">
         <img
@@ -192,8 +201,6 @@ export default {
   overflow: hidden;
 }
 
-
-
 @media (min-width: 64rem) {
   .sms__pro {
     display: grid;
@@ -243,7 +250,7 @@ export default {
   .revolution__title {
     text-align: left;
   }
-  .service__title{
+  .service__title {
     padding: 2rem;
   }
 }
