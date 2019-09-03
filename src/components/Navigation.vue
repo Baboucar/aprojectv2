@@ -2,7 +2,7 @@
     <div class="fix__navigation">
        <header class="header">
             <div>
-            <img class="logo__image" src="/../images/logo.png" alt="logo">       
+            <img class="logo__image" src="/../images/logo.gif" alt="logo">       
             </div>
             <div class="contact">
                 <span>Contact: 12345677899</span>
@@ -74,7 +74,7 @@
 @import  '../assets/base.scss';
 
    .logo__image{
-       width:200px;
+       width:100px;
    }
 
    .header{
@@ -142,7 +142,7 @@
 }
    @media(min-width: 64rem){
        .logo__image{
-           width: 300px;
+           width: 100px;
        }
        .menu{
            display: none;
