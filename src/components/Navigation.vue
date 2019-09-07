@@ -19,6 +19,18 @@
        <nav class="section__container nav">
            <div class="sub__nav">
            <router-link class="nav__links" to="">SERVICES</router-link>
+             <div class="toggle__nav">
+                 <router-link to="" class="sub__nav--links">SMS LOW COST</router-link>
+                 <router-link to="" class="sub__nav--links">SMS PRO</router-link>
+                 <router-link to="" class="sub__nav--links">SMS VOCAL</router-link>
+                 <router-link to="" class="sub__nav--links">LA FONCTION "RICH MESSAGE" ET LE SMS 2.0 ...</router-link>
+                 <router-link to="" class="sub__nav--links">SMS *WAP PUSH* ET *CLIC TO CALL*</router-link>
+                 <router-link to="" class="sub__nav--links">QR "WEB" : UN LIEN VERS L'INTERNET MOBILE</router-link>
+                 <router-link to="" class="sub__nav--links">LOCATION DE FICHIERS DE PROSPECTS</router-link>
+                 <router-link to="" class="sub__nav--links">RAT' PAS TON BUS</router-link>
+
+             </div>
+
            <router-link class="nav__links" to="">FONCTIONNALITES</router-link>
            <router-link class="nav__links" to="">TARIFS</router-link>
            <router-link class="nav__links" to="">UTILISATURS</router-link>
@@ -137,6 +149,14 @@
 
    }
 
+   .sub__nav--links{
+       display: block;
+       text-decoration: none;
+       font-size: .7rem;
+       padding: .5rem;
+       color: $color-black;
+   }
+
 @media(min-width: 834px){
     
 }
@@ -211,6 +231,12 @@
            width: 100%;
            top: 0;
            z-index: 1;
+       }
+
+       .toggle__nav{
+          outline:2px solid;
+          position:fixed;
+          background:$color-white;<
        }
      .sub__nav{
          flex-basis: 70%;
