@@ -12,7 +12,7 @@
       <div class="phone spacer-2">
         <img
           class="img"
-          src="/../images/octopush-fonctionnalites-services-petit.png"
+          src="/../images/servicesms-fonctionnalites-services-petit 500x500.gif"
           alt="services"
         />
       </div>
@@ -27,7 +27,7 @@
       <div class="services__cards">
 
         <div class="services__card spacer-1">
-          <img class="card__image" src="/../images/icone_.gif" alt="sms" />
+          <img class="card__image" src="/../images/icone-sms-low-cost.gif" alt="sms" />
           <a
             class="card__title"
             href="https://www.capitolemobile.com/fr/produits/wap-push-clic-to-call"
@@ -38,7 +38,7 @@
         </div>
 
         <div class="services__card spacer-1">
-          <img class="card__image" src="/../images/icone_low.gif" alt="sms" />
+          <img class="card__image" src="/../images/icone-sms-pro.gif" alt="sms" />
           <a class="card__title" href="#">SMS Pro</a>
           <p
             class="card__description"
@@ -46,7 +46,7 @@
         </div>
 
         <div class="services__card spacer-1">
-          <img class="card__image" src="/../images/icone_vocal.gif" alt="sms" />
+          <img class="card__image" src="/../images/icone-sms-vocal.gif" alt="sms" />
           <a class="card__title" href="https://www.capitolemobile.com/vocal/sms-vocal">SMS Vocal</a>
           <p
             class="card__description"
@@ -54,7 +54,7 @@
         </div>
 
         <div class="services__card spacer-1">
-          <img class="card__image" src="/../images/icone_2.0.gif" alt="sms" />
+          <img class="card__image" src="/../images/icone-sms2.0.gif" alt="sms" />
           <a
             class="card__title"
             href="https://www.capitolemobile.com/sms/rich-message"
@@ -76,7 +76,7 @@
         </div> -->
 
         <div class="services__card spacer-1">
-          <img class="card__image" src="/../images/icone_base.gif" alt="sms" />
+          <img class="card__image" src="/../images/base-icone.gif" alt="sms" />
           <p class="card__title">LOCATION DE FICHIERS DE PROSPECTS</p>
           <p
             class="card__description"
@@ -86,7 +86,7 @@
         </div>
 
         <div class="services__card spacer-1">
-          <img class="card__image" src="/../images/icone_long.gif" alt="sms" />
+          <img class="card__image" src="/../images/sms-wap-push-clic-call.gif" alt="sms" />
           <p class="card__title">SMS *wap push* et *clic to call*</p>
           <p
             class="card__description"
@@ -94,7 +94,7 @@
         </div>
 
         <div class="services__card spacer-1">
-          <img class="card__image" src="/../images/icone_qr.gif" alt="sms" />
+          <img class="card__image" src="/../images/icone-mailing.gif" alt="sms" />
           <p class="card__title">QR "Web" : un lien vers l'internet mobile</p>
           <p
             class="card__description"
@@ -102,7 +102,7 @@
         </div>
 
         <div class="services__card spacer-1">
-          <img class="card__image" src="/../images/icone_bus.gif" alt="sms" />
+          <img class="card__image" src="/../images/bus-icone.gif" alt="sms" />
           <p class="card__title">Rat'pas ton bus</p>
           <p class="card__description">
             Si vous ne voulez plus attendre dans le froid ou sous le soleil ou la pluie ?
