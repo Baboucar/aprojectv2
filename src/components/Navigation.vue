@@ -18,7 +18,7 @@
        </header>
        <nav class="section__container nav">
            <div class="sub__nav">
-           <router-link class="nav__links" to="">SERVICES</router-link>
+           <router-link class="nav__links" to="" @click="togglenav">SERVICES</router-link>
              <div class="toggle__nav">
                  <router-link to="" class="sub__nav--links">SMS LOW COST</router-link>
                  <router-link to="" class="sub__nav--links">SMS PRO</router-link>
@@ -62,9 +62,9 @@
                        const navi = document.querySelector(".sub__nav");
                        const n = document.querySelector(".nav");
 
-                    //   navi.style.background = "red";
+                   
                   if(this.scrollY <= 10){
-                       navi.style.background = ' red';
+                       navi.style.background = 'red';
                   }
                   else{
                        navi.style.background = "#EEE";
@@ -72,6 +72,10 @@
                        
                   }
                 }
+            },
+            togglenav(){
+                console.log("Button clicked !!!!")
+               //window.alert("button clicked!");
             }
         },
 
@@ -234,9 +238,9 @@
        }
 
        .toggle__nav{
-          outline:2px solid;
           position:fixed;
-          background:$color-white;<
+          background:$color-white;
+          display:none;
        }
      .sub__nav{
          flex-basis: 70%;

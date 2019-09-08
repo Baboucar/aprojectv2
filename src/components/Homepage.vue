@@ -117,7 +117,7 @@
       <div class="section__container sms__revolution">
         <img
           class="img container revolution__img"
-          src="/../images/octopush-sms-pro.png"
+          src="/../images/logo-pigeon-blanc.gif"
           alt="revolution"
         />
         <div class="container revolution__description">
