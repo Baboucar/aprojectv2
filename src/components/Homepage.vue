@@ -64,17 +64,6 @@
           >Vous rêvez peut-être de proposer aux destinataires de vos campagnes de SMS publicitaires une interactivité grâce à un message « enrichi » et « cliquable » ...</p>
         </div>
 
-        <!-- <div class="services__card spacer-1">
-          <img class="card__image" src="/../images/icone_long.gif" alt="sms" />
-          <a
-            class="card__title"
-            href="https://www.capitolemobile.com/prospection/base-opt-in"
-          >Location Base de Prospects OPT-IN</a>
-          <p
-            class="card__description"
-          >Louer un fichier qualifié et réaliser une campagne de prospection multicanal (SMS, Email...)</p>
-        </div> -->
-
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/base-icone.gif" alt="sms" />
           <p class="card__title">LOCATION DE FICHIERS DE PROSPECTS</p>
@@ -113,6 +102,7 @@
         </div>
       </div>
     </section>
+
     <section class="revolution spacer-1">
       <div class="section__container sms__revolution">
         <img
@@ -138,6 +128,11 @@
 import Navigation from "./Navigation";
 import Footer from "./Footer";
 export default {
+  data(){
+    return{
+       hover:false
+    }
+  },
   components: {
     Navigation,
     Footer

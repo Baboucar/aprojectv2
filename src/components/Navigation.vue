@@ -18,8 +18,9 @@
        </header>
        <nav class="section__container nav">
            <div class="sub__nav">
-           <router-link class="nav__links" to="" @click="togglenav">SERVICES</router-link>
-             <div class="toggle__nav">
+           <router-link class="nav__links" to="" @click.native="togglenav">SERVICES</router-link>
+             <div class="toggle__nav"  v-if="seen"
+             >
                  <router-link to="" class="sub__nav--links">SMS LOW COST</router-link>
                  <router-link to="" class="sub__nav--links">SMS PRO</router-link>
                  <router-link to="" class="sub__nav--links">SMS VOCAL</router-link>
@@ -44,7 +45,25 @@
 
 <script>
     export default {
+
+        data(){
+          return{
+              seen:false,
+              
+          }
+
+          
+        },
         methods:{
+            togglenav(){
+               if(this.seen == false){
+                   this.seen = true;
+               }
+               else{
+                   this.seen = false;
+               }
+             
+            },
             open(){
                
                 let item =  document.querySelector('.nav');
@@ -73,10 +92,7 @@
                   }
                 }
             },
-            togglenav(){
-                console.log("Button clicked !!!!")
-               //window.alert("button clicked!");
-            }
+            
         },
 
         created:function(){
@@ -161,8 +177,11 @@
        color: $color-black;
    }
 
-@media(min-width: 834px){
-    
+@media(min-width: 65rem){
+    .nav__links{
+         padding:.7rem;
+        font-size: .7rem;
+    }
 }
    @media(min-width: 64rem){
        .logo__image{
@@ -214,10 +233,7 @@
        .nav__links{
            display: inline-block;
            border: none;
-           padding:1rem;
-
-        
-           font-size: 1rem;
+          
 
           
        }
@@ -240,7 +256,7 @@
        .toggle__nav{
           position:fixed;
           background:$color-white;
-          display:none;
+       
        }
      .sub__nav{
          flex-basis: 70%;
