@@ -50,7 +50,9 @@
           <a class="card__title" href="https://www.capitolemobile.com/vocal/sms-vocal">SMS Vocal</a>
           <p
             class="card__description"
-          >Convertir un SMS en message Audio puis envoyer sur ligne fixe et mobile , c’est suivre la tendance des meilleurs outils de communication</p>
+          >
+          Notre Plate-forme de SMS Vocal vous permet de programmer en toute simplicité votre campagne de marketing vocal...
+          </p>
         </div>
 
         <div class="services__card spacer-1">
@@ -79,7 +81,7 @@
           <p class="card__title">SMS *wap push* et *clic to call*</p>
           <p
             class="card__description"
-          >Le SMS Wap Push et le Clic to Call Dynamisez votre communication en insérant dans le cœur du SMS un lien vers un Site Mobile ! (Technique aussi connue sous le nom de Wap Push). Afin de rendre votre opération SMS interactive et aussi mieux quantifier les retombées d'une telle campagne, nous vous recommandons d'insérer dans votre publicité SMS un n° de téléphone de contact à appeler dans le cas où le prospect souhaiterait avoir plus d'informations concernant l'offre. Cette technique communément appelée "Clic to Call" est disponible dans le cadre de notre Offre SMS Pro.</p>
+          >Le SMS Wap Push et le Clic to Call Dynamisez votre communication en insérant dans le cœur du SMS un lien vers un Site Mobile ! (Technique aussi connue sous le nom de Wap.</p>
         </div>
 
         <div class="services__card spacer-1">
