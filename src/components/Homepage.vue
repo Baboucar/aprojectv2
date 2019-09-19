@@ -84,13 +84,13 @@
           >Le SMS Wap Push et le Clic to Call Dynamisez votre communication en insérant dans le cœur du SMS un lien vers un Site Mobile ! (Technique aussi connue sous le nom de Wap.</p>
         </div>
 
-        <div class="services__card spacer-1">
+        <!-- <div class="services__card spacer-1">
           <img class="card__image" src="/../images/icone-mailing.gif" alt="sms" />
           <p class="card__title">QR "Web" : un lien vers l'internet mobile</p>
           <p
             class="card__description"
           >Une connexion au Web Mobile et aux réseaux sociaux via un simple "Flash" de code ! "Flashcode"). Rendez votre communication "papier" Web 2.0 compatible ! Notre Logiciel de Gestion de QR code vous permet de personnaliser en toute simplicité la redirection que vous souhaitez appliquer à votre code...</p>
-        </div>
+        </div> -->
 
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/bus-icone.gif" alt="sms" />

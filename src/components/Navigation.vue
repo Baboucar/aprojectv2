@@ -34,9 +34,9 @@
 
            <router-link class="nav__links" to="">FONCTIONNALITES</router-link>
            <router-link class="nav__links" to="">TARIFS</router-link>
-           <router-link class="nav__links" to="">UTILISATURS</router-link>
+           <router-link class="nav__links" to="">POUR QUI?</router-link>
            <router-link class="nav__links" to="">UTILISATIONS</router-link>
-           <router-link class="nav__links" to="">API</router-link>
+           <router-link class="nav__links" to="">DÉVELOPPEURS</router-link>
            </div>
            <router-link to="" class=" link__btn"> <img src="/../images/left-arrow.png" class="btn__icon" alt="">  ESSAYEZ GRATUITMENT</router-link>
        </nav>
