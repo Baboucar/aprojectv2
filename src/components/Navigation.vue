@@ -34,7 +34,14 @@
 
            <router-link class="nav__links" to="">FONCTIONNALITES</router-link>
            <router-link class="nav__links" to="">TARIFS</router-link>
-           <router-link class="nav__links" to="">POUR QUI?</router-link>
+           <router-link class="nav__links" to="" @click.native="togglenavp">POUR QUI?</router-link>
+            <div class="toggle__nav proqui"  v-if="seenp"
+             >
+                 <router-link to="" class="sub__nav--links">SMS LOW COST</router-link>
+                 <router-link to="" class="sub__nav--links">SMS PRO</router-link>
+                 
+
+             </div>
            <router-link class="nav__links" to="">UTILISATIONS</router-link>
            <router-link class="nav__links" to="">DÉVELOPPEURS</router-link>
            </div>
@@ -49,12 +56,14 @@
         data(){
           return{
               seen:false,
+              seenp:false
               
           }
 
           
         },
         methods:{
+            // bad code fix it later
             togglenav(){
                if(this.seen == false){
                    this.seen = true;
@@ -63,6 +72,15 @@
                    this.seen = false;
                }
              
+            },
+            // really crappy code fix it later
+            togglenavp(){
+               if(this.seenp == false){
+                   this.seenp = true;
+               }
+               else{
+                   this.seenp = false;
+               }
             },
             open(){
                
@@ -260,6 +278,10 @@
        }
      .sub__nav{
          flex-basis: 70%;
+     }
+
+     .proqui{
+        left: 450px;
      }
     
    }
