@@ -47,7 +47,7 @@
 
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/icone-sms-vocal.gif" alt="sms" />
-          <a class="card__title" href="https://www.capitolemobile.com/vocal/sms-vocal">SMS Vocal</a>
+          <a class="card__title sms__vocal" href="https://www.capitolemobile.com/vocal/sms-vocal">SMS Vocal</a>
           <p
             class="card__description"
           >
@@ -249,6 +249,9 @@ export default {
   }
   .service__title {
     padding: 2rem;
+  }
+  .sms__vocal{
+   margin-top: 1.5rem;
   }
 }
 </style>

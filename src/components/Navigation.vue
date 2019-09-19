@@ -281,7 +281,8 @@
      }
 
      .proqui{
-        left: 450px;
+        left: 420px;
+        padding: 1.5rem;
      }
     
    }
