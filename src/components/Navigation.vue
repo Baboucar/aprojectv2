@@ -198,7 +198,8 @@
 @media(min-width: 65rem){
     .nav__links{
          padding:.7rem;
-        font-size: .7rem;
+        font-size: 1rem;
+        margin-left: 2rem;
     }
 }
    @media(min-width: 64rem){
