@@ -26,7 +26,7 @@
                  <router-link to="" class="sub__nav--links">SMS VOCAL</router-link>
                  <router-link to="" class="sub__nav--links">LA FONCTION "RICH MESSAGE" ET LE SMS 2.0 ...</router-link>
                  <router-link to="" class="sub__nav--links">SMS *WAP PUSH* ET *CLIC TO CALL*</router-link>
-                 <router-link to="" class="sub__nav--links">QR "WEB" : UN LIEN VERS L'INTERNET MOBILE</router-link>
+                 <!-- <router-link to="" class="sub__nav--links">QR "WEB" : UN LIEN VERS L'INTERNET MOBILE</router-link> -->
                  <router-link to="" class="sub__nav--links">LOCATION DE FICHIERS DE PROSPECTS</router-link>
                  <router-link to="" class="sub__nav--links">RAT' PAS TON BUS</router-link>
 
@@ -195,13 +195,21 @@
        color: $color-black;
    }
 
-@media(min-width: 65rem){
+
+@media(min-width: 60rem){
     .nav__links{
-         padding:.7rem;
-        font-size: 1rem;
-        margin-left: 2rem;
+     
+        margin-left: 1rem;
     }
+
+    
 }
+// @media(min-width: 65rem){
+//     .nav__links{
+//          padding:.7rem;
+//         font-size: .7rem;
+//     }
+// }
    @media(min-width: 64rem){
        .logo__image{
            width: 300px;

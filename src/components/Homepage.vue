@@ -76,13 +76,13 @@
           </p>
         </div>
 
-        <div class="services__card spacer-1">
+        <!-- <div class="services__card spacer-1">
           <img class="card__image" src="/../images/sms-wap-push-clic-call.gif" alt="sms" />
           <p class="card__title">SMS *wap push* et *clic to call*</p>
           <p
             class="card__description"
           >Le SMS Wap Push et le Clic to Call Dynamisez votre communication en insérant dans le cœur du SMS un lien vers un Site Mobile ! (Technique aussi connue sous le nom de Wap.</p>
-        </div>
+        </div> -->
 
         <!-- <div class="services__card spacer-1">
           <img class="card__image" src="/../images/icone-mailing.gif" alt="sms" />
