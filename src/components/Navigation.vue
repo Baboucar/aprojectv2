@@ -104,8 +104,8 @@
                        navi.style.background = 'red';
                   }
                   else{
-                       navi.style.background = "#EEE";
-                       n.style.background = "#EEE";
+                       navi.style.background = "#FFFFFF";
+                       n.style.background = "#FFFFFF";
                        
                   }
                 }
@@ -224,7 +224,7 @@
            
        }
        .header{
-           width: 80%;
+           width: 90%;
            margin: 0 auto;
            justify-content: space-between;
            background: #FFFFFF;
