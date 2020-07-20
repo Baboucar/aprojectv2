@@ -1,8 +1,18 @@
 <template>
     <footer class="footer section__container">
         <div>
-         <h3 class="center__text footer__title">Octopush</h3>
-         <p>Plateforme d’envoi de SMS en <br> masse pour les professionnels</p>
+         <h3 class="center__text footer__title">Produits</h3>
+         <li>SMS Pro</li>
+         <li>SMS Vocal</li>
+         <li>SMS Enrichi</li>
+         <li>Location BDD</li>
+         <li> Mailing SMS</li>
+         <li>Sondage par SMS</li>
+         <li>Vote par SMS</li>
+         <li>Questionnaire de satisfaction <br> par sms</li>
+         <li>Mobile Ticketing</li>
+         <li>Rate'Pas votre Bus</li>
+
         </div>
   
    
@@ -11,28 +21,25 @@
    
 
     <nav class="footer__nav">
-         <h3 class="">Informations</h3>
-         <router-link class="footer__navlinks" to="">Qui sommes nous</router-link>
+         <h3 class="">Notre societe</h3>
+         <router-link class="footer__navlinks" to="">Qui sommes nous?</router-link>
          <router-link class="footer__navlinks" to="">Comment ça marche</router-link>
-         <router-link class="footer__navlinks" to=""> Ils nous font confiance</router-link>
-         <router-link class="footer__navlinks" to=""> CGU</router-link>
-         <router-link class="footer__navlinks" to="">    Politique de confidentialité</router-link>
-         <router-link class="footer__navlinks" to=""> Octopush recrute</router-link>
-         <router-link class="footer__navlinks" to="">Contactez-nous</router-link>
+         <router-link class="footer__navlinks" to="">Nos References </router-link>
+         <router-link class="footer__navlinks" to=""> Nous recrutons</router-link>
+         <router-link class="footer__navlinks" to=""> FAQ</router-link>
+
     </nav>
 
-    <div>
-        <h3 class="">Certifications</h3>
-        <div class="flex__image">
-        <div>
-            <img class="`" src="/../images/octopush-GDPR-e1554162742598.png" alt="">
-        </div>
-        <div>
-            <img class="image__certificate" src="/../images/octopush-iso-27001.png" alt="">
-        </div>
-        </div>
-    </div>
+    <nav class="footer__nav">
+         <h3 class="">Legal</h3>
+         <router-link class="footer__navlinks" to="">Mentions Legales</router-link>
+         <router-link class="footer__navlinks" to="">CGU-CGV</router-link>
+         <router-link class="footer__navlinks" to="">Politiques de confidentialites</router-link>
+         <router-link class="footer__navlinks" to=""> Nos cookies</router-link>
 
+
+    </nav>
+            
     </footer>
 </template>
 

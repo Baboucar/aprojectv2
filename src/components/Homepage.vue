@@ -27,6 +27,7 @@
       <div class="services__cards">
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/sondage-par-sms.png" alt="sms" />
+         <div class="card__details">
           <a
             class="card__title"
             href="https://www.capitolemobile.com/fr/produits/wap-push-clic-to-call"
@@ -37,10 +38,12 @@
             Récoltez les avis de vos clients avec un sondage par
             SMS et améliorez votre offre. Automatisez vos
           </p>
+          </div>
         </div>
 
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/icon-sms-pro.png" alt="smspro" />
+          <div class="card__details">
           <a class="card__title" href="#">SMS Pro</a>
           <p class="card__description">
             Outil de communication performant vous permettra
@@ -49,10 +52,12 @@
             du taux d’ouverture de votre campagne ou bien de
             la réception de réponses SMS.
           </p>
+          </div>
         </div>
 
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/icone-vocal-sms.png" alt="smsvocal" />
+         <div class="card__details">
           <a
             class="card__title sms__vocal"
             href="https://www.capitolemobile.com/vocal/sms-vocal"
@@ -60,10 +65,12 @@
           <p
             class="card__description"
           >Notre Plate-forme de SMS Vocal vous permet de programmer en toute simplicité votre campagne de marketing vocal...</p>
+          </div>
         </div>
 
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/icone-sms-20.png" alt="sms" />
+          <div class="card__details">
           <a
             class="card__title"
             href="https://www.capitolemobile.com/sms/rich-message"
@@ -72,55 +79,68 @@
             Vos campagnes de SMS publicitaires une
             interactivité grâce à un message « enrichi » et «
           </p>
+          </div>
         </div>
 
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/loca-bdd-sms.png" alt="bdd" />
+          <div class="card__details">
           <p class="card__title">Location BDD SMS</p>
           <p class="card__description">Nous proposons des solutions de locations des fichiers</p>
+          </div>
         </div>
 
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/emailing-icon-.png" alt="smsmailing" />
+        <div class="card__details">
           <p class="card__title">SMS MAILING</p>
           <p class="card__description">
             Envoyez un mailing SMS à autant de
             destinataires que vous le souhaitez.
           </p>
+          </div>
         </div>
 
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/vote-par-sms.png" alt="vote" />
+          <div class="card__details">
           <p class="card__title">Vote par SMS</p>
           <p class="card__description">
             Boostez vos événements avec le Vote par SMS
             Organisez des événements inoubliables grâce à notre
           </p>
+          </div>
         </div>
 
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/icone-satisfaction.png" alt="satisfaction" />
+          <div class="card__details">
           <p class="card__title">Questionnaire de satisfaction par SMS</p>
           <p class="card__description">
             Découvrez tout ce qu’il y a savoir sur notre solution de
             questionnaire de satisfaction par sms !
           </p>
+          </div>
         </div>
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/mobile-Tiketing.png" alt="ticketing" />
+          <div class="card__details">
           <p class="card__title">Mobile Ticketing</p>
           <p class="card__description">
             Acheter et recevez vos tickets de TER,
             Bus par SMS
           </p>
+          </div>
         </div>
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/-bus-icon-blue-bus-png.png" alt="bus" />
+          <div class="card__details">
           <p class="card__title">Rate’ Pas Votre Bus</p>
           <p class="card__description">
             Une solution qui vous permette de prendre le contrôle
             en main de vos informations horaires en temps réel
           </p>
+          </div>
         </div>
       </div>
     </section>
@@ -129,7 +149,7 @@
       <div class="section__container sms__revolution">
         <img
           class="img container revolution__img"
-          src="/../images/logo-pigeon-blanc.gif"
+          src="/../images/LOGO-en-fond-vert.png"
           alt="revolution"
         />
         <div class="container revolution__description">
@@ -138,7 +158,7 @@
             à votre portée
           </h2>
 
-          <button class="revolution__btn btn spacer-1">ESSAYER GRATUITEMENT</button>
+          <button class="revolution__btn btn spacer-1">TESTEZ GRATUITEMENT</button>
         </div>
       </div>
     </section>
@@ -172,6 +192,7 @@ export default {
 .revolution {
   background: $color-tertiary;
 }
+
 
 .btn {
   border: none;
@@ -244,6 +265,12 @@ export default {
 
   .card__title {
     text-align: left;
+    border-bottom: 2px solid $color-tertiary  ;
+    
+  }
+  .card__details{
+    background-color: #f8f8f8;
+    padding: 1rem;
   }
   .card__image {
     display: inline-block;
