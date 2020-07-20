@@ -31,12 +31,11 @@
                  <router-link to="" class="sub__nav--links">SMS Enrichi</router-link>
                  <router-link to="" class="sub__nav--links">MMS PROFESSIONNELLE</router-link>
                  <router-link to="" class="sub__nav--links">Location BDD SMS</router-link>
-                 <!-- <router-link to="" class="sub__nav--links">QR "WEB" : UN LIEN VERS L'INTERNET MOBILE</router-link> -->
                  <router-link to="" class="sub__nav--links">SMS MAILING</router-link>
                  <router-link to="" class="sub__nav--links">Sondages par SMS</router-link>
-                 <router-link to="">Questionnaire de satisfaction par SMS</router-link>
-                <router-link to="">Mobile Ticketing</router-link>
-                <router-link to="">Rate'Pas Votre Bus</router-link>
+                 <router-link to="" class="sub__nav--links">Questionnaire de satisfaction par SMS</router-link>
+                <router-link to="" class="sub__nav--links">Mobile Ticketing</router-link>
+                <router-link to="" class="sub__nav--links">Rate'Pas Votre Bus</router-link>
 
 
 

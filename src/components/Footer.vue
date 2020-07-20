@@ -1,7 +1,7 @@
 <template>
     <footer class="footer section__container">
         <div>
-         <h3 class="center__text footer__title">Produits</h3>
+         <h3 class="footer__title">Produits</h3>
          <li>SMS Pro</li>
          <li>SMS Vocal</li>
          <li>SMS Enrichi</li>
