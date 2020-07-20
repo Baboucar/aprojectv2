@@ -297,6 +297,9 @@ export default {
     margin: 0;
   }
 
+ .center__button{
+   display: block;
+ }
   .revolution__title {
     text-align: left;
   }
