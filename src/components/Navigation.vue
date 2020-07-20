@@ -2,10 +2,15 @@
     <div class="fix__navigation">
        <header class="header">
             <div>
-            <img class="logo__image" src="/../images/logo.png" alt="logo">       
+            <img class="logo__image" src="/../images/logoservicesms.png" alt="logo">       
             </div>
             <div class="contact">
-                <span>Contact: 12345677899</span>
+                <span><img class="contact__icon" src="/../images/phone.png" alt="phone"></span>
+                <span class="contact__detail">Contact: 77.710.23.57</span>
+                <span><img class="contact__icon" src="/../images/mail.png" alt="phone"></span>
+                <span class="contact__detail" >contact@servicesms.com</span>
+
+
             </div>
 
             <div class="header__links">
@@ -18,23 +23,28 @@
        </header>
        <nav class="section__container nav">
            <div class="sub__nav">
-           <router-link class="nav__links" to="" @click.native="togglenav">SERVICES</router-link>
+           <router-link class="nav__links" to="" @click.native="togglenav">SOLUTIONS <img class="drop_downicon" src="/../images/menu.png" alt="" ></router-link>
              <div class="toggle__nav"  v-if="seen"
              >
-                 <router-link to="" class="sub__nav--links">SMS LOW COST</router-link>
-                 <router-link to="" class="sub__nav--links">SMS PRO</router-link>
-                 <router-link to="" class="sub__nav--links">SMS VOCAL</router-link>
-                 <router-link to="" class="sub__nav--links">LA FONCTION "RICH MESSAGE" ET LE SMS 2.0 ...</router-link>
-                 <router-link to="" class="sub__nav--links">SMS *WAP PUSH* ET *CLIC TO CALL*</router-link>
+                 <router-link to="" class="sub__nav--links">SMS Pro</router-link>
+                 <router-link to="" class="sub__nav--links">SMS Vocal</router-link>
+                 <router-link to="" class="sub__nav--links">SMS Enrichi</router-link>
+                 <router-link to="" class="sub__nav--links">MMS PROFESSIONNELLE</router-link>
+                 <router-link to="" class="sub__nav--links">Location BDD SMS</router-link>
                  <!-- <router-link to="" class="sub__nav--links">QR "WEB" : UN LIEN VERS L'INTERNET MOBILE</router-link> -->
-                 <router-link to="" class="sub__nav--links">LOCATION DE FICHIERS DE PROSPECTS</router-link>
-                 <router-link to="" class="sub__nav--links">RAT' PAS TON BUS</router-link>
+                 <router-link to="" class="sub__nav--links">SMS MAILING</router-link>
+                 <router-link to="" class="sub__nav--links">Sondages par SMS</router-link>
+                 <router-link to="">Questionnaire de satisfaction par SMS</router-link>
+                <router-link to="">Mobile Ticketing</router-link>
+                <router-link to="">Rate'Pas Votre Bus</router-link>
+
+
 
              </div>
 
            <router-link class="nav__links" to="">FONCTIONNALITES</router-link>
-           <router-link class="nav__links" to="">TARIFS</router-link>
-           <router-link class="nav__links" to="" @click.native="togglenavp">POUR QUI?</router-link>
+           <router-link class="nav__links" to="">NOS TARIFS</router-link>
+           <router-link class="nav__links" to="" @click.native="togglenavp">METIERS</router-link>
             <div class="toggle__nav proqui"  v-if="seenp"
              >
                  <router-link to="" class="sub__nav--links">SMS LOW COST</router-link>
@@ -42,10 +52,10 @@
                  
 
              </div>
-           <router-link class="nav__links" to="">UTILISATIONS</router-link>
-           <router-link class="nav__links" to="">DÉVELOPPEURS</router-link>
+           <router-link class="nav__links" to="">API</router-link>
+           <router-link class="nav__links" to="">BLOG</router-link>
            </div>
-           <router-link to="" class=" link__btn"> <img src="/../images/left-arrow.png" class="btn__icon" alt="">  ESSAYEZ GRATUITMENT</router-link>
+           <router-link to="" class=" link__btn"> <img src="/../images/left-arrow.png" class="btn__icon" alt="">  TESTEZ GRATUITMENT <br> <span class="sub__message">Sans engament -5 sms offerts</span> </router-link>
        </nav>
     </div>
 </template>
@@ -125,6 +135,7 @@
 
    .logo__image{
        width:200px;
+       height: 150px;
    }
 
    .header{
@@ -199,10 +210,23 @@
 @media(min-width: 60rem){
     .nav__links{
      
-        margin-left: 1rem;
+        margin-left: .5rem;
     }
-
-    
+      .drop_downicon{
+              margin-bottom: -.1rem;
+      }
+    .contact__icon{
+        margin-left:1rem;
+     
+    }
+    .contact__detail{
+        display: inline-block;
+        margin-left: .5rem;
+        font-size: 1.2rem;
+    }
+    .sub__message{
+        display: contents;
+    }
 }
 // @media(min-width: 65rem){
 //     .nav__links{
@@ -218,11 +242,14 @@
            display: none;
        }
        .contact{
-           display: block;
+           display: flex;
+           align-items: center;
+           justify-content: center;
          
-           font-weight: bold;
+         
            
        }
+
        .header{
            width: 90%;
            margin: 0 auto;
@@ -265,7 +292,7 @@
           
        }
        .link__btn{
-           padding: 1.5rem;
+           padding: 1rem;
        }
        .nav__links{
            &:hover{
@@ -276,7 +303,7 @@
        .fix__navigation{
            position: fixed;
            width: 100%;
-           top: 0;
+           top: -40px;
            z-index: 1;
        }
 

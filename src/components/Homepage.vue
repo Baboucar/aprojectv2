@@ -25,84 +25,101 @@
       </h1>
 
       <div class="services__cards">
-
         <div class="services__card spacer-1">
-          <img class="card__image" src="/../images/icone-sms-low-cost.gif" alt="sms" />
+          <img class="card__image" src="/../images/sondage-par-sms.png" alt="sms" />
           <a
             class="card__title"
             href="https://www.capitolemobile.com/fr/produits/wap-push-clic-to-call"
-          >SMS Low Cost</a>
-          <p
-            class="card__description"
-          >Le moins cher du marché, pour des campagnes publicitaires réussies et économiques</p>
-        </div>
-
-        <div class="services__card spacer-1">
-          <img class="card__image" src="/../images/icone-sms-pro.gif" alt="sms" />
-          <a class="card__title" href="#">SMS Pro</a>
-          <p
-            class="card__description"
-          >Outil de communication performant avec: Personnalisation de l’émetteur, Statistiques avancées et Sms long de + 160 caractères</p>
-        </div>
-
-        <div class="services__card spacer-1">
-          <img class="card__image" src="/../images/icone-sms-vocal.gif" alt="sms" />
-          <a class="card__title sms__vocal" href="https://www.capitolemobile.com/vocal/sms-vocal">SMS Vocal</a>
-          <p
-            class="card__description"
-          >
-          Notre Plate-forme de SMS Vocal vous permet de programmer en toute simplicité votre campagne de marketing vocal...
+          >Sondages par SMS</a>
+          <p class="card__description">
+            Automatisez vos sondages par SMS et restez à l'écoute
+            de vos clients
+            Récoltez les avis de vos clients avec un sondage par
+            SMS et améliorez votre offre. Automatisez vos
           </p>
         </div>
 
         <div class="services__card spacer-1">
-          <img class="card__image" src="/../images/icone-sms2.0.gif" alt="sms" />
+          <img class="card__image" src="/../images/icon-sms-pro.png" alt="smspro" />
+          <a class="card__title" href="#">SMS Pro</a>
+          <p class="card__description">
+            Outil de communication performant vous permettra
+            également de bénéficier de fonctions telles que la
+            personnalisation du nom d’émetteur, de publipostage,
+            du taux d’ouverture de votre campagne ou bien de
+            la réception de réponses SMS.
+          </p>
+        </div>
+
+        <div class="services__card spacer-1">
+          <img class="card__image" src="/../images/icone-vocal-sms.png" alt="smsvocal" />
+          <a
+            class="card__title sms__vocal"
+            href="https://www.capitolemobile.com/vocal/sms-vocal"
+          >SMS Vocal</a>
+          <p
+            class="card__description"
+          >Notre Plate-forme de SMS Vocal vous permet de programmer en toute simplicité votre campagne de marketing vocal...</p>
+        </div>
+
+        <div class="services__card spacer-1">
+          <img class="card__image" src="/../images/icone-sms-20.png" alt="sms" />
           <a
             class="card__title"
             href="https://www.capitolemobile.com/sms/rich-message"
-          >La fonction "Rich Message" et le SMS 2.0 ...</a>
-          <p
-            class="card__description"
-          >Vous rêvez peut-être de proposer aux destinataires de vos campagnes de SMS publicitaires une interactivité grâce à un message « enrichi » et « cliquable » ...</p>
-        </div>
-
-        <div class="services__card spacer-1">
-          <img class="card__image" src="/../images/base-icone.gif" alt="sms" />
-          <p class="card__title">LOCATION DE FICHIERS DE PROSPECTS</p>
-          <p
-            class="card__description"
-          >
-          La Base de Prospects OPT-IN. Louer un fichier qualifié et réaliser une campagne de prospection multicanal (SMS, Email...). La réussite d'une campagne de Marketing Direct est généralement en partie liée à la qualité du Fichier de Prospection utilisé ainsi qu'à la pertinence du ciblage. Ciblez votre prospection pour optimiser votre campagne de marketing direct !
-          </p>
-        </div>
-
-        <div class="services__card spacer-1">
-          <img class="card__image" src="/../images/sms-wap-push-clic-call.gif" alt="sms" />
-          <p class="card__title">SMS MAILING (ENVOI MAILING SMS)</p>
-          <p
-            class="card__description"
-          >
-          Envoyez une mailing SMS à autant de destinataires que vous le souhaitez. Annoncer un événement, une promotion, un nouveau produit, etc.... à plusieurs contacts est réalisable en quelques clics !
-
-          </p>
-        </div>
-
-        <div class="services__card spacer-1">
-          <img class="card__image" src="/../images/icone-mailing.gif" alt="sms" />
-          <p class="card__title">QR "Web" : un lien vers l'internet mobile</p>
-          <p
-            class="card__description"
-          >Une connexion au Web Mobile et aux réseaux sociaux via un simple "Flash" de code ! "Flashcode"). Rendez votre communication "papier" Web 2.0 compatible ! Notre Logiciel de Gestion de QR code vous permet de personnaliser en toute simplicité la redirection que vous souhaitez appliquer à votre code...</p>
-        </div>
-
-        <div class="services__card spacer-1">
-          <img class="card__image" src="/../images/bus-icone.gif" alt="sms" />
-          <p class="card__title">Rat'pas ton bus</p>
+          >La fonction "SMS Enrichi</a>
           <p class="card__description">
-            Si vous ne voulez plus attendre dans le froid ou sous le soleil ou la pluie ?
-            Si vous ne voulez plus courir après votre bus ?
-            Si vous trouvez le temps des dépliants dépassé ?
-            Informez-vous sur notre plate-forme tous les horaires des bus et TATA partout au Sénégal
+            Vos campagnes de SMS publicitaires une
+            interactivité grâce à un message « enrichi » et «
+          </p>
+        </div>
+
+        <div class="services__card spacer-1">
+          <img class="card__image" src="/../images/loca-bdd-sms.png" alt="bdd" />
+          <p class="card__title">Location BDD SMS</p>
+          <p class="card__description">Nous proposons des solutions de locations des fichiers</p>
+        </div>
+
+        <div class="services__card spacer-1">
+          <img class="card__image" src="/../images/emailing-icon-.png" alt="smsmailing" />
+          <p class="card__title">SMS MAILING</p>
+          <p class="card__description">
+            Envoyez un mailing SMS à autant de
+            destinataires que vous le souhaitez.
+          </p>
+        </div>
+
+        <div class="services__card spacer-1">
+          <img class="card__image" src="/../images/vote-par-sms.png" alt="vote" />
+          <p class="card__title">Vote par SMS</p>
+          <p class="card__description">
+            Boostez vos événements avec le Vote par SMS
+            Organisez des événements inoubliables grâce à notre
+          </p>
+        </div>
+
+        <div class="services__card spacer-1">
+          <img class="card__image" src="/../images/icone-satisfaction.png" alt="satisfaction" />
+          <p class="card__title">Questionnaire de satisfaction par SMS</p>
+          <p class="card__description">
+            Découvrez tout ce qu’il y a savoir sur notre solution de
+            questionnaire de satisfaction par sms !
+          </p>
+        </div>
+        <div class="services__card spacer-1">
+          <img class="card__image" src="/../images/mobile-Tiketing.png" alt="ticketing" />
+          <p class="card__title">Mobile Ticketing</p>
+          <p class="card__description">
+            Acheter et recevez vos tickets de TER,
+            Bus par SMS
+          </p>
+        </div>
+        <div class="services__card spacer-1">
+          <img class="card__image" src="/../images/-bus-icon-blue-bus-png.png" alt="bus" />
+          <p class="card__title">Rate’ Pas Votre Bus</p>
+          <p class="card__description">
+            Une solution qui vous permette de prendre le contrôle
+            en main de vos informations horaires en temps réel
           </p>
         </div>
       </div>
@@ -133,10 +150,10 @@
 import Navigation from "./Navigation";
 import Footer from "./Footer";
 export default {
-  data(){
-    return{
-       hover:false
-    }
+  data() {
+    return {
+      hover: false
+    };
   },
   components: {
     Navigation,
@@ -253,8 +270,8 @@ export default {
   .service__title {
     padding: 2rem;
   }
-  .sms__vocal{
-   margin-top: 1.5rem;
+  .sms__vocal {
+    margin-top: 1.5rem;
   }
 }
 </style>
