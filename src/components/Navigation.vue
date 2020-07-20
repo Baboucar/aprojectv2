@@ -134,13 +134,13 @@
 
    .logo__image{
        width:200px;
-       height: 150px;
+    
    }
 
    .header{
        display: flex;
        align-items: center;
-       padding: 1.5rem;
+       
    }
 
 .link__btn{

@@ -157,8 +157,9 @@
             La révolution SMS
             à votre portée
           </h2>
-
+            <div class="center__button">
           <button class="revolution__btn btn spacer-1">TESTEZ GRATUITEMENT</button>
+          </div>
         </div>
       </div>
     </section>
@@ -209,6 +210,11 @@ export default {
   }
 }
 
+.center__button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .revolution__btn {
   display: inline-block;
   margin-bottom: 2rem;

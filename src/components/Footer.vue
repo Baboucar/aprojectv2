@@ -2,16 +2,17 @@
     <footer class="footer section__container">
         <div>
          <h3 class="footer__title">Produits</h3>
-         <li>SMS Pro</li>
-         <li>SMS Vocal</li>
-         <li>SMS Enrichi</li>
-         <li>Location BDD</li>
-         <li> Mailing SMS</li>
-         <li>Sondage par SMS</li>
-         <li>Vote par SMS</li>
-         <li>Questionnaire de satisfaction <br> par sms</li>
-         <li>Mobile Ticketing</li>
-         <li>Rate'Pas votre Bus</li>
+
+         <li class="footer__listings">SMS Pro</li>
+         <li class="footer__listings">SMS Vocal</li>
+         <li class="footer__listings">SMS Enrichi</li>
+         <li class="footer__listings">Location BDD</li>
+         <li class="footer__listings"> Mailing SMS</li>
+         <li class="footer__listings">Sondage par SMS</li>
+         <li class="footer__listings">Vote par SMS</li>
+         <li class="footer__listings">Questionnaire de satisfaction <br> par sms</li>
+         <li class="footer__listings">Mobile Ticketing</li>
+         <li class="footer__listings">Rate'Pas votre Bus</li>
 
         </div>
   
@@ -66,6 +67,9 @@ export default {
 }
 .image__certificate{
     padding-left: 2rem;
+}
+.footer__listings{
+    list-style-type: none;
 }
 
 @media(min-width:64rem){
