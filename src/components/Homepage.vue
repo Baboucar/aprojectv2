@@ -36,7 +36,9 @@
               Automatisez vos sondages par SMS et restez à l'écoute
               de vos clients
               Récoltez les avis de vos clients avec un sondage par
-              SMS et améliorez votre offre. Automatisez vos
+              SMS et améliorez votre offre. Automatisez vos enquêtes
+              de satisfaction par SMS pour être toujours à l'écoute
+              de vos clients.
             </p>
           </div>
         </div>
@@ -78,6 +80,7 @@
             <p class="card__description">
               Vos campagnes de SMS publicitaires une
               interactivité grâce à un message « enrichi » et «
+              cliquable » ...
             </p>
           </div>
         </div>
@@ -102,8 +105,8 @@
           <div class="card__details">
             <p class="card__title">SMS MAILING</p>
             <p class="card__description">
-              Envoyez un mailing SMS à autant de
-              destinataires que vous le souhaitez.
+             Envoyez un mailing SMS à autant de
+destinataires que vous le souhaitez.
             </p>
           </div>
         </div>
@@ -251,7 +254,7 @@ export default {
 }
 
 .card__description {
-  height: 80px;
+  height: 170px;
   overflow: hidden;
 }
 
