@@ -1,7 +1,7 @@
 <template>
     <footer class="footer section__container">
         <div>
-         <h3 class="footer__title">Produits</h3>
+         <h3 class="footer__title footer__line">Produits</h3>
 
          <li class="footer__listings">SMS Pro</li>
          <li class="footer__listings">SMS Vocal</li>
@@ -16,13 +16,9 @@
 
         </div>
   
-   
-   
-
-   
 
     <nav class="footer__nav">
-         <h3 class="">Notre societe</h3>
+         <h3 class=""><span class="footer__line">Notre</span> societe</h3>
          <router-link class="footer__navlinks" to="">Qui sommes nous?</router-link>
          <router-link class="footer__navlinks" to="">Comment ça marche</router-link>
          <router-link class="footer__navlinks" to="">Nos References </router-link>
@@ -32,7 +28,7 @@
     </nav>
 
     <nav class="footer__nav">
-         <h3 class="">Legal</h3>
+         <h3 class="footer__line">Legal</h3>
          <router-link class="footer__navlinks" to="">Mentions Legales</router-link>
          <router-link class="footer__navlinks" to="">CGU-CGV</router-link>
          <router-link class="footer__navlinks" to="">Politiques de confidentialites</router-link>
@@ -40,6 +36,18 @@
 
 
     </nav>
+    <nav class="footer__nav">
+         <h3 class="footer__line">Contact</h3>
+         <router-link class="footer__navlinks" to="">Contactez-nous</router-link>
+         <router-link class="footer__navlinks" to="">Blog</router-link>
+         <router-link class="footer__navlinks" to="">Plan du site</router-link>
+         <router-link class="footer__navlinks" to=""> <img src="/../images/linkedin.png" alt="link" > LinkedIn</router-link>
+           <router-link class="footer__navlinks" to=""> <img src="/../images/facebook.png" alt="link"> Facebook</router-link>
+             <router-link class="footer__navlinks" to=""> <img src="/../images/twitter.png" alt="" srcset=""> Twitter</router-link>
+
+
+    </nav>
+    
             
     </footer>
 </template>
@@ -65,6 +73,11 @@ export default {
     display: flex;
     
 }
+.footer__line{
+    border-bottom: 2px solid #3585fe ;
+    width: 40px;
+    
+}
 .image__certificate{
     padding-left: 2rem;
 }
@@ -75,7 +88,7 @@ export default {
 @media(min-width:64rem){
     .footer{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
     .footer__title{

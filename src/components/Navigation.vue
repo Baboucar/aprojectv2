@@ -29,7 +29,6 @@
                  <router-link to="" class="sub__nav--links">SMS Pro</router-link>
                  <router-link to="" class="sub__nav--links">SMS Vocal</router-link>
                  <router-link to="" class="sub__nav--links">SMS Enrichi</router-link>
-                 <router-link to="" class="sub__nav--links">MMS PROFESSIONNELLE</router-link>
                  <router-link to="" class="sub__nav--links">Location BDD SMS</router-link>
                  <router-link to="" class="sub__nav--links">SMS MAILING</router-link>
                  <router-link to="" class="sub__nav--links">Sondages par SMS</router-link>
@@ -182,6 +181,7 @@
    .nav{
         display: none;
            margin: 0 auto;
+           
        box-shadow: 0 9px 20px 2px rgba(0, 0, 0, 0.24);
        &__links{
            display: block;
@@ -208,8 +208,9 @@
 
 @media(min-width: 60rem){
     .nav__links{
-     
-        margin-left: .5rem;
+        margin-left: 2rem;
+       font-weight: bold; 
+    
     }
       .drop_downicon{
               margin-bottom: -.1rem;
