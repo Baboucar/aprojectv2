@@ -26,24 +26,6 @@
 
       <div class="services__cards">
         <div class="services__card spacer-1">
-          <img class="card__image" src="/../images/sondage-par-sms.png" alt="sms" />
-          <div class="card__details">
-            <a
-              class="card__title"
-              href="https://www.capitolemobile.com/fr/produits/wap-push-clic-to-call"
-            >Sondages par SMS</a>
-            <p class="card__description">
-              Automatisez vos sondages par SMS et restez à l'écoute
-              de vos clients
-              Récoltez les avis de vos clients avec un sondage par
-              SMS et améliorez votre offre. Automatisez vos enquêtes
-              de satisfaction par SMS pour être toujours à l'écoute
-              de vos clients.
-            </p>
-          </div>
-        </div>
-
-        <div class="services__card spacer-1">
           <img class="card__image" src="/../images/icon-sms-pro.png" alt="smspro" />
           <div class="card__details">
             <a class="card__title" href="#">SMS Pro</a>
@@ -64,9 +46,11 @@
               class="card__title sms__vocal"
               href="https://www.capitolemobile.com/vocal/sms-vocal"
             >SMS Vocal</a>
-            <p
-              class="card__description"
-            >Notre Plate-forme de SMS Vocal vous permet de programmer en toute simplicité votre campagne de marketing vocal...</p>
+            <p class="card__description">
+              Facilitez la vie de vos clients en leur
+              envoyant des messages vocaux de
+              rappels ou confirmations de rendezvous.
+            </p>
           </div>
         </div>
 
@@ -88,7 +72,7 @@
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/loca-bdd-sms.png" alt="bdd" />
           <div class="card__details">
-            <p class="card__title">Location BDD SMS</p>
+            <a href class="card__title">Location BDD SMS</a>
             <p class="card__description">
               Nous proposons des solutions de locations des fichiers
               de Prospection pour agrandir votre réseau de prospects
@@ -103,10 +87,28 @@
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/emailing-icon-.png" alt="smsmailing" />
           <div class="card__details">
-            <p class="card__title">SMS MAILING</p>
+            <a href="http://" class="card__title">SMS MAILING</a>
             <p class="card__description">
-             Envoyez un mailing SMS à autant de
-destinataires que vous le souhaitez.
+              Envoyez un mailing SMS à autant de
+              destinataires que vous le souhaitez.
+            </p>
+          </div>
+        </div>
+
+        <div class="services__card spacer-1">
+          <img class="card__image" src="/../images/sondage-par-sms.png" alt="sms" />
+          <div class="card__details">
+            <a
+              class="card__title"
+              href="https://www.capitolemobile.com/fr/produits/wap-push-clic-to-call"
+            >Sondages par SMS</a>
+            <p class="card__description">
+              Automatisez vos sondages par SMS et restez à l'écoute
+              de vos clients
+              Récoltez les avis de vos clients avec un sondage par
+              SMS et améliorez votre offre. Automatisez vos enquêtes
+              de satisfaction par SMS pour être toujours à l'écoute
+              de vos clients.
             </p>
           </div>
         </div>
@@ -114,7 +116,7 @@ destinataires que vous le souhaitez.
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/vote-par-sms.png" alt="vote" />
           <div class="card__details">
-            <p class="card__title">Vote par SMS</p>
+            <a href="http://" class="card__title">Votre par SMS</a>
             <p class="card__description">
               Boostez vos événements avec le Vote par SMS
               Organisez des événements inoubliables grâce à notre
@@ -128,7 +130,7 @@ destinataires que vous le souhaitez.
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/icone-satisfaction.png" alt="satisfaction" />
           <div class="card__details">
-            <p class="card__title">Questionnaire de satisfaction par SMS</p>
+            <a href="http://" class="card__title">Questionnaire de satisfaction par SMS</a>
             <p class="card__description">
               Découvrez tout ce qu’il y a savoir sur notre solution de
               questionnaire de satisfaction par sms !

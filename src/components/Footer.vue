@@ -18,20 +18,20 @@
   
 
     <nav class="footer__nav">
-         <h3 class=""><span class="footer__line">Notre</span> societe</h3>
+         <h3 class=""><span class="footer__line">Notre </span> société </h3>
          <router-link class="footer__navlinks" to="">Qui sommes nous?</router-link>
          <router-link class="footer__navlinks" to="">Comment ça marche</router-link>
-         <router-link class="footer__navlinks" to="">Nos References </router-link>
+         <router-link class="footer__navlinks" to="">Nos Références </router-link>
          <router-link class="footer__navlinks" to=""> Nous recrutons</router-link>
          <router-link class="footer__navlinks" to=""> FAQ</router-link>
 
     </nav>
 
     <nav class="footer__nav">
-         <h3 class="footer__line">Legal</h3>
-         <router-link class="footer__navlinks" to="">Mentions Legales</router-link>
+         <h3 class="footer__line">Légal</h3>
+         <router-link class="footer__navlinks" to="">Mentions légales</router-link>
          <router-link class="footer__navlinks" to="">CGU-CGV</router-link>
-         <router-link class="footer__navlinks" to="">Politiques de confidentialites</router-link>
+         <router-link class="footer__navlinks" to="">Politique de confidentialité</router-link>
          <router-link class="footer__navlinks" to=""> Nos cookies</router-link>
 
 
@@ -50,6 +50,7 @@
     
             
     </footer>
+    
 </template>
 
 <script>
