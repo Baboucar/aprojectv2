@@ -217,10 +217,6 @@ export default {
   align-items: center;
   justify-content: center;
 }
-.revolution__btn {
-  display: inline-block;
-  margin-bottom: 2rem;
-}
 
 .card__image {
   display: block;

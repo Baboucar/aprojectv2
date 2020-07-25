@@ -37,7 +37,11 @@ $color-text:#5e5e5e;
     display: block;
   }
   
-
+  .revolution__btn {
+    display: inline-block;
+    margin-bottom: 2rem;
+  }
+  
 .btn {
     border: none;
     padding: 1.3rem;
