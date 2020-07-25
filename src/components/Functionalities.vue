@@ -264,6 +264,7 @@ export default {
 <style lang="scss" scoped>
 @import "../assets/base.scss";
 .card{
+    background: aliceblue;
        border-radius: 0.25rem;
     box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
 }
@@ -282,7 +283,6 @@ export default {
   font-size: 2rem;
 }
 .card__details {
-  background: $color-grey;
   padding: 1rem;
 }
 
