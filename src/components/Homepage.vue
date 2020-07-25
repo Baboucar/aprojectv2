@@ -246,6 +246,9 @@ export default {
   overflow: hidden;
 }
 
+.card__details{
+  padding: 1rem;
+}
 @media (min-width: 64rem) {
   .sms__pro {
     display: grid;
