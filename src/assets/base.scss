@@ -11,9 +11,6 @@ $color-text:#5e5e5e;
 .title{
     color:$color-primary;
 }
-.center__text{
-    text-align: center;
-}
 
 
 .container{
@@ -28,7 +25,70 @@ $color-text:#5e5e5e;
 .section__container{
     width: 90%;
     margin: 0 auto;
+   
 }
+
+.sms__revolution {
+    background: $color-tertiary;
+    
+  }
+  
+  .revolution__img {
+    display: block;
+  }
+  
+
+.btn {
+    border: none;
+    padding: 1.3rem;
+    border-radius: 25px;
+    background: $color-secondary;
+    color: $color-white;
+    font-weight: bold;
+    font-size: 0.7rem;
+    cursor: pointer;
+  
+    &:hover {
+      background: #fb057c;
+      cursor: pointer;
+    }
+  }
+  
+@media(min-width:64rem){
+    .fix__position{
+        position: relative;
+        margin-top: 16rem;
+        z-index: -1;
+    }
+
+    .center__text{
+        text-align: center;
+    }
+
+
+    .revolution__img {
+        width: 400px;
+        margin-left: 0;
+      }
+      .sms__revolution {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+    
+      .revolution__description {
+        margin: auto;
+      }
+      .revolution__btn {
+        margin: 0;
+      }
+
+      .revolution__title {
+        text-align: left;
+        color: #fff;
+      }
+    
+}
+
 .spacer-2{
     margin-top: 4rem;
 }

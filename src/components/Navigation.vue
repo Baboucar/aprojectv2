@@ -2,7 +2,7 @@
     <div class="fix__navigation">
        <header class="header">
             <div>
-            <img class="logo__image" src="/../images/logoservicesms.png" alt="logo">       
+            <a href="/"><img class="logo__image" src="/../images/logoservicesms.png" alt="logo">   </a>    
             </div>
             <div class="contact">
                 <span><img class="contact__icon" src="/../images/phone.png" alt="phone"></span>
@@ -40,7 +40,7 @@
 
              </div>
 
-           <router-link class="nav__links" to="">FONCTIONNALITES</router-link>
+           <router-link class="nav__links" to="/functionalities">FONCTIONNALITES</router-link>
            <router-link class="nav__links" to="">NOS TARIFS</router-link>
            <router-link class="nav__links" to="" @click.native="togglenavp">METIERS</router-link>
             <div class="toggle__nav proqui"  v-if="seenp"

@@ -179,6 +179,7 @@
         </div>
       </div>
     </section>
+    
     <Footer />
   </div>
 </template>
@@ -210,20 +211,6 @@ export default {
   background: $color-tertiary;
 }
 
-.btn {
-  border: none;
-  padding: 1.3rem;
-  border-radius: 25px;
-  background: $color-secondary;
-  color: $color-white;
-  font-weight: bold;
-  font-size: 0.7rem;
-  cursor: pointer;
-
-  &:hover {
-    background: #fb057c;
-  }
-}
 
 .center__button {
   display: flex;
@@ -247,13 +234,6 @@ export default {
   color: $color-black;
 }
 
-.sms__revolution {
-  background: $color-tertiary;
-}
-
-.revolution__img {
-  display: block;
-}
 
 .card__description {
   height: 170px;
@@ -296,29 +276,12 @@ export default {
   .card__image {
     display: inline-block;
   }
-  .revolution__img {
-    width: 400px;
-    margin-left: 0;
-  }
-  .sms__revolution {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .revolution__description {
-    margin: auto;
-  }
-  .revolution__btn {
-    margin: 0;
-  }
+  
 
   .center__button {
     display: block;
   }
-  .revolution__title {
-    text-align: left;
-    color: #fff;
-  }
+  
   .service__title {
     padding: 2rem;
   }
