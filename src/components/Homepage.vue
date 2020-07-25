@@ -211,7 +211,17 @@ export default {
   background: $color-tertiary;
 }
 
-
+.services__cards{
+  background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    padding: 2rem;
+}
+.services__card{
+  background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+}
 .center__button {
   display: flex;
   align-items: center;
@@ -271,12 +281,11 @@ export default {
   }
   .card__image {
     display: inline-block;
+    padding: 1rem;
   }
   
 
-  .center__button {
-    display: block;
-  }
+ 
   
   .service__title {
     padding: 2rem;
