@@ -263,7 +263,10 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/base.scss";
-
+.card{
+       border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+}
 .sub__heading--text {
   font-size: 1.2rem;
 }
@@ -298,11 +301,13 @@ export default {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 4rem;
+    
   }
 .grid-4{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 2rem;
+    row-gap: 4rem;
 }
   .card__header {
     font-size: 2.5rem;
