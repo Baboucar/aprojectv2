@@ -41,7 +41,7 @@
              </div>
 
            <router-link class="nav__links" to="/functionalities">FONCTIONNALITES</router-link>
-           <router-link class="nav__links" to="">NOS TARIFS</router-link>
+           <router-link class="nav__links" to="/tarif">NOS TARIFS</router-link>
            <router-link class="nav__links" to="" @click.native="togglenavp">METIERS</router-link>
             <div class="toggle__nav proqui"  v-if="seenp"
              >

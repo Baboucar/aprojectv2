@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Homepage from './components/Homepage';
 import Functionalities from './components/Functionalities';
+import Tarif from './components/Tarif';
 Vue.use(Router)
 
 export default new Router({
@@ -18,6 +19,11 @@ export default new Router({
     path:'/functionalities',
     name:'functionalities',
     component:Functionalities
+    },
+    {
+     path:'/tarif',
+     name:'tarif',
+     component:Tarif
     },
     {
       path: '/about',

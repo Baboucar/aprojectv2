@@ -13,12 +13,13 @@
      -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.7;
+  
  
 }
 #nav {
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: #226bb4;
     &.router-link-exact-active {
       color: #42b983;
     }

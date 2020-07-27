@@ -278,10 +278,7 @@ export default {
     text-align: left;
     border-bottom: 2px solid $color-tertiary;
   }
-  .card__details {
-    background-color: #f8f8f8;
-    padding: 1rem;
-  }
+
   .card__image {
     display: inline-block;
     padding: 1rem;

@@ -67,7 +67,7 @@
       </div>
     </div>
 
-    <div class="function__container">
+    <div class="seventy__container">
       <h2 class="card__header">Suivre les statistiques</h2>
       <div class="cards">
  
@@ -271,11 +271,7 @@ export default {
 .sub__heading--text {
   font-size: 1.2rem;
 }
-.card__image {
-  display: block;
-  margin: 0 auto;
-  padding: 1rem;
-}
+
 .card__header {
   background: $color-tertiary;
   color: $color-white;
@@ -293,16 +289,8 @@ export default {
   .header__title {
     padding-top: 2rem;
   }
-  .function__container {
-    width: 70%;
-    margin: 0 auto;
-  }
-  .cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 4rem;
-    
-  }
+ 
+  
 .grid-4{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;

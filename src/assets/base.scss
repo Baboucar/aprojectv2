@@ -1,6 +1,6 @@
 $color-primary:#09ce62;
 $color-secondary:#fe2a91;
-$color-tertiary:#3585fe;
+$color-tertiary:#0074D9;
 $color-black:#000000;
 $color-white:#FFFFFF;
 $color-grey:#f8f8f8;
@@ -12,6 +12,9 @@ $color-text:#5e5e5e;
     color:$color-primary;
 }
 
+body{
+ 
+}
 
 .container{
     width: 90%;
@@ -31,6 +34,11 @@ $color-text:#5e5e5e;
 .sms__revolution {
     background: $color-tertiary;
     
+  }
+
+  .img__responsive{
+    max-width: 100%;
+    height: auto;
   }
   
   .revolution__img {
@@ -59,6 +67,12 @@ $color-text:#5e5e5e;
       cursor: pointer;
     }
   }
+
+  .card__image {
+    display: block;
+    margin: 0 auto;
+    padding: 1rem;
+  }
   
 @media(min-width:64rem){
     .fix__position{
@@ -66,12 +80,30 @@ $color-text:#5e5e5e;
         margin-top: 16rem;
         z-index: -1;
     }
+    .seventy__container {
+      width: 70%;
+      margin: 0 auto;
+    }
 
+    .sixty__container {
+      width: 60%;
+      margin: 0 auto;
+    }
     .center__text{
         text-align: center;
     }
 
+    .cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 4rem;
+      
+    }
 
+    .card__details {
+ 
+      padding: 1rem;
+    }
     .revolution__img {
         width: 400px;
         margin-left: 0;
