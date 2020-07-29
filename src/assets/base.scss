@@ -73,6 +73,10 @@ body{
     margin: 0 auto;
     padding: 1rem;
   }
+  .card__details {
+ 
+    padding: 1rem;
+  }
   
 @media(min-width:64rem){
     .fix__position{
@@ -100,10 +104,7 @@ body{
       
     }
 
-    .card__details {
- 
-      padding: 1rem;
-    }
+   
     .revolution__img {
         width: 400px;
         margin-left: 0;

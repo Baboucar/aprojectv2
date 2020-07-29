@@ -71,7 +71,7 @@
       <h2 class="card__header">Suivre les statistiques</h2>
       <div class="cards">
  
-        <div class="card">
+        <div class="card ">
           <img class="card__image" src="/../images/statistiaque.png" alt />
           <div class="card__details">
             <h3 class="card__title">Réponses SMS</h3>
@@ -267,6 +267,7 @@ export default {
     background: aliceblue;
        border-radius: 0.25rem;
     box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    margin-top:2rem;
 }
 .sub__heading--text {
   font-size: 1.2rem;

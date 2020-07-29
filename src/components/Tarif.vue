@@ -199,6 +199,7 @@ export default {
 }
 .head {
   background: $color-grey;
+  padding:1rem;
 
   border-radius: 0.25rem;
   box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
