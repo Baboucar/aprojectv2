@@ -21,7 +21,7 @@
     <div class="section__container function__container">
       <h2 class="card__header">Gérer les contacts</h2>
 
-      <div class="cards">
+      <div class="cards seventy__container">
         <div class="card">
           <img class="card__image" src="/../images/Ges-cont89x96.png" alt />
           <div class="card__details">
@@ -102,7 +102,7 @@
       </div>
     </div>
 
-    <section class="function__container">
+    <section class="container">
       <h2 class="card__header">Fonctions avancees</h2>
 
        <div class="grid-4">

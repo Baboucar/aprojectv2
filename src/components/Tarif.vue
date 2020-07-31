@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Navigation />
+ 
     <div class="fix__position section__container">
       <section class="head">
         <div class="center__head">
@@ -48,7 +48,113 @@
 
       <section class="tarrif">
         <h2 class="tarif__price">Des packs adaptés à vos besoins</h2>
-        <img src="/../images/IIMAGE NOS TARIFS.jpg" class="img__responsive" />
+       <div class="terif__info">
+       <h1 class="center__text tarif__header">NOS FORMULES D'ENVOIS DE SMS</h1>
+    <p class="center__text tarif__description">Découvrez la formule de SMS adaptée à vos besoins, quelle que soit la
+        fréquence et la récurrence de vos envois.</p>
+    
+        <table class="table first__table sixty__container">
+        <thead>
+            <tr>
+                <th class="transparent"></th>
+                <th class="transparent"></th>
+                <th><span class="text">1 à 4.999 </span> <br> <span class="sms">SMS</span></th>
+                <th><span class="text">5.000 à 9.999 </span> <br> <span class="sms">SMS</span></th>
+                <th><span class="text">10.000 à 24.999 </span> <br> <span class="sms">SMS</span></th>
+                <th><span class="text">25.000 à 49.999 </span> <br><span class="sms">SMS</span></th>
+                <th><span class="text">50.000 à 99.999</span> <br> <span class="sms">SMS</span></th>
+                <th><span class="text">100.000 à 250.000</span> <br> <span class="sms">SMS</span></th>
+
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td class="white"></td>
+                <td class="lead"><span>Tarif</span> <br> <span>HT/SMS</span></td>
+                <td class="tri_oran">28,24 F</td>
+                <td class="tri_oran">27,58 F</td>
+                <td class="tri_oran">26,93 F</td>
+                <td class="tri_oran">26,27 F</td>
+                <td class="tri_oran">25,58 F</td>
+                <td class="tri_oran">24,30 F</td>
+            </tr>
+            <tr>
+                <td style="background:transparent"></td>
+                <td></td>
+                <td class="tri-blanc-fin"></td>
+                <td class="tri-blanc-fin"></td>
+                <td class="tri-blanc-fin"></td>
+                <td class="tri-blanc-fin"></td>
+                <td class="tri-blanc-fin"></td>
+                <td class="tri-blanc-fin"></td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <table class="table second__table">
+        <thead>
+            <tr>
+               
+                <th><span class="text">1 à 4.999 </span> <br> <span class="sms">SMS</span></th>
+                <th><span class="text">5.000 à 9.999 </span> <br> <span class="sms">SMS</span></th>
+                <th><span class="text">10.000 à 24.999 </span> <br> <span class="sms">SMS</span></th>
+              
+
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+              
+                <td class="tri_oran"><span class="price">28,24 F</span></td>
+                <td class="tri_oran"><span  class="price">27,58 F</span></td>
+                <td class="tri_oran"><span  class="price">26,93 F</span></td>
+              
+            </tr>
+            <tr>
+              
+                <td class="tri-blanc-fin"></td>
+                <td class="tri-blanc-fin"></td>
+                <td class="tri-blanc-fin"></td>
+               
+                 
+            </tr>
+        </tbody>
+
+    </table>
+
+
+    <p class="center__text tarif__subtext">(*) Ces tarifs concernent un usage vers la France Métropolitaine, pour une
+        utilisation vers d'autres destinations, merci de nous contacter.</p>
+
+        <div class="calculate__price center__text sixty__container" >
+            
+            <div>
+                <h3>Indiquez le nombre de SMS souhaités</h3>
+                
+                <input  class="input" v-model="price" name id > 
+              
+            </div>
+       
+            <div>
+                <img class="svg__image" src="/../images/down-arrow.png" alt="">
+                <img class="next__arrow" src="/../images/next.svg" alt="" srcset="">
+            </div>
+
+            <div>
+                <h3>Notre Tarif (HT)</h3>
+                <div class="tarif__result">
+                    <span>{{calculatePrice}} €   (28,24 F €/SMS)</span>
+                    
+                </div>
+            </div>
+        </div>
+        <p class="center__text">N'hésitez pas à nous contacter si vous désirez un nombre plus important de SMS.
+            Je commande</p>
+       
+       </div>
         <div class="tarif__details">
           <h3>Besoin d’envoyer + de sms ?</h3>
           <ul>
@@ -182,8 +288,17 @@ import Vue from "vue";
 import VueTypeJs from "vue-typed-js";
 Vue.use(VueTypeJs);
 export default {
+    name:"Tarif",
   data() {
-    return {};
+    return {
+        price:1,
+        click:true
+    };
+  },
+  computed:{
+      calculatePrice(){
+          return this.price * 2;
+      }
   },
   components: {
     Navigation,
@@ -194,16 +309,163 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/base.scss";
+
+.terif__info{
+     background-image: url("/../images/arriere-plan-eclairci.jpg");
+        background-repeat: no-repeat;
+      
+        background-attachment: fixed;
+        background-size: cover;
+    
+        background-position: bottom;
+}
+.first__table{
+        display: none;
+    }
+    .second__table{
+        width:100%;
+    }
+
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+      
+
+    }
+
+    .price{
+        display: block;
+        padding-top: 1rem;
+    }
+    th {
+
+
+        text-align: center;
+        border-width: 1px;
+        background: #0074D9;
+        border-style: none;
+        padding-top: .5rem;
+        color: white;
+
+    }
+
+    tr {
+        font-size: .9rem;
+    }
+
+    .transparent {
+        width: 1%;
+        background-color: rgba(0, 0, 0, 0);
+        border: 0px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    td {
+        vertical-align: middle;
+
+        font-weight: bold;
+        border-style: none;
+
+        padding: 1rem;
+        text-align: center;
+        border-width: 1px;
+    }
+ .svg__image{
+     width: 50px;
+     padding-top: 1rem;
+ 
+ }
+ path{
+    fill: blue;
+  }
+    .tri_oran {
+        background: url(/../images/new-triangle-orange.gif) center -2px no-repeat !important;
+        background-size: cover !important;
+        padding-top: 1.5rem;
+    }
+
+    .tri-blanc-fin {
+        background: url(/../images/triangle-blanc.png) center -2px no-repeat !important;
+        background-size: contain !important;
+    }
+
+   .next__arrow{
+       display: none;
+   }
+    .tarif__subtext{
+        text-align: center;
+       font-size: 12px;
+      color: #606060;
+    }
+
+    .lead {
+        background: white;
+    }
+
+    .sms {
+        font-weight: normal;
+        display: block;
+        padding-top: .5rem;
+    }
+
+    .white {
+        background: white;
+    }
+
+    .tarif__description {
+        padding: 1rem;
+    }
+   
+    .input{
+        border: none;
+        height: 40px;
+        border-radius: 4px;
+        width: 100%;
+        border-color: grey;
+
+    }
+    .tarif__result{
+        background: #0074D9;
+        color: white;
+        padding: 1.5rem;
+        font-weight: bold;
+    }
+    
+    @media(min-width: 40rem) {
+        
+       .next__arrow{
+           display: block;
+           width: 50px;
+           margin: 4rem auto;
+       }
+       .svg__image{
+           display: none;
+       }
+        .second__table{
+            display: none;
+        }
+        .first__table{
+            display: block;
+        }
+    }
+
+   
+
+    .center__text {
+        text-align: center;
+    }
 .revolution{
     background:$color-tertiary;
 }
 .head {
   background: $color-grey;
   padding:1rem;
-
   border-radius: 0.25rem;
   box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
-
   padding-bottom: 1rem;
 }
 
@@ -225,6 +487,9 @@ export default {
   font-size: 1.5rem;
 }
 
+::placeholder{
+    text-align:center;
+}
 .tarif__price {
   background: $color-tertiary;
   color: $color-white;
@@ -248,6 +513,9 @@ export default {
     width: 50%;
     margin: 0 auto;
   }
+  .tarif__header{
+      padding-top:2rem;
+  }
   .partners{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -261,5 +529,12 @@ export default {
     width: 50%;
     margin: 0 auto;
   }
+  
+   .calculate__price{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+  
 }
 </style>
