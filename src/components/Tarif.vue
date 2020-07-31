@@ -1,6 +1,6 @@
 <template>
   <div>
- 
+  <Navigation/>
     <div class="fix__position section__container">
       <section class="head">
         <div class="center__head">
