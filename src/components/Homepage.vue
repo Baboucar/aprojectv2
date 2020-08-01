@@ -294,8 +294,6 @@ export default {
   .service__title {
     padding: 2rem;
   }
-  // .sms__vocal {
-  //   margin-top: 1.5rem;
-  // }
+ 
 }
 </style>

@@ -151,14 +151,16 @@
                 </div>
             </div>
         </div>
-        <p class="center__text">N'hésitez pas à nous contacter si vous désirez un nombre plus important de SMS.
+        <p class="center__text tarif__description">N'hésitez pas à nous contacter si vous désirez un nombre plus important de SMS.
             Je commande</p>
+
+            <button class="tarif__btn"> JE COMMAND</button>
            
        
        </div>
 
         <div class="tarif__details">
-          <h3>Besoin d’envoyer + de sms ?</h3>
+          <h3 class="spacer-2">Besoin d’envoyer + de sms ?</h3>
           <ul>
             <li>
               Prix dégressif selon le nombre de SMS achetés au-delà de 250 000
@@ -392,8 +394,29 @@ export default {
      padding-top: 1rem;
  
  }
- path{
-    fill: blue;
+
+  .tarif__btn{
+      border: none;
+    padding: 1.3rem;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 15px;
+    border-radius: 2px;
+    
+     
+     
+    background: $color-tertiary;
+    color: $color-white;
+    font-weight: bold;
+    font-size: 0.7rem;
+    cursor: pointer;
+  
+    &:hover {
+      background: #5a5cda;
+      cursor: pointer;
+    }
+
   }
     .tri_oran {
         background: url(/../images/new-triangle-orange.gif) center -2px no-repeat !important;
@@ -490,7 +513,7 @@ export default {
 
 .partner__image{
     width:300px;
-    height:190px;
+    height:150px;
     margin-top: 1rem;
      border-radius: 0.25rem;
   box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
@@ -549,6 +572,12 @@ export default {
     margin: 0 auto;
   }
   
+  .tarif__btn{
+    width: 20rem;
+    padding: 1rem;
+    top: 25px;
+    font-size: 1.5rem;
+  }
    .calculate__price{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;

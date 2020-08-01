@@ -204,7 +204,10 @@
        padding: .5rem;
        color: $color-black;
    }
-
+ .sub__message{
+        display: contents;
+        font-size: .8rem;
+    }
 
 @media(min-width: 60rem){
     .nav__links{
@@ -224,9 +227,7 @@
         margin-left: .5rem;
         font-size: 1.2rem;
     }
-    .sub__message{
-        display: contents;
-    }
+   
 }
 // @media(min-width: 65rem){
 //     .nav__links{
