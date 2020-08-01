@@ -76,6 +76,9 @@ $color-text:#5e5e5e;
   }
   
 @media(min-width:64rem){
+  .top__container{
+    margin-top: 16rem;
+  }
     .fix__position{
         position: relative;
         margin-top: 16rem;

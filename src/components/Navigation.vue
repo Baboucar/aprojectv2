@@ -158,7 +158,7 @@
        margin-left: auto;
 
        &__button{
-           color:$color-primary;   
+           color:$color-tertiary;   
            display: block;
            width: 3rem;
           font-size: 2rem;

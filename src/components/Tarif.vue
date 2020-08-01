@@ -1,7 +1,7 @@
 <template>
   <div>
   <Navigation/>
-    <div class="fix__position section__container">
+    <div class="top__container section__container">
       <section class="head">
         <div class="center__head">
           <h1 class="header__title ">
@@ -134,7 +134,7 @@
             <div>
                 <h3>Indiquez le nombre de SMS souhaités</h3>
                 
-                <input  class="input" v-model="price" name id > 
+                <input   class="input" v-model="price" @keypress="onlyNumber" > 
               
             </div>
        
@@ -146,15 +146,17 @@
             <div>
                 <h3>Notre Tarif (HT)</h3>
                 <div class="tarif__result">
-                    <span>{{calculatePrice}} €   (28,24 F €/SMS)</span>
+                    <span>{{calculatePrice}}  F   (28,24 F /SMS)</span>
                     
                 </div>
             </div>
         </div>
         <p class="center__text">N'hésitez pas à nous contacter si vous désirez un nombre plus important de SMS.
             Je commande</p>
+           
        
        </div>
+
         <div class="tarif__details">
           <h3>Besoin d’envoyer + de sms ?</h3>
           <ul>
@@ -297,9 +299,20 @@ export default {
   },
   computed:{
       calculatePrice(){
-          return this.price * 2;
-      }
+          return this.price * 28.24;
+      },
+      
   },
+  methods:{
+    onlyNumber ($event) {
+   //console.log($event.keyCode); //keyCodes value
+   let keyCode = ($event.keyCode ? $event.keyCode : $event.which);
+   if ((keyCode < 48 || keyCode > 57) && keyCode !== 46) { // 46 is dot
+      $event.preventDefault();
+   }
+}
+  }
+ ,
   components: {
     Navigation,
     Footer
@@ -424,10 +437,16 @@ export default {
         border: none;
         height: 40px;
         border-radius: 4px;
-        width: 100%;
-        border-color: grey;
+        width: 90%;
+     
 
     }
+    .input:focus{
+      outline: none !important;
+         border-color:#0074D9;
+          box-shadow: 0 0 10px #719ECE;
+    }
+
     .tarif__result{
         background: #0074D9;
         color: white;

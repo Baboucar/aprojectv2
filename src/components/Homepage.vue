@@ -81,8 +81,12 @@
               Nous garantissons également d’être
               en conformité avec la réglementation RGPD.
             </p>
+            
+            
+          
           </div>
         </div>
+
 
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/emailing-icon-.png" alt="smsmailing" />
