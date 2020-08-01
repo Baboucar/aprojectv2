@@ -301,7 +301,25 @@ export default {
   },
   computed:{
       calculatePrice(){
-          return this.price * 28.24;
+         if(this.price <= 4999){
+           return 2824;
+         }
+         else if(this.price  == 5000 ||  this.price <= 9999){
+              return 2758;
+         }
+          else if(this.price  == 10000 ||  this.price <= 24999){
+                   return 2693;
+         }
+
+          else if(this.price  == 25000 ||  this.price <= 49999){
+              return 2627;
+         }
+          else if(this.price  == 50.000 ||  this.price <= 99999){
+              return 2558;
+         }
+          else if(this.price  == 100000 ||  this.price <= 250000){
+                     return 2430;
+         }
       },
       
   },
