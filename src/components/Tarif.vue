@@ -302,7 +302,7 @@ export default {
   computed:{
       calculatePrice(){
 
-        return this.price *28.24;
+        return (this.price *28.24).toFixed(2);
       //    if(this.price <= 4999){
       //      return 2824;
       //    }
