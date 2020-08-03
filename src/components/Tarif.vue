@@ -302,27 +302,27 @@ export default {
   computed:{
       calculatePrice(){
 
-        return (this.price *28.24).toFixed(2);
-      //    if(this.price <= 4999){
-      //      return 2824;
-      //    }
-      //    else if(this.price  == 5000 ||  this.price <= 9999){
-      //         return 2758;
-      //    }
-      //     else if(this.price  == 10000 ||  this.price <= 24999){
-      //              return 2693;
-      //    }
+      //  return (this.price *28.24).toFixed(2);
+         if(this.price <= 4999){
+           return (this.price *28.24).toFixed(2);
+         }
+         else if(this.price  == 5000 ||  this.price <= 9999){
+              return (this.price *27.58).toFixed(2);
+         }
+          else if(this.price  == 10000 ||  this.price <= 24999){
+                  return (this.price *26.93).toFixed(2);
+         }
 
-      //     else if(this.price  == 25000 ||  this.price <= 49999){
-      //         return 2627;
-      //    }
-      //     else if(this.price  == 50.000 ||  this.price <= 99999){
-      //         return 2558;
-      //    }
-      //     else if(this.price  == 100000 ||  this.price <= 250000){
-      //                return 2430;
-      //    }
-      //
+          else if(this.price  == 25000 ||  this.price <= 49999){
+              return (this.price *26.27).toFixed(2);
+         }
+          else if(this.price  == 50.000 ||  this.price <= 99999){
+            return (this.price *25.58).toFixed(2);
+         }
+          else if(this.price  == 100000 ||  this.price <= 250000){
+                     return (this.price *24.30).toFixed(2);
+         }
+      
       
       },
       
