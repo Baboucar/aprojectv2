@@ -126,8 +126,7 @@
     </table>
 
 
-    <p class="center__text tarif__subtext">(*) Ces tarifs concernent un usage vers la France Métropolitaine, pour une
-        utilisation vers d'autres destinations, merci de nous contacter.</p>
+    
 
         <div class="calculate__price center__text sixty__container" >
             
@@ -151,10 +150,8 @@
                 </div>
             </div>
         </div>
-        <p class="center__text tarif__description">N'hésitez pas à nous contacter si vous désirez un nombre plus important de SMS.
-            Je commande</p>
-
-            <button class="tarif__btn"> JE COMMAND</button>
+       
+            <button class="tarif__btn"> JE COMMANDE</button>
            
        
        </div>
@@ -245,17 +242,31 @@
        
         </div>
            <div class="partners">
-            <img class="img__responsive partner__image" src="/../images/logo-wari2.jpg" alt="wari">
-            <img  class="img__responsive partner__image"  src="/../images/MasterCard_Logo.svg.png" alt="mastercard">
-            <img  class="img__responsive partner__image" src="/../images/orange.jpg" alt="">
-              <img  class="img__responsive partner__image" src="/../images/logojonijoniori.png" alt="">
-              <img  class="img__responsive partner__image" src="/../images/Visa_Logo.png" alt="">
-              <img  class="img__responsive partner__image" src="/../images/logo-poste-cash ori.png" alt="">
-              <img  class="img__responsive partner__image" src="/../images/paiement-cheque-logo-servicesms.png" alt="">
-              <img  class="img__responsive partner__image" src="/../images/virement-bancaire-logo-services-ms.png" alt="">
-              <img  class="img__responsive partner__image" src="/../images/prelevement-automatique-logo-servicesms.png" alt="">
-              <img  class="img__responsive partner__image" src="/../images/fin-mois-logo-servicesms.png" alt="">
+            <img class="img__responsive partner__image" src="/../images/logo-wari.gif" alt="wari">
+            <img  class="img__responsive partner__image"  src="/../images/mastercard.png" alt="mastercard">
+            <img  class="img__responsive partner__image" src="/../images/logo-orangemoney.gif" alt="">
+              <img  class="img__responsive partner__image" src="/../images/logo-vite-fe.gif" alt="">
+              <img  class="img__responsive partner__image" src="/../images/logo-visa.gif" alt="">
+              <img  class="img__responsive partner__image" src="/../images/logo-postecach.gif" alt="">
+              <img  class="img__responsive partner__image" src="/../images/logo-cheque.png" alt="">
+              <img  class="img__responsive partner__image" src="/../images/logo-virement.png" alt="">
+              <img  class="img__responsive partner__image" src="/../images/logo-pre-auto.gif" alt="">
+              <img  class="img__responsive partner__image" src="/../images/logo-finmois.gif" alt="">
+              <img  class="img__responsive partner__image" src="/../images/logo-yup.gif" alt="">
+              <img  class="img__responsive partner__image" src="/../images/wizal.gif" alt="">
           
+          </div>
+          <div class="service__list">
+                <h3>TOUS NOS PACKS SMS COMPRENNENT</h3>
+                <ul class="grid__listing">
+                <li><img class="check__icon" src="/../images/checkicon.gif" alt="">Gestion des contacts</li>
+                <li><img class="check__icon" src="/../images/checkicon.gif" alt=""> Gestion des stops</li>
+                <li><img class="check__icon" src="/../images/checkicon.gif" alt=""> Gestion des réponses</li>
+                <li><img class="check__icon"  src="/../images/checkicon.gif" alt="">Accusés en temps</li>
+                <li><img class="check__icon" src="/../images/checkicon.gif" alt="">Publipostage</li>
+                <li><img class="check__icon" src="/../images/checkicon.gif" alt="">Programmation, anniversaires</li>
+                <li><img class="check__icon" src="/../images/checkicon.gif" alt="">Statistiques détaillées</li>
+                </ul>
           </div>
       </section>
 
@@ -367,6 +378,23 @@ export default {
         border-collapse: collapse;
         border-spacing: 0;
       
+
+    }
+
+    .service__list{
+      
+      li{
+
+        list-style-type: none;
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-left: 1rem;
+      }
+    }
+    .check__icon{
+          display: inline-block;
+          margin-right: .5rem;
+          margin-top: 2rem;
 
     }
 
@@ -534,9 +562,8 @@ export default {
 }
 
 .partner__image{
-    width:300px;
-    height:150px;
-    margin-top: 1rem;
+   display: block;
+    margin: 1rem auto;
      border-radius: 0.25rem;
   box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
 }
@@ -582,8 +609,12 @@ export default {
   }
   .partners{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 2rem;
+  }
+  .grid__listing{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
   .header__title {
     text-transform: uppercase;
