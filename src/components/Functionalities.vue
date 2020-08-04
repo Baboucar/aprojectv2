@@ -2,14 +2,14 @@
   <div>
     <Navigation />
 
-    <div class="fix__position section__container ">
-      <h1 class="header__title">
+    <div class="fix__position section__container header__title">
+      <h1 class="">
         Fonctionnalités
         <br />Inclues dans nos solutions SMS
       </h1>
       <button class="btn">TESTEZ GRATUITEMENT</button>
     </div>
-    
+
     <div class="section__container center__text">
       <h2>Une plateforme d'envoi de SMS aux fonctionnalités uniques</h2>
       <p class="sub__heading--text">
@@ -70,7 +70,6 @@
     <div class="seventy__container">
       <h2 class="card__header">Suivre les statistiques</h2>
       <div class="cards">
- 
         <div class="card ">
           <img class="card__image" src="/../images/statistiaque.png" alt />
           <div class="card__details">
@@ -98,129 +97,133 @@
             </p>
           </div>
         </div>
-       
       </div>
     </div>
 
     <section class="container">
       <h2 class="card__header">Fonctions avancees</h2>
 
-       <div class="grid-4">
-      <div class="card">
-        <img class="card__image" src="/../images/tableau-bord.png" alt />
-        <div class="card__details">
-          <h3 class="card__title">Tableau de bord dynamique</h3>
-          <p>
-            Notre plateforme possède un tableau de bord complet et intuitif,
-            vous pouvez consulter vos derniers envois (graphique & analytique).
-          </p>
+      <div class="grid-4">
+        <div class="card">
+          <img class="card__image" src="/../images/tableau-bord.png" alt />
+          <div class="card__details">
+            <h3 class="card__title">Tableau de bord dynamique</h3>
+            <p>
+              Notre plateforme possède un tableau de bord complet et intuitif,
+              vous pouvez consulter vos derniers envois (graphique &
+              analytique).
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div class="card">
-        <img class="card__image" src="/../images/creditplusieur.png" alt />
-        <div class="card__details">
-          <h3 class="card__title">
-            Packs à plusieurs types pour vos envois SMS
-          </h3>
-          <p>
-            Gérer vos SMS comme vous le souhaitez. Que vous souhaitiez envoyer
-            vos SMS Pro partout au Sénégal, selon vos besoins recharger
-            plusieurs type de packs SMS.
-          </p>
+        <div class="card">
+          <img class="card__image" src="/../images/creditplusieur.png" alt />
+          <div class="card__details">
+            <h3 class="card__title">
+              Packs à plusieurs types pour vos envois SMS
+            </h3>
+            <p>
+              Gérer vos SMS comme vous le souhaitez. Que vous souhaitiez envoyer
+              vos SMS Pro partout au Sénégal, selon vos besoins recharger
+              plusieurs type de packs SMS.
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div class="card">
-        <img class="card__image" src="/../images/paiement.png" alt />
-        <div class="card__details">
-          <h3 class="card__title">
-            Multiple mode de paiement
-          </h3>
-          <p>
-            WARI, VITFÈ, ORANGE MONEY, MASTERCARD, POSTE CASH, VISA), chèque,
-            virement bancaire, ou prélèvement automatique, nous acceptons tous
-            les types de paiement. Vous pouvez aussi passer en paiement fin de
-            mois.
-          </p>
+        <div class="card">
+          <img class="card__image" src="/../images/paiement.png" alt />
+          <div class="card__details">
+            <h3 class="card__title">
+              Multiple mode de paiement
+            </h3>
+            <p>
+              WARI, VITFÈ, ORANGE MONEY, MASTERCARD, POSTE CASH, VISA), chèque,
+              virement bancaire, ou prélèvement automatique, nous acceptons tous
+              les types de paiement. Vous pouvez aussi passer en paiement fin de
+              mois.
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div class="card">
-        <img class="card__image" src="/../images/facture.png" alt />
-        <div class="card__details">
-          <h3 class="card__title">
-            Factures en ligne
-          </h3>
-          <p>
-            Dès qu’un paiement est réalisé, votre facture est disponible. Toutes
-            les factures sont d’ailleurs consultables et exportables depuis
-            l’espace client. Vous avez la possibilité de les imprimer, les
-            télécharger au format PDF ou les recevoir par email.
-          </p>
+        <div class="card">
+          <img class="card__image" src="/../images/facture.png" alt />
+          <div class="card__details">
+            <h3 class="card__title">
+              Factures en ligne
+            </h3>
+            <p>
+              Dès qu’un paiement est réalisé, votre facture est disponible.
+              Toutes les factures sont d’ailleurs consultables et exportables
+              depuis l’espace client. Vous avez la possibilité de les imprimer,
+              les télécharger au format PDF ou les recevoir par email.
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div class="card">
-        <img class="card__image" src="/../images/responsiv-design.png" alt />
-        <div class="card__details">
-          <h3 class="card__title">
-            Site en responsive design
-          </h3>
-          <p>
-            Naviguez sur notre site et son espace client sécurisé sur tous les
-            types de support. Aussi bien tablette, ordinateur de bureau ou
-            smartphone, notre site d’adapte à tous vos appareils grâce à un
-            design prévu dès sa conception pour s’adapter à toutes les tailles
-          </p>
+        <div class="card">
+          <img class="card__image" src="/../images/responsiv-design.png" alt />
+          <div class="card__details">
+            <h3 class="card__title">
+              Site en responsive design
+            </h3>
+            <p>
+              Naviguez sur notre site et son espace client sécurisé sur tous les
+              types de support. Aussi bien tablette, ordinateur de bureau ou
+              smartphone, notre site d’adapte à tous vos appareils grâce à un
+              design prévu dès sa conception pour s’adapter à toutes les tailles
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div class="card">
-        <img class="card__image" src="/../images/support.png" alt />
-        <div class="card__details">
-          <h3 class="card__title">
-            Un support à votre écoute
-          </h3>
-          <p>
-            Notre équipe est disponible du lundi au vendredi de 08h à 18h au
-            +221 77.710.23.53. Vous pouvez nous appeler, nous écrire via le
-            formulaire de contact ou nous contacter sur notre mail :
-            contact@servicesms.com, nous fournirons tous nos efforts pour vous
-            répondre dans les plus brefs
-          </p>
+        <div class="card">
+          <img class="card__image" src="/../images/support.png" alt />
+          <div class="card__details">
+            <h3 class="card__title">
+              Un support à votre écoute
+            </h3>
+            <p>
+              Notre équipe est disponible du lundi au vendredi de 08h à 18h au
+              +221 77.710.23.53. Vous pouvez nous appeler, nous écrire via le
+              formulaire de contact ou nous contacter sur notre mail :
+              contact@servicesms.com, nous fournirons tous nos efforts pour vous
+              répondre dans les plus brefs
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div class="card">
-        <img class="card__image" src="/../images/stop.png" alt />
-        <div class="card__details">
-          <h3 class="card__title">
-            Gestion des STOP
-          </h3>
-          <p>
-            En plus du traitement des réponses SMS, notre système gère et
-            désactive automatiquement les STOP, conformément à la législation.
-          </p>
+        <div class="card">
+          <img class="card__image" src="/../images/stop.png" alt />
+          <div class="card__details">
+            <h3 class="card__title">
+              Gestion des STOP
+            </h3>
+            <p>
+              En plus du traitement des réponses SMS, notre système gère et
+              désactive automatiquement les STOP, conformément à la législation.
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div class="card">
-        <img class="card__image" src="/../images/gestion-contatc-avancees.png" alt />
-        <div class="card__details">
-          <h3 class="card__title">
-            Gestion de contacts avancée
-          </h3>
-          <p>
-            Vous pouvez importer plusieurs centaines de milliers de numéros de
-            téléphone depuis votre espace client, sans manipulation préalable.
-            La plateforme accepte un maximum de formats de fichier (Excel,
-            Access, Txt, etc…) et se charge de supprimer les doublons et de
-            nettoyer vos fichiers. Vos listes sont bien sûr confidentielles et
-            ne
-          </p>
+        <div class="card">
+          <img
+            class="card__image"
+            src="/../images/gestion-contatc-avancees.png"
+            alt
+          />
+          <div class="card__details">
+            <h3 class="card__title">
+              Gestion de contacts avancée
+            </h3>
+            <p>
+              Vous pouvez importer plusieurs centaines de milliers de numéros de
+              téléphone depuis votre espace client, sans manipulation préalable.
+              La plateforme accepte un maximum de formats de fichier (Excel,
+              Access, Txt, etc…) et se charge de supprimer les doublons et de
+              nettoyer vos fichiers. Vos listes sont bien sûr confidentielles et
+              ne
+            </p>
+          </div>
         </div>
-      </div>
       </div>
     </section>
 
@@ -233,22 +236,23 @@
         />
         <div class="container revolution__description">
           <h2 class="revolution__title center__text">
-            La révolution SMS
-            à votre portée
+            La révolution SMS à votre portée
           </h2>
           <div class="center__button">
-            <button class="revolution__btn btn spacer-1">TESTEZ GRATUITEMENT</button>
+            <button class="revolution__btn btn spacer-1">
+              TESTEZ GRATUITEMENT
+            </button>
           </div>
         </div>
       </div>
     </section>
-    <Footer/>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Navigation from "./Navigation";
-import Footer from './Footer';
+import Footer from "./Footer";
 
 export default {
   data() {
@@ -256,18 +260,18 @@ export default {
   },
   components: {
     Navigation,
-    Footer
+    Footer,
   },
 };
 </script>
 
 <style lang="scss" scoped>
 @import "../assets/base.scss";
-.card{
-    background: aliceblue;
-       border-radius: 0.25rem;
-    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
-    margin-top:2rem;
+.card {
+  background: aliceblue;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  margin-top: 2rem;
 }
 .sub__heading--text {
   font-size: 1.2rem;
@@ -290,20 +294,23 @@ export default {
   .header__title {
     padding-top: 2rem;
   }
- 
-  
-.grid-4{
+
+  .header__title{
+    padding-left: 2rem;
+  }
+
+  .grid-4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 2rem;
     row-gap: 4rem;
-}
+  }
   .card__header {
     font-size: 2.5rem;
   }
 
-  .revolution{
-      background:$color-tertiary;
+  .revolution {
+    background: $color-tertiary;
   }
 }
 </style>

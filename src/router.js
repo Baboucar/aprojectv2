@@ -4,6 +4,7 @@ import Home from './views/Home.vue'
 import Homepage from './components/Homepage';
 import Functionalities from './components/Functionalities';
 import Tarif from './components/Tarif';
+import Metires from './components/Metires';
 Vue.use(Router)
 
 export default new Router({
@@ -19,6 +20,11 @@ export default new Router({
     path:'/functionalities',
     name:'functionalities',
     component:Functionalities
+    },
+    {
+    path:'/metires',
+    name:'metires',
+    component:Metires
     },
     {
      path:'/tarif',

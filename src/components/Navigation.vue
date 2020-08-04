@@ -42,14 +42,13 @@
 
            <router-link class="nav__links" to="/functionalities">FONCTIONNALITES</router-link>
            <router-link class="nav__links" to="/tarif">NOS TARIFS</router-link>
-           <router-link class="nav__links" to="" @click.native="togglenavp">METIERS</router-link>
-            <div class="toggle__nav proqui"  v-if="seenp"
-             >
+           <router-link class="nav__links" to="/metires" >METIERS</router-link>
+            <!-- <div class="toggle__nav proqui"  v-if="seenp">
                  <router-link to="" class="sub__nav--links">SMS LOW COST</router-link>
                  <router-link to="" class="sub__nav--links">SMS PRO</router-link>
                  
 
-             </div>
+             </div> -->
            <router-link class="nav__links" to="">API</router-link>
            <router-link class="nav__links" to="">BLOG</router-link>
            </div>
