@@ -5,6 +5,8 @@ import Homepage from './components/Homepage';
 import Functionalities from './components/Functionalities';
 import Tarif from './components/Tarif';
 import Metires from './components/Metires';
+import Api from  './components/Api';
+import { from } from 'core-js/fn/array';
 Vue.use(Router)
 
 export default new Router({
@@ -30,6 +32,11 @@ export default new Router({
      path:'/tarif',
      name:'tarif',
      component:Tarif
+    },
+    {
+    path:'/api',
+    name:'api',
+    component:Api
     },
     {
       path: '/about',
