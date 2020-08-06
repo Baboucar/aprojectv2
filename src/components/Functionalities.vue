@@ -2,13 +2,14 @@
   <div>
     <Navigation />
 
-    <div class="fix__position section__container header__title">
-      <h1 class="">
+    <div class="   section__container fix__position header__title">
+      <h1 class=" ">
         Fonctionnalités
         <br />Inclues dans nos solutions SMS
       </h1>
       <button class="btn">TESTEZ GRATUITEMENT</button>
     </div>
+    
 
     <div class="section__container center__text">
       <h2>Une plateforme d'envoi de SMS aux fonctionnalités uniques</h2>
@@ -281,7 +282,8 @@ export default {
   background: $color-tertiary;
   color: $color-white;
   padding: 0.5rem;
-  font-size: 2rem;
+ 
+ 
 }
 .card__details {
   padding: 1rem;
@@ -293,12 +295,12 @@ export default {
 @media (min-width: 64rem) {
   .header__title {
     padding-top: 2rem;
+     padding-left: 2rem;
+     box-sizing: border-box;
+   
   }
 
-  .header__title{
-    padding-left: 2rem;
-  }
-
+  
   .grid-4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;

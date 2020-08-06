@@ -6,6 +6,8 @@ import Functionalities from './components/Functionalities';
 import Tarif from './components/Tarif';
 import Metires from './components/Metires';
 import Api from  './components/Api';
+import Blog from './components/Blog';
+import  Details from './components/Details';
 import { from } from 'core-js/fn/array';
 Vue.use(Router)
 
@@ -29,6 +31,11 @@ export default new Router({
     component:Metires
     },
     {
+     path:'/blog',
+     name:'blog',
+     component:Blog
+    },
+    {
      path:'/tarif',
      name:'tarif',
      component:Tarif
@@ -37,6 +44,11 @@ export default new Router({
     path:'/api',
     name:'api',
     component:Api
+    },
+    {
+      path:'/details',
+      name:'details',
+      component:Details
     },
     {
       path: '/about',

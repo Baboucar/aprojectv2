@@ -622,13 +622,7 @@ td {
   border-radius: 0.25rem;
   box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
 }
-.header__title {
-  padding: 1.5rem;
-  background: $color-tertiary;
-  color: $color-white;
-  border-radius: 0.25rem;
-  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
-}
+
 .sub__paragraph {
   font-size: 1.5rem;
 }
@@ -653,7 +647,7 @@ td {
   border-radius: 0.25rem;
   box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
 }
-@media (min-width: 65rem) {
+@media (min-width: 64rem) {
   .center__head {
     width: 50%;
     margin: 0 auto;
@@ -670,10 +664,7 @@ td {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
-  .header__title {
-    text-transform: uppercase;
-    font-size: 2.4rem;
-  }
+  
   .tarif__details {
     width: 50%;
     margin: 0 auto;

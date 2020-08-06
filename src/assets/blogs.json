@@ -1,0 +1,43 @@
+{
+    "blog": [
+        {
+            "id": 1,
+            "title": "Le SMS marketing ",
+            "date": "Publié 02/12/2020",
+            "description": "Le SMS marketing sert à la fois d’outil en interne au sein d’une entreprise pour la direction ou le service RH par exemple, ou en externe pour communiquer avec ses clients des messages à caractère informatif et bien sûr commercial.",
+            "image": "images/blog/marketing.jpg",
+            "content": [
+                {
+                    "Le SMS marketing est-il toujours performant ?": "Oui et les raisons sont simples.Notre téléphone est toujours avec nous et nous lisons nos SMS en moyenne seulement quelques minutes après leur réception.Aussi,avez - vous déjà remarqué qu’ on n’ efface jamais un SMS d’ un proche ou d’ une marque sans l’ avoir lu ? ",
+                    "Les messageries instantanées tuent le SMS ?": "Il est vrai qu’entre particuliers les usages ont évolué au profit des messageries telles que Facebook Messenger, WhatsApp, ou encore Viber… Mais le SMS reste toutefois incontournable dans le marketing mobile, c’est-à-dire pour un usage professionnel.",
+                    "Le SMS, c’est trop simple ?": "Comme le dit la célèbre expression ironique « Pourquoi faire compliqué quand on peut faire simple » ? Il fonctionne aussi bien sur le célèbre Nokia 3310 que sur l’ensemble des smartphones dernier cri du marché. En choisissant le SMS, vous n’avez pas à vous soucier de sa délivrabilité. Vous avez la certitude de couvrir et de toucher 100% du parc mobile.",
+                    "Le SMS, c’est trop court pour communiquer ? ": "Aujourd’hui il faut être percutant dans sa communication ! Nous sommes envahis d’informations, on parle même de data obésité et nos capacités mémorielles sont limitées… Savoir résumer son offre en 160 caractères oblige à transmettre les informations essentielles, c’est-à-dire celles que devront retenir vos destinataires !Soyez clair, court, concis !",
+                    "Le SMS marketing c’est payant ?": "Oui, l’usage du SMS professionnel n’est pas gratuit et c’est une bonne chose car cela permet de se prémunir du phénomène des spams, constatés dans les boites mails.Cependant, il demeure très accessible car facturé seulement quelques francs à l’émetteur et son tarif est dégressif en fonction du volume d’envoi.",
+                    "Le SMS, c’est trop intrusif !":"C’est une idée reçue car contrairement aux 4×4, bannières web, spots tv… le SMS ne peut être envoyé que si la personne a au préalable donné son consentement.Aussi, toute personne a la possibilité d’être retirée de la base client par le simple envoi d’un stop SMS. Enfin, il est à noter que notre plateforme est conforme au RGPD à caractère personnel.Vous l’aurez compris, la fin de l’ère du SMS n’est donc pas pour tout de suite ! Le SMS reste un outil simple, pratique et qui a su démontrer son efficacité au fil des années. A son image, la plateforme de SMS Service-SMS est très intuitive, si bien que vous pouvez réaliser vos campagnes de SMS marketing en totale autonomie.Notre équipe reste bien sûr à votre écoute pour toute question ou pour des demandes nécessitant des développements spécifiques."
+                }
+            ]
+        },
+        {
+            "id":2,
+             "title":"Pourquoi & comment personnaliser vos SMS ?",
+             "date":"Publié 05/12/2020",
+             "description": "De nos jours les consommateurs sont de plus en plus exigeants. Les personnes souhaitent avoir une relation personnalisée avec les entreprises, les marques… ce qui n’est pas toujours aisé et évident à mettre en place. Mais… bonne nouvelle ! Avec les campagnes SMS vous pouvez le faire facilement tout en bénéficiant d’un levier de communication efficace.",
+             "image":"images/blog/personnaliser-ses-sms.jpg",
+             "content":[
+                 {
+                     "1. Le passage du canal simple à l’omnicanal…":"Nous sommes passés d’une relation avec un seul et unique canal à la prise en compte et l’utilisation de plusieurs canaux pour réaliser des achats et échanger avec les entreprises.Et de surcroît avec une exigence de la connaissance clients à tous les points de contact (en boutique, par mail, par SMS).",
+                     "2. La concurrence toujours plus agressive": "La personnalisation est un moyen de vous différencier des actions de vos concurrents en marquant positivement l’esprit de vos clients.",
+                     "3. Les clients sont plus volatiles": "Ainsi, la personnalisation vous aide à créer une relation privilégiée avec eux. Et renforce leur fidélisation et donc à la fin provoque un engagement plus fort.",
+                     "Personnalisation & SMS : un mariage réussi": "Le SMS, de par son fonctionnement, atterrit directement dans la poche de votre destinataire. En cela, il crée déjà une relation de proximité beaucoup plus forte que tous les autres supports de communication !  En ajoutant un élément de personnalisation (nom, prénom, date de naissance…) vous attestez de votre fine connaissance client et de votre professionnalisme.",
+                     "Comment personnaliser vos campagnes SMS ?": "Personnaliser grâce aux champs variables Si vous possédez un fichier clients avec des champs tels que le nom, prénom, date d’anniversaire etc… alors ce sera un jeu d’enfant ! Avec Service-SMS vous pouvez aller au-delà et personnaliser avec vos données métier.",
+                     "examples":["un rappel de RDV peut-être personnalisé avec le nom, prénom ainsi que le lieu et l’heure,",
+                          "une livraison avec le nom du vendeur, le numéro de commande  ainsi que la date et l’heure prévue,",
+                          "un dossier de sinistre pour une assurance par la confirmation d’un numéro de dossier et une liste de pièces à fournir,",
+                          "une vente privée par un numéro de coupon de réduction,",
+                          "un évènement par une adresse web permettant une inscription en ligne, etc…"
+                    ]
+                 }
+             ]
+            }
+    ]
+}

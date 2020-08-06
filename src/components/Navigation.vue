@@ -50,7 +50,7 @@
 
              </div> -->
            <router-link class="nav__links" to="/api">API</router-link>
-           <router-link class="nav__links" to="">BLOG</router-link>
+           <router-link class="nav__links" to="/blog">BLOG</router-link>
            </div>
            <router-link to="" class=" link__btn"> <img src="/../images/left-arrow.png" class="btn__icon" alt="">  TESTEZ GRATUITMENT <br> <span class="sub__message">Sans engament -5 sms offerts</span> </router-link>
        </nav>
