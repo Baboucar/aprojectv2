@@ -46,7 +46,7 @@ export default new Router({
     component:Api
     },
     {
-      path:'/details',
+      path:'/:id',
       name:'details',
       component:Details
     },

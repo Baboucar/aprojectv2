@@ -6,38 +6,199 @@
             "date": "Publié 02/12/2020",
             "description": "Le SMS marketing sert à la fois d’outil en interne au sein d’une entreprise pour la direction ou le service RH par exemple, ou en externe pour communiquer avec ses clients des messages à caractère informatif et bien sûr commercial.",
             "image": "images/blog/marketing.jpg",
-            "content": [
-                {
-                    "Le SMS marketing est-il toujours performant ?": "Oui et les raisons sont simples.Notre téléphone est toujours avec nous et nous lisons nos SMS en moyenne seulement quelques minutes après leur réception.Aussi,avez - vous déjà remarqué qu’ on n’ efface jamais un SMS d’ un proche ou d’ une marque sans l’ avoir lu ? ",
-                    "Les messageries instantanées tuent le SMS ?": "Il est vrai qu’entre particuliers les usages ont évolué au profit des messageries telles que Facebook Messenger, WhatsApp, ou encore Viber… Mais le SMS reste toutefois incontournable dans le marketing mobile, c’est-à-dire pour un usage professionnel.",
-                    "Le SMS, c’est trop simple ?": "Comme le dit la célèbre expression ironique « Pourquoi faire compliqué quand on peut faire simple » ? Il fonctionne aussi bien sur le célèbre Nokia 3310 que sur l’ensemble des smartphones dernier cri du marché. En choisissant le SMS, vous n’avez pas à vous soucier de sa délivrabilité. Vous avez la certitude de couvrir et de toucher 100% du parc mobile.",
-                    "Le SMS, c’est trop court pour communiquer ? ": "Aujourd’hui il faut être percutant dans sa communication ! Nous sommes envahis d’informations, on parle même de data obésité et nos capacités mémorielles sont limitées… Savoir résumer son offre en 160 caractères oblige à transmettre les informations essentielles, c’est-à-dire celles que devront retenir vos destinataires !Soyez clair, court, concis !",
-                    "Le SMS marketing c’est payant ?": "Oui, l’usage du SMS professionnel n’est pas gratuit et c’est une bonne chose car cela permet de se prémunir du phénomène des spams, constatés dans les boites mails.Cependant, il demeure très accessible car facturé seulement quelques francs à l’émetteur et son tarif est dégressif en fonction du volume d’envoi.",
-                    "Le SMS, c’est trop intrusif !":"C’est une idée reçue car contrairement aux 4×4, bannières web, spots tv… le SMS ne peut être envoyé que si la personne a au préalable donné son consentement.Aussi, toute personne a la possibilité d’être retirée de la base client par le simple envoi d’un stop SMS. Enfin, il est à noter que notre plateforme est conforme au RGPD à caractère personnel.Vous l’aurez compris, la fin de l’ère du SMS n’est donc pas pour tout de suite ! Le SMS reste un outil simple, pratique et qui a su démontrer son efficacité au fil des années. A son image, la plateforme de SMS Service-SMS est très intuitive, si bien que vous pouvez réaliser vos campagnes de SMS marketing en totale autonomie.Notre équipe reste bien sûr à votre écoute pour toute question ou pour des demandes nécessitant des développements spécifiques."
-                }
-            ]
+            "content": {
+                "Le SMS marketing est-il toujours performant ?": "Oui et les raisons sont simples.Notre téléphone est toujours avec nous et nous lisons nos SMS en moyenne seulement quelques minutes après leur réception.Aussi,avez - vous déjà remarqué qu’ on n’ efface jamais un SMS d’ un proche ou d’ une marque sans l’ avoir lu ? ",
+                "Le SMS, c’est trop simple ?": "Comme le dit la célèbre expression ironique « Pourquoi faire compliqué quand on peut faire simple » ? Il fonctionne aussi bien sur le célèbre Nokia 3310 que sur l’ensemble des smartphones dernier cri du marché. En choisissant le SMS, vous n’avez pas à vous soucier de sa délivrabilité. Vous avez la certitude de couvrir et de toucher 100% du parc mobile.",
+                "Le SMS, c’est trop court pour communiquer ? ": "Aujourd’hui il faut être percutant dans sa communication ! Nous sommes envahis d’informations, on parle même de data obésité et nos capacités mémorielles sont limitées… Savoir résumer son offre en 160 caractères oblige à transmettre les informations essentielles, c’est-à-dire celles que devront retenir vos destinataires !Soyez clair, court, concis !",
+                "Le SMS marketing c’est payant ?": "Oui, l’usage du SMS professionnel n’est pas gratuit et c’est une bonne chose car cela permet de se prémunir du phénomène des spams, constatés dans les boites mails.Cependant, il demeure très accessible car facturé seulement quelques francs à l’émetteur et son tarif est dégressif en fonction du volume d’envoi.",
+                "Le SMS, c’est trop intrusif !": "C’est une idée reçue car contrairement aux 4×4, bannières web, spots tv… le SMS ne peut être envoyé que si la personne a au préalable donné son consentement.Aussi, toute personne a la possibilité d’être retirée de la base client par le simple envoi d’un stop SMS. Enfin, il est à noter que notre plateforme est conforme au RGPD à caractère personnel.Vous l’aurez compris, la fin de l’ère du SMS n’est donc pas pour tout de suite ! Le SMS reste un outil simple, pratique et qui a su démontrer son efficacité au fil des années. A son image, la plateforme de SMS Service-SMS est très intuitive, si bien que vous pouvez réaliser vos campagnes de SMS marketing en totale autonomie.Notre équipe reste bien sûr à votre écoute pour toute question ou pour des demandes nécessitant des développements spécifiques."
+            }
         },
         {
-            "id":2,
-             "title":"Pourquoi & comment personnaliser vos SMS ?",
-             "date":"Publié 05/12/2020",
-             "description": "De nos jours les consommateurs sont de plus en plus exigeants. Les personnes souhaitent avoir une relation personnalisée avec les entreprises, les marques… ce qui n’est pas toujours aisé et évident à mettre en place. Mais… bonne nouvelle ! Avec les campagnes SMS vous pouvez le faire facilement tout en bénéficiant d’un levier de communication efficace.",
-             "image":"images/blog/personnaliser-ses-sms.jpg",
-             "content":[
-                 {
-                     "1. Le passage du canal simple à l’omnicanal…":"Nous sommes passés d’une relation avec un seul et unique canal à la prise en compte et l’utilisation de plusieurs canaux pour réaliser des achats et échanger avec les entreprises.Et de surcroît avec une exigence de la connaissance clients à tous les points de contact (en boutique, par mail, par SMS).",
-                     "2. La concurrence toujours plus agressive": "La personnalisation est un moyen de vous différencier des actions de vos concurrents en marquant positivement l’esprit de vos clients.",
-                     "3. Les clients sont plus volatiles": "Ainsi, la personnalisation vous aide à créer une relation privilégiée avec eux. Et renforce leur fidélisation et donc à la fin provoque un engagement plus fort.",
-                     "Personnalisation & SMS : un mariage réussi": "Le SMS, de par son fonctionnement, atterrit directement dans la poche de votre destinataire. En cela, il crée déjà une relation de proximité beaucoup plus forte que tous les autres supports de communication !  En ajoutant un élément de personnalisation (nom, prénom, date de naissance…) vous attestez de votre fine connaissance client et de votre professionnalisme.",
-                     "Comment personnaliser vos campagnes SMS ?": "Personnaliser grâce aux champs variables Si vous possédez un fichier clients avec des champs tels que le nom, prénom, date d’anniversaire etc… alors ce sera un jeu d’enfant ! Avec Service-SMS vous pouvez aller au-delà et personnaliser avec vos données métier.",
-                     "examples":["un rappel de RDV peut-être personnalisé avec le nom, prénom ainsi que le lieu et l’heure,",
-                          "une livraison avec le nom du vendeur, le numéro de commande  ainsi que la date et l’heure prévue,",
-                          "un dossier de sinistre pour une assurance par la confirmation d’un numéro de dossier et une liste de pièces à fournir,",
-                          "une vente privée par un numéro de coupon de réduction,",
-                          "un évènement par une adresse web permettant une inscription en ligne, etc…"
-                    ]
-                 }
-             ]
+            "id": 2,
+            "title": "Pourquoi & comment personnaliser vos SMS ?",
+            "date": "Publié 05/12/2020",
+            "description": "De nos jours les consommateurs sont de plus en plus exigeants. Les personnes souhaitent avoir une relation personnalisée avec les entreprises, les marques… ce qui n’est pas toujours aisé et évident à mettre en place. Mais… bonne nouvelle ! Avec les campagnes SMS vous pouvez le faire facilement tout en bénéficiant d’un levier de communication efficace.",
+            "image": "images/blog/personnaliser-ses-sms.jpg",
+            "content": {
+                "1. Le passage du canal simple à l’omnicanal…": "Nous sommes passés d’une relation avec un seul et unique canal à la prise en compte et l’utilisation de plusieurs canaux pour réaliser des achats et échanger avec les entreprises.Et de surcroît avec une exigence de la connaissance clients à tous les points de contact (en boutique, par mail, par SMS).",
+                "2. La concurrence toujours plus agressive": "La personnalisation est un moyen de vous différencier des actions de vos concurrents en marquant positivement l’esprit de vos clients.",
+                "3. Les clients sont plus volatiles": "Ainsi, la personnalisation vous aide à créer une relation privilégiée avec eux. Et renforce leur fidélisation et donc à la fin provoque un engagement plus fort.",
+                "Personnalisation & SMS : un mariage réussi": "Le SMS, de par son fonctionnement, atterrit directement dans la poche de votre destinataire. En cela, il crée déjà une relation de proximité beaucoup plus forte que tous les autres supports de communication !  En ajoutant un élément de personnalisation (nom, prénom, date de naissance…) vous attestez de votre fine connaissance client et de votre professionnalisme.",
+                "Comment personnaliser vos campagnes SMS ?": "Personnaliser grâce aux champs variables Si vous possédez un fichier clients avec des champs tels que le nom, prénom, date d’anniversaire etc… alors ce sera un jeu d’enfant ! Avec Service-SMS vous pouvez aller au-delà et personnaliser avec vos données métier."
+            },
+            "detailContent": {
+                "Examples": [
+                    "un rappel de RDV peut-être personnalisé avec le nom, prénom ainsi que le lieu et l’heure,",
+                    "une livraison avec le nom du vendeur, le numéro de commande  ainsi que la date et l’heure prévue,",
+                    "un dossier de sinistre pour une assurance par la confirmation d’un numéro de dossier et une liste de pièces à fournir,",
+                    "une vente privée par un numéro de coupon de réduction,",
+                    "un évènement par une adresse web permettant une inscription en ligne, etc…"
+                ]
             }
+        },
+        {
+            "id": 3,
+            "title": "Quels outils de communication pour votre entreprise ?",
+            "date": "Publié 05/12/2020",
+            "image": "images/blog/outils-de-communication-pour-votre-entreprise.jpg",
+            "description": "La communication représente un enjeu de taille dans le monde de l’entreprise.Pour communiquer de façon efficiente, il est nécessaire de choisir des outils de communication en adéquation avec sa cible et son budget.",
+            "detailDescription": [
+                "Pour communiquer de façon efficiente, il est nécessaire de choisir des outils de communication en adéquation avec sa cible et son budget.",
+                "Les outils de communication se classent en 2 catégories, ceux concernant les supports médias (la télévision, la presse, l’affichage, la radio, le cinéma et internet), appelés aussi médias classiques ou encore traditionnels.",
+                "Et ceux dits hors-médias à l’instar de l’évènementiel, les relations presse, le street marketing, l’emailing, le SMS…",
+                "Il est recommandé d‘associer les deux types de médias de communication dans sa stratégie.",
+                "On vous présente ci-dessous 4 supports de communication qui ont particulièrement marqué ces dernières années :"
+            ],
+            "detailContent": {
+                "1. Les réseaux sociaux": [
+                    "Ils sont au cœur de notre quotidien. En effet ils ont pris une place de plus en plus importante dans la vie personnelle et professionnelle.",
+                    "Pour l’entreprise cela a notamment bouleversé la façon d’échanger avec les consommateurs exigeant plus de transparence, de proximité et de rapidité.",
+                    "Leurs fonctionnalités et surtout leur large audience en font un atout non négligeable pour les entreprises.",
+                    "Les usages vont de la communication améliorant la notoriété de l’entreprise, en passant par le recrutement de nouveaux collaborateurs, et jusqu’à l’amélioration des échanges en interne (ex : Groupe Privé Facebook, Facebook Workplace…).",
+                    "Le plus populaire reste indéniablement Facebook pour le BtoC et Linkedin pour le BtoB.",
+                    "Mais selon votre secteur d’activité et vos cibles, Twitter & Instagram ne sont pas à négliger !"
+                ],
+                "2. Le SMS": [
+                    "Contrairement à de nombreux outils de communication (affichage, presse…) l’efficacité du SMS pro est parfaitement mesurable.",
+                    "Ainsi nous savons qu’en moyenne le taux de lecture est supérieur à 95% et ce fait en moins de 3 minutes.",
+                    "Également le taux de désabonnement quant à lui est très faible se situant aux alentours d’1%."
+                ],
+                "Le SMS est un outil simple et rapide": [
+                    "Un des grands éléments différenciant du SMS pour l’annonceur est la facilité et rapidité de mise en place d’une campagne SMS.",
+                    "En effet, une fois le message construit et la base de données à portée de main, en moins de 10 minutes une campagne est envoyée ! ",
+                    "Et ce, que ce soit depuis notre plateforme en ligne ou depuis votre propre logiciel via notre API."
+                ],
+                "Le SMS est un outil complémentaire": [
+                    "Vous avez besoin de faire une piqure de rappel ou de transmettre une information essentielle oubliée (ex : le plan de l’événement).",
+                    "Le SMS intervient alors comme outil complémentaire, servant d’outil de communication ou d’outil alerte/rappel."
+                ],
+                "3. Le blog": [
+                    "Le blogging à savoir la rédaction d’article est bon moyen de vous faire connaître via le web.",
+                    "Conservez néanmoins à l’esprit que cette tâche est assez contraignante et chronophage.",
+                    "En effet, pour que vos articles de blog aient un impact fort sur votre visibilité en ligne vous devrez écrire régulièrement !",
+                    "Cela induit de trouver des sujets, du temps pour écrire et connaître les bases du référencement naturel (SEO).Mais les résultats sont au rendez-vous !",
+                    "Des clients potentiels pourront plus facilement découvrir votre entreprise et vos services grâce à l’indexation de vos articles dans Google.",
+                    "Autre point positif, le blog permet de vous positionner en tant qu’expert sur votre marché en proposant un contenu dense et pertinent."
+                ],
+                "4. La vidéo ": [
+                    "A l‘ère du « content marketing » la vidéo est le support qui a le plus le vent en poupe !",
+                    "De plus en plus d’internautes apprécient de regarder des vidéos, ce contenu étant perçu comme plus « digeste » facile à consommer, et ludique.",
+                    "Le support vidéo peut-être opportun notamment pour donner des explications de votre produit ou service sous forme de tuto pratique, mettre en avant vos collaborateurs, rafraichir votre image…",
+                    "De plus, le web l’a largement démocratisé car en ligne pas besoin de vidéo full HD."
+                ],
+                "Une vidéo prise au smartphone et bien montée fait le job.": [
+                    "Attention sa facilité de mise en œuvre nécessite tout de même un travail en amont de réflexion et rédaction de « script  » pour ne pas se disperser au moment du tournage.",
+                    "Alors quel(s) support(s) allez-vous ajouter à votre communication ?"
+                ]
+            }
+        },
+        {
+            "id": "4",
+            "title": "PME/TPE boostez votre communication avec le SMS",
+            "date": "Publié 02/12/2020",
+            "image": "images/blog/PME-TPE-boostez-votre-communication-avec-le-SMS.jpg",
+            "description": "Le marketing mobile à savoir le SMS PRO est un levier pour se faire connaître et n’est pas destiné uniquement au grand groupe comme vous pouvez peut-être le croire. Découvrons ensemble quels en sont les avantages et les usages du SMS pour une PME/TPE !",
+            "detailContent": {
+                "Gain de temps et gain d’argent !": [
+                    "2 points non négligeables pour une PME/TPE et auxquels répond parfaitement l’usage du SMS Marketing !",
+                    "Pas de mise en forme, pas de visuel et 160 caractères à respecter font que votre SMS sera indéniablement plus rapide à mettre en place que n’importe quelle campagne d’e-mailing ou autre support.",
+                    "A noter que notre solution vous permet de tout gérer de façon autonome en ligne. Pas de perte de temps supplémentaire avec différents interlocuteurs."
+                ],
+                "Une efficacité avérée": [
+                    "En plus du gain de temps et d’argent, le SMS est un outil réellement pertinent pour une PME/TPE et ce à plusieurs effets : "
+                ],
+                "Entretenir une relation de proximité :": [
+                    "Le SMS permet d’avoir une communication directe avec ses clients.",
+                    "En effet, très rares sont les personnes qui se séparent de leur mobile. De ce fait votre message arrivera directement dans la poche de votre destinataire. Et sera lu en moyenne en moins de 3 minutes. "
+                ],
+                "Activer ou réactiver vos clients :": [
+                    "Vous pouvez envoyer systématiquement une « alerte SMS » pour prévenir de l’arrivée d’un nouveau produit, rappeler un rendez-vous, informer d’un changement de dernière minute.",
+                    "Il vous faut vraiment voir le SMS comme un allié vous permettant de vous organiser au mieux.",
+                    "Si vous le souhaitez, vous pouvez même intégrer notre solution à votre logiciel (de caisse, de gestion…) grâce à notre API afin d’automatiser vos alertes et gagner en agilité au quotidien.",
+                    "Cette intégration est gratuite et notre équipe est à votre disposition pour vous aider à la mettre en place. "
+                ],
+                "Promouvoir vos actions marketing :": [
+                    "Outre l’usage « au quotidien », le SMS permet de promouvoir vos futures actions de marketing telles que vos promotions, l’organisation d’un événement ou encore le lancement de votre site internet. ",
+                    "Avec l’envoi d’un SMS à l’ensemble de vos clients et prospects vous pourrez doper la visibilité de votre action.",
+                    "Les personnes étant de plus en plus équipées de smartphone et les liens web étant parfaitement fonctionnels dans le SMS vous pouvez également les renvoyer vers votre site ou page Facebook.",
+                    "Et ce, sans coût supplémentaire et sans excèdent de caractères grâce aux outils permettant de raccourcir les URL.Ils permettent également de savoir en plus le nombre de personnes ayant cliqué sur le lien ! "
+                ],
+                "Vous ne savez pas comment constituer votre fichier clients ?": [
+                    " Plusieurs pistes :",
+                    "– En faire la demande à vos clients,… eh oui il faut que cela devienne un réflexe !",
+                    "– Réaliser des jeux-concours sur vos réseaux-sociaux, en y intégrant comme premier écran de jeu un formulaire de contact.",
+                    "– Prévoir un compte à rebours pour le lancement de votre site internet/projet en ligne avec demande du numéro pour informer de sa mise en ligne."
+                ],
+                "Pour résumer les avantages du SMS pour votre PME/TPE : ": [
+                    "1. Se différencier de vos concurrents",
+                    "2. Utiliser un support moderne",
+                    "3. Communiquer efficacement sans griller votre budget communication",
+                    "4. Gagner du temps dans votre gestion quotidienne",
+                    "5. Bénéficier d’un accompagnement"
+                ]
+            },
+            "lastsection": "Notre équipe est à votre disposition toute l’année pour toute question ou aide dans la mise en place de vos campagnes."
+        },
+        {
+            "id": "5",
+            "title": "L’usage du SMS pour une école",
+            "date": "Publié 02/12/2020",
+            "image": "images/blog/usage-du-SMS-pour-une-ecole.jpg",
+            "description": "La vie d’une école (primaire, grandes écoles, universités…) est riche en événements ! Le SMS pro apparaît comme un outil de choix pour assurer une diffusion des informations rapidement & directement à l’intention des parents et/ou étudiants.",
+            "detailDescription": [
+                "Aussi, son rapport efficacité/prix confirme son usage efficient :",
+                "– Un SMS a un taux d’ouverture d’environ 97% et est ouvert en moyenne en moins de 3min !",
+                "– Nos tarifs en plus d’être peu élevés sont dégressifs en fonction du volume acheté.",
+                "Allez jeter un coup d’œil à nos tarifs pour estimer le coût en fonction de vos besoins."
+            ],
+            "detailContent": {
+                "1. La mise en place": [
+                    "La première étape qui se fait classiquement est de récupérer les coordonnées et donc notamment le numéro de portable des parents.",
+                    "Ensuite, une fois ces éléments intégrés dans un fichier Excel vous pourrez facilement l’importer dans notre plateforme."
+                ],
+                "2. Les types de SMS": [],
+                "A. Le SMS de présentation": [
+                    "Il représente bien évidemment votre premier SMS !",
+                    "Envoyez un premier SMS pour informer de la mise en place du nouveau système d’alerte SMS mis en place au sein de votre établissement.",
+                    "L’objectif est également d’expliquer l’usage qu’il en sera fait.« Bonjour, ce SMS provient de l’Ecole XXX. Ce service sera utilisé en cas d’urgence ou pour transmettre les informations utiles concernant la vie de l’Ecole de votre enfant »"
+                ],
+                "B. Le SMS pour prévenir des absences": [],
+                "  Absence de l’élève": [
+                    "Une fois l’appel terminé par les professeurs, vous n’avez plus qu’à sélectionner les numéros des parents d’élèves absents pour leur envoyer un SMS afin de les informer et surtout de s’assurer que cette absence est  justifiée.",
+                    "« Madame, Monsieur, nous constatons que votre enfant n’est pas à l’école aujourd’hui et nous n’avons pas été informé de votre part. Pouvez-vous svp nous contacter au 77XXXXXXXX afin de confirmer son absence. Merci »"
+                ],
+                "Absence d’un professeur": [
+                    "A l’instar des absences des élèves, il peut arriver que le professeur ne soit pas là. Plus tôt vous prévenez les parents mieux ils pourront s’organiser voire éviter de se déplacer ! ",
+                    "« Le professeur Mr.SAMB sera absent ce vendredi. Accueil possible pour les élèves de 8h à 16h »"
+                ],
+                "C. Le SMS en cas grève": [
+                    "Les mouvements de grève sont sources d’anxiété et de confusion par manque d’information."
+                ],
+                "Alors stoppez les rumeurs et avertissez directement les parents !": [
+                    "« Grève ce jeudi : pas de service de cantine. Possibilité d’accueil de 8h à 12h et de 14h à 16h. Merci »  "
+                ],
+                "D. Le SMS suite à un évènement météorologique": [
+                    "Les médias parlent d’alerte, rouge ? Indiquez alors aux parents les options que propose votre établissement.",
+                    "Ex : pouvoir venir récupérer leur enfant ou mise en place d’une navette de bus."
+                ],
+                "E. Le SMS pour la réussite de la sortie scolaire": [
+                    "Il est demandé aux écoliers d’apporter une multitude de choses (gouters, ,autorisation signée…) lors d’une sortie scolaire. Pour être sûr que l’information soit bien passée aux parents envoyez-leur un petit SMS avec la liste des effets nécessaires.",
+                    "Il n’y pas plus de doute, le SMS est un indispensable dans la gestion quotidienne de votre établissement scolaire "
+                ]
+            }
+        },
+        {
+            "id":"6",
+            "title":"Les différents types de SMS à envoyer à vos clients !",
+            "date":"Publié 02/12/2020",
+            "image":"images/blog/diffent-type-sms.jpg",
+            "description":"A travers les différents types de SMS, découvrez ou re-découvrez l’utilisation efficiente que vous pouvez en faire !",
+            "detailContent":{
+                "1. Le SMS de bienvenue":[
+                    "Vous venez tout juste de collecter les données d’un client ? Profitez-en pour lui envoyer rapidement un SMS de bienvenue couplé avec une offre."
+                ]
+            }
+        }
     ]
 }
