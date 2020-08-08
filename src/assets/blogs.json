@@ -189,49 +189,45 @@
             }
         },
         {
-            "id":"6",
-            "title":"Les différents types de SMS à envoyer à vos clients !",
-            "date":"Publié 02/12/2020",
-            "image":"images/blog/diffent-type-sms.jpg",
-            "description":"A travers les différents types de SMS, découvrez ou re-découvrez l’utilisation efficiente que vous pouvez en faire !",
-            "detailContent":{
-                "1. Le SMS de bienvenue":[
+            "id": "6",
+            "title": "Les différents types de SMS à envoyer à vos clients !",
+            "date": "Publié 02/12/2020",
+            "image": "images/blog/diffent-type-sms.jpg",
+            "description": "A travers les différents types de SMS, découvrez ou re-découvrez l’utilisation efficiente que vous pouvez en faire !",
+            "detailContent": {
+                "1. Le SMS de bienvenue": [
                     "Vous venez tout juste de collecter les données d’un client ? Profitez-en pour lui envoyer rapidement un SMS de bienvenue couplé avec une offre.",
                     "Ce 1er SMS permet d’instaurer un premier contact chaleureux ! ",
                     "Exemple de SMS de bienvenue : <br>  « Bonjour Mme Ba, nous sommes très heureux de vous compter parmi nos clients. A cet effet nous vous offrons 5% de réduction sur présentation de ce SMS! A très bientôt. »"
                 ],
-                "2. Le SMS d’anniversaire":[
+                "2. Le SMS d’anniversaire": [
                     "Qui n’apprécie pas de recevoir un SMS pour son anniversaire ? Personne ! Pour vos clients c’est pareil ",
                     "L’envoi automatique d’un SMS d’anniversaire à vos clients, avec une offre dédiée vous permet de les fidéliser et de pouvoir déclencher une vente."
                 ],
-                "3. Le SMS de rappel":[
+                "3. Le SMS de rappel": [
                     "Un basique… mais tellement essentiel de nos jours ! Nous avons en effet tous une vie bien remplie et il peut arriver à tout un chacun d’oublier un rendez-vous !",
                     "Optimisez votre temps (ou celui de votre secrétaire) et votre planning en réduisant le nombre de rendez-vous manqué grâce aux SMS automatisés de rappel de rendez-vous.",
                     "Aussi, cela apporte une réelle valeur ajoutée et de la sérénité à vos clients, in fine de vous différencier positivement de vos concurrents !"
-                    
-
                 ],
-                "4. Le SMS promotionnel":[
+                "4. Le SMS promotionnel": [
                     "L’objectif de ce type de SMS est clair : générer du trafic en magasin et/ou augmenter le panier moyen en attirant le client par une offre ponctuelle.",
                     "Attention ! Pensez bien à mentionner « sur présentation du SMS » afin de pouvoir calculer facilement votre retour sur investissement (ROI)."
                 ],
-                " 5. Le SMS informationnel ":[
+                " 5. Le SMS informationnel ": [
                     "Un imprévu ? Magasin fermé, rupture de stock ou à contrario nouvel arrivage !",
                     "Le SMS est le moyen le plus simple et rapide d’informer vos clients !En effet, avec son taux d’ouverture de plus de 95% et ce en moyenne dans les 3 minutes suivant l’envoi vous êtes sûr qu’ils aient bien reçu l’information."
-
                 ],
-                "6. Le SMS de fidélisation":[
+                "6. Le SMS de fidélisation": [
                     "Démontrez à vos meilleurs clients qu’ils sont importants !",
                     "D’autant plus quand on sait qu’il est plus ardu et coûteux de recruter de nouveaux clients que de conserver les actuels !",
                     "Offre personnalisée, annonce en exclusivité, vente privée, vous avez l’embarras du choix pour les remercier ! "
                 ],
-                "7. Le SMS événementiel":[
+                "7. Le SMS événementiel": [
                     "Augmentez le nombre de participants à vos événements tout en gagnant du temps !",
                     "Diffusez massivement vos invitations à vos évènements à moindre coût et directement par SMS.",
                     "Astuces : Ne vous y prenez pas à la dernière minute !  Pensez à programmer ce type de campagne SMS à l’avance grâce à notre fonctionnalité d’envoi différé."
-
                 ],
-                "8. Le SMS de confirmation":[
+                "8. Le SMS de confirmation": [
                     "A l’instar du SMS de rappel, ce type de SMS est particulièrement apprécié et valorisé par vos clients…",
                     "Le but est de les rassurer en confirmant une réservation ou une annulation…",
                     "Le message démontre que vous avez bien pris en compte leur demande. SMS simple…et efficace !"
@@ -239,77 +235,317 @@
             }
         },
         {
-            "id":"7",
-            "title":"Techniques de rédaction pour améliorer vos SMS PRO",
-            "date":"Publié 04/12/2020",
-            "image":"images/blog/Techniques-de-redaction.jpg",
-            "description":"L’efficacité du SMS pro tient, certes, dans son taux d’ouverture qui dépasse toutes les espérances car supérieur à 95% ! Mais est-ce pour autant qu’un SMS PRO ouvert sera lu dans son intégralité et retiendra l’attention de vos destinataires ?",
-            "detailDescription":[
+            "id": "7",
+            "title": "Techniques de rédaction pour améliorer vos SMS PRO",
+            "date": "Publié 04/12/2020",
+            "image": "images/blog/Techniques-de-redaction.jpg",
+            "description": "L’efficacité du SMS pro tient, certes, dans son taux d’ouverture qui dépasse toutes les espérances car supérieur à 95% ! Mais est-ce pour autant qu’un SMS PRO ouvert sera lu dans son intégralité et retiendra l’attention de vos destinataires ?",
+            "detailDescription": [
                 "Pour convaincre vos clients il faut alors trouver les mots qui feront mouche et les inciteront à passer à l’acte ! C’est là que des astuces en termes de rédaction vont vous être utiles !",
                 "Voyons ensemble quelques bonnes pratiques pour réussir vos prochaines campagnes de SMS marketing."
-
             ],
-            "detailContent":{
-                "1. APPRENEZ A FAIRE SIMPLE !":[
+            "detailContent": {
+                "1. APPRENEZ A FAIRE SIMPLE !": [
                     "Et oui, l’exercice de la rédaction d’un SMS vous oblige à vous concentrer sur un seul message ! Une offre = un message.",
                     "Il vous faut mettre en avant uniquement les informations essentielles ! Le contenu de l’offre (invitation ? promotion ? lancement ? ouverture ?), comment en bénéficier (achat ? visite en magasin ?) la durée et la date de validité de l’offre !",
                     "Les conditions de l’offre (dans un magasin spécifique ? sur votre site e-commerce ?)"
                 ],
-                "2. ÉVITEZ LE LANGAGE… SMS ! ":[
+                "2. ÉVITEZ LE LANGAGE… SMS ! ": [
                     "Bien que votre espace de rédaction soit court, évitez d’utiliser trop d’abréviations dans votre message dans l’optique de gagner de l’espace.",
                     "Dans le même ordre idée, ne succombez pas à l’intention de laisser passer des fautes d’orthographe pour gagner quelques caractères de moins.",
                     "Cela donnera une très mauvaise impression de votre entreprise et peut même nuire à la bonne compréhension de votre message."
                 ],
-                "3. JOUEZ LA COMPLÉMENTARITÉ AVEC VOTRE SITE INTERNET/PAGE FACEBOOK":[
+                "3. JOUEZ LA COMPLÉMENTARITÉ AVEC VOTRE SITE INTERNET/PAGE FACEBOOK": [
                     "Pour faire face au manque de caractères disponibles dans un SMS, vous pouvez insérer un lien raccourci qui pointera vers la page web de votre choix.",
                     "De cette façon vous pouvez fournir un contenu plus étoffé à vos destinataires. A l’ère des smartphones et de la connexion 4G/3G c’est une pratique très répandue !"
                 ],
-                "4. ATTIREZ L’ATTENTION RAPIDEMENT":[
+                "4. ATTIREZ L’ATTENTION RAPIDEMENT": [
                     "Choisissez les mots clés qui sauront accrocher le regard de vos lecteurs !Vous pouvez utiliser des majuscules… à bon escient c’est à dire sur des termes clés comme « NOUVEAU », «  EXCLUSIF » ou « OFFERT »."
                 ],
-                "5. AJOUTEZ DES NOTIONS D’URGENCE ":[
+                "5. AJOUTEZ DES NOTIONS D’URGENCE ": [
                     "Mettez en avant le caractère exceptionnel et urgent de l’offre en insistant sur sa durée de validité. Ex : du 01 au 04 decembre uniquement, bénéficiez de -20% sur les accessoires."
                 ],
-                "6. PERSONNALISEZ VOS SMS MARKETING":[
+                "6. PERSONNALISEZ VOS SMS MARKETING": [
                     "Pour terminer, le must est de personnaliser vos SMS en fonction de vos clients.",
                     "Un message spécifique à deux fois plus de chance de retenir leur attention. Pour ce faire, utilisez les données que vous avez pu collecter (fréquence d’achat, préférence, anniversaire…) pour leur proposer une offre dédiée."
                 ]
-
             }
         },
         {
-            "id":"8",
-            "title":"Communication interne et SMS",
-            "date":"Publié 04/12/2020",
-            "image":"images/blog/Communication-interne-SMS.jpg",
-            "description":"Les entreprises et organisations négligent  combien souvent leur stratégie de communication interne.",
-            "detailDescription":[
+            "id": "8",
+            "title": "Communication interne et SMS",
+            "date": "Publié 04/12/2020",
+            "image": "images/blog/Communication-interne-SMS.jpg",
+            "description": "Les entreprises et organisations négligent  combien souvent leur stratégie de communication interne.",
+            "detailDescription": [
                 "Plusieurs entreprises déjà bien aguerries dans l’utilisation du SMS à usage externe ont décidé d’en profiter pour diffuser des messages au sein de leur propre établissement.",
                 "En effet, c’est un autre emploi du SMS qui prend de l’ampleur : le SMS interne.",
                 "Alors, que vous soyez adeptes du SMS PRO ou encore novices en la matière… Découvrez les nombreux usages efficients que vous pouvez en faire !",
                 ""
             ],
-            "detailContent":{
-                "Les avantages du SMS pour la communication interne ":[
+            "detailContent": {
+                "Les avantages du SMS pour la communication interne ": [
                     "Communiquer rapidement avec ses employés : seulement quelques secondes suffisent pour envoyer un SMS. Les informations à transmettre ne demandent pas de mise en page complexe. Le but est simple : pouvoir transmettre efficacement des informations. ",
                     "Envoyer des messages qui seront vus par l’ensemble de ses employés et ce où qu’ils se trouvent ! ",
                     "Vos employés ont des postes et des emplois du temps divers et variés. Cependant, ils ont tous un numéro et un portable en poche pour être joint ! ",
                     "Aussi, le SMS contrairement au mail, notamment pour les commerciaux, est plus approprié pour avoir leur attention en temps réel. ",
                     "Réduction des coûts : le SMS représente un gain non négligeable en terme de papier et d’encre. Fini les innombrables notes imprimées au format A4 et estampillées sur les différents murs de l’entreprise !"
-                    
                 ],
-                "Les utilisations du SMS pour la communication interne ":[
+                "Les utilisations du SMS pour la communication interne ": [
                     "Rappel des réunions : le SMS est un média adéquat pour rappeler une réunion quelques jours avant (en mentionnant le lieu, l’horaire et l’ordre du jour). De plus, ce rappel permet d’alléger les charges d’organisation tout en restant très efficace.",
                     "Communication avec ses employés mobiles ou nomades : pour communiquer avec vos équipes de commerciaux sur les routes. Le SMS est la solution adaptée pour les joindre directement sans les interrompre dans leurs activités.",
                     "Gestion des ressources humaines : le SMS permet d’ informer sur les « actualités » de l’entreprise (offres d’emplois en interne, communiqué de presse…)",
                     "Ainsi, qu’en cas de communication de crise :  face à une urgence, lorsque vous devez communiquer rapidement avec votre personnel.",
                     "Information sur la vie de l’entreprise : pot de départ à la retraite, félicitations (naissance d’un enfant…), anniversaire…"
-
-
+                ]
+            }
+        },
+        {
+            "id": "9",
+            "title": "API SMS, pourquoi l’utiliser ?",
+            "date": "Publié 02/12/2020",
+            "image": "images/blog/API-SMS.jpg",
+            "description": "Le SMS est devenu un outil incontournable du marketing notamment pour automatiser des messages, faire des envois en masse, …  et ce en l’intégrant à votre logiciel métier et c’est là qu’intervient l’API SMS ! ",
+            "detailContent": {
+                "Qu’est-ce qu’une API SMS ?": [
+                    "Le terme d’API est un acronyme anglo-saxon qui signifie Application Programming Interface.",
+                    "Dans cet acronyme le terme clé est « interface ». En effet, nous utilisons tous des interfaces au quotidien sans forcément en être conscient !",
+                    "Une API permet à 2 services numériques de communiquer entre eux de façon normalisée et d’échanger ainsi des données ou des fonctionnalités.",
+                    "Parmi les plus connues, il existe celles de Facebook ou Google qui toutes 2 vous permettent de vous connecter à un site sans avoir à créer un nouvel identifiant.",
+                    "Pour ce qui est à proprement dit de l’API SMS, elle va tout simplement créer une sorte de passerelle entre votre logiciel ( de gestion commerciale par exemple) et notre site internet d’envoi SMS."
+                ],
+                "A quoi sert une API SMS ?": [
+                    "L’API SMS va principalement vous permettre d’automatiser vos envois de SMS.",
+                    "Les usages sont très nombreux et variés par exemple :"
+                ],
+                "Pour une école/Institut": [
+                    "L’API SMS s’intègre à son logiciel et permet d’envoyer des SMS pour des rappels de paiement."
+                ],
+                "Pour une agence de communication": [
+                    "L’API permettra de réaliser des campagnes SMS pour le compte de leurs différents clients depuis la création du texte jusqu’à l’envoi."
+                ],
+                "Pour une concession automobile": [
+                    "L’API SMS va permettre d’informer les clients de manière automatique pour la révision de leur voiture."
+                ],
+                "Comment fonctionne notre API SMS ?": [
+                    "1. Notre API la plus simple à mettre en œuvre est l’API HTTPs qui vous permet d’envoyer un SMS. Elle fonctionne avec une simple requête (GET ou POST) contenant les différents paramètres tels que :",
+                    "2. vos informations d’identification",
+                    "3. le numéro de mobile du destinataire",
+                    "4. le contenu du message",
+                    "5. et éventuellement le nom d’émetteur (senderid) du SMS",
+                    "Chaque besoin API étant spécifique, nous vous invitons à nous contacter pour en savoir plus sur la mise en place.",
+                    "Aussi, ne vous inquiétez pas si vous n’avez pas de développeur dans votre structure ou encore si vous avez des doutes, nos ingénieurs pourront réaliser eux-mêmes l’implantation de l’API SMS sur votre interface."
+                ],
+                "Combien coûte notre API SMS ?": [
+                    "L’accès à l’API est totalement gratuit ! Uniquement les SMS sont à votre charge.",
+                    "Nos prix dégressifs sont visibles depuis notre page nos tarifs.",
+                    "Sachez également que si vous êtes agrégateur ou éditeur de logiciels avec un trafic régulier et des volumes d’envois conséquents vous pouvez nous contacter pour bénéficier de tarifs plus avantageux.  "
+                ]
+            }
+        },
+        {
+            "id": "10",
+            "title": "L’Histoire du SMS ",
+            "description": "Connaissez-vous l’histoire du SMS, ce petit message qui a bouleversé notre quotidien ?",
+            "date": "Publié 02/12/2020",
+            "image": "images/blog/HISTOIRE-SMS.jpg",
+            "detailContent": {
+                "La naissance du SMS": [
+                    "A l’origine l’idée du message viendrait de l’ingénieur finlandais Matti Makkonen qui travaillait pour l’entreprise Telia Soneira (avant de passer chez Nokia) et le but était d’aider les personnes malentendantes à communiquer.",
+                    "Avec l’apparition de la norme GSM (Global System for Mobile Communications), les pays scandinaves avaient proposé d’ouvrir le SMS au grand public. Mais à cette époque, les opérateurs n’y croyaient pas !",
+                    "Ainsi, le premier SMS commercial fut envoyé le 3 décembre 1992 par un employé de Sema Group, Neil Papworth, depuis son ordinateur (les téléphones mobiles n’ayant pas encore de clavier) sur le cellulaire Orbitel 901 de Richard Jarvis, un des dirigeants de Vodafone.",
+                    "Le texte disait tout simplement « Merry Christmas ! ».",
+                    "A cette période encore le SMS n’était pas destiné au grand public, il devait permettre aux opérateurs d’informer les abonnés.",
+                    "C’est seulement 2 ans plus tard en 1994 que le fabricant NOKIA lance le tout premier téléphone portable avec clavier permettant d’écrire un SMS : le NOKIA 2010.",
+                    "Nokia 2010",
+                    "Les nombreux opérateurs de téléphonie mobile ont tardé à offrir ce service à leurs clients. En effet ils étaient particulièrement sceptiques et pensaient encore que ce type de message ne détrônerait jamais les appels vocaux ! A cette époque le téléphone c’est fait pour parler !",
+                    "Et si on voulait échanger des messages on pouvait utiliser des beepers comme le Tatoo ou le Tam Tam (80 caractères max)."
+                ],
+                "Le SMS pour tous ! ": [
+                    "Ce n’est finalement qu’à la fin des années 90 que le SMS est enfin adopté !  Tous les opérateurs proposent alors ce service. Il devient donc possible d’écrire à un correspondant et ce quel que soit son opérateur. Un véritable tournant dans l’histoire du SMS !",
+                    "Ainsi entre 1997 et 1999, les opérateurs lancent leurs premières offres.",
+                    "1. Orange parle de SMS",
+                    "2. Bouygues de mini message",
+                    "3. SFR de texto",
+                    "Tous le facturent à l’unité : 1 franc par message.",
+                    "Le succès est immédiat, entre autres grâce à son coût bien moins élevé qu’un appel traditionnel. Les jeunes en raffolent et s’approprient son utilisation. Le SMS devient même un nouveau moyen de drague… "
+                ],
+                "Le SMS de nos jours": [
+                    "A présent, le SMS est disponible dans le monde entier sur de multiples réseaux ( 3G et 4G… bientôt 5G)",
+                    "Il représente une façon de communiquer totalement ancrée dans notre quotidien.",
+                    "Ainsi, on reçoit nos billets d’avion par SMS, notre banque nous envoie des clés de sécurité lorsque l’on fait un achat en ligne et nos enseignes favorites nous informent sur les dates de leurs ventes privées… !",
+                    "Également, les émoticônes, (contraction de « émotion » et « icône ») s’y sont greffés. Elles résument facilement en une image une émotion qui nécessiterait bien plus de mots… "
+                ],
+                " Le SMS en 2020 : de l’interpersonnel au SMS PRO": [
+                    "L’avènement de l’internet mobile et des applications MIM (Messagerie Instantanée Mobile) telles WhatsApp, et autre Messenger ont amené nombre d’utilisateurs à préférer communiquer avec leurs pairs sur ces messageries plutôt que par SMS.  ",
+                    "Pour autant en parallèle le SMS est de plus en plus utilisé pour les communications entre applications et personnes qu’on nomme SMS A2P (Application to Person) ou encore SMS professionnel ou d’entreprise.",
+                    "Cette utilisation est très performante et répandue dans le domaine professionnel que ce soit en BtoC (Business to Consumer) ou en BtoB (Business to Business).",
+                    "Quelques exemples d’usage :",
+                    "– Retard ou changement d’horaire des transports aériens et ferroviaires",
+                    "–Rappels de réunions, Assemblée générale etc.… ",
+                    "– Absences ou retards scolaires",
+                    "– …",
+                    "C’est notablement le caractère universel (tous les mobiles gèrent le SMS),  la concision et l’instantanéité qui expliquent l’usage toujours plus soutenu du SMS professionnel."
+                ]
+            }
+        },
+        {
+            "id": "11",
+            "title": "Les pratiques efficaces du SMS Publicitaire",
+            "description": "Le SMS Publicitaire est un vecteur de communication incontournable mais il requiert quelques bonnes pratiques pour en tirer pleinement bénéfice.",
+            "image": "images/blog/SMS-PUB.jpg",
+            "detailContent": {
+                "1. CRÉEZ VOTRE BASE DE DONNÉES": [
+                    "1. Collectez des informations précises (nom , prénom, numéro de mobile, mail… )",
+                    "2. Nettoyez régulièrement votre base de données (contacts erronés, doublons…)",
+                    "3 .Enrichissez votre base de données (jeux/concours, formulaire papier",
+                    "Pour rappel, la loi est claire sur le sujet, le consentement préalable du consommateur est obligatoire.",
+                    "Un mal pour un bien pour vos campagnes SMS puisqu’au moins vous êtes certain de vous adresser à une cible réceptive et qualifiée et donc d’avoir un meilleur ROI (retour sur investissement)."
+                ],
+                "2. DÉFINISSEZ L’OBJECTIF DE VOTRE CAMPAGNE DE SMS PUBLICITAIRE": [
+                    "Il est très vivement recommandé d’associer un seul objectif commercial par SMS publicitaire.",
+                    "En effet, le canal du  SMS est adapté pour une communication concise, il est alors indispensable de bien définir quel en est l’objectif premier (une invitation à un événement, une promotion…) et à qui le message s’adresse (clients, prospects, étudiants, adultes, séniors…). Cela permettra d’améliorer les retours de votre campagne publicitaire."
+                ],
+                "3. IDENTIFIEZ-VOUS": [
+                    "Rien de plus désagréable que de recevoir un SMS d’un numéro inconnu !",
+                    "Pensez à personnaliser le nom de l’expéditeur, ainsi le destinataire de votre SMS lira « le nom de votre SOCIÉTÉ » et non un numéro court ou encore un long numéro impersonnel.",
+                    "L’avantage indéniable, vous l’aurez compris, est que vos destinataires savent alors qui les contacts et se sentent en confiance ! Ainsi, vous améliorerez le taux d’ouverture et de lecture de vos campagnes SMS."
+                ],
+                "4. STIMULEZ L’INTÉRÊT À TRAVERS VOS SMS PUBLICITAIRES": [
+                    "Le message principal doit être accrocheur et placé en premier",
+                    "Proposez une offre commerciale forte",
+                    "Jouez l’exclusivité (« sur présentation de ce SMS »)",
+                    "Limitez votre offre dans le temps"
+                ],
+                "5. ENVOYEZ VOTRE SMS PUBLICITAIRE AU BON MOMENT": [
+                    "Il n’existe pas de science exacte pour planifier votre campagne. Cependant, gardez bien en tête qu’il faut respecter la loi qui encadre les horaires.",
+                    "Ainsi les plages horaires pour l’envoi de vos SMS correspondent du lundi au vendredi de 08h à 20h hors dimanche et jours fériés.",
+                    "Le choix de l’horaire d’envoi se fait alors au cas par cas selon votre secteur d’activité et le message à faire passer.",
+                    "A titre d’exemple, il est recommandé :",
+                    "pour un restaurateur d’envoyer le menu du jour une à deux heures avant le repas ",
+                    "afin d’informer d’une opération spéciale d’envoyer son message 2 à 3 jours avant",
+                    "pour les commerçants, globalement vous pouvez privilégier la fin de matinée",
+                    "L’idéal est de vous mettre à la place de vos cibles et de vous demander « A quel moment de la journée seront-elles les plus disponibles et disposées pour recevoir votre message »."
+                ],
+                "6. MESUREZ L’IMPACT DE VOTRE CAMPAGNE": [
+                    "Analysez vos statistiques en temps réel",
+                    "Mesurez la délivrabilité de vos messages (mise à jour de votre base de données, traitement des numéros erronés)",
+                    "Mesurez votre retour sur investissement (promo sur présentation du message en caisse…)"
+                ],
+                "7. CHOISISSEZ UNE SOLUTION D’ENVOI DE SMS COMPLÈTE ET EFFICACE": [
+                    "Le choix de votre solution est bien évidemment un élément déterminant dans la réussite de vos campagnes SMS.",
+                    "Parmi les points à contrôler on peut nommer :",
+                    "La reconnaissance du format des numéros pour faciliter votre préparation,",
+                    "La suppression des doublons pour vous aider à optimiser votre budget,",
+                    "La gestion des « STOP » pour être en conformité avec la loi."
+                ]
+            }
+        },
+        {
+            "id": "12",
+            "title": "6 bonnes raisons d’utiliser le SMS Marketing",
+            "description": "Les entreprises sont conscientes que l’usage du téléphone mobile ne fait que progresser ces dernières années et que 100% des utilisateurs de téléphone portable ont la fonction… SMS ! Et pourtant, elles en oublient souvent le mobile à travers l’envoi de campagne de SMS Marketing.",
+            "image": "images/blog/6-SMS-Marketing.jpg",
+            "date": "Publié 02/12/2020",
+            "detailDescription": [
+                "Voyons ensemble 6 bonnes raisons d’intégrer le SMS comme levier marketing :"
+            ],
+            "detailContent": {
+                "1. Tout le monde ou presque possède un téléphone portable !": [
+                    "Le téléphone portable devenu un indispensable à nos vies. En effet, en plus d’en posséder un, nous l’avons à portée de main de façon quasi permanente.",
+                    "Le SMS est alors indéniablement un outil qui touche facilement la majorité des gens !",
+                    "L’étude réalisée par Tecmar nous informe aussi qu’en moyenne une personne regarde  son téléphone portable 221 fois par jour..! Votre SMS ne passera donc pas à la trappe !"
+                ],
+                "2. Le SMS Marketing est abordable": [
+                    "Les campagnes SMS ont un coût peu élevé et bien moins cher que les campagnes d’affichage type 4×3 ou sur internet (bannière display).",
+                    "De ce fait, même les petites entreprises, les associations ou les libéraux peuvent faire appel au SMS Marketing !",
+                    "De plus, les tarifs de notre solution sont dégressifs et vous ne payez que les crédits SMS que vous pouvez consommer à votre rythme ! (ni engagement, ni abonnement) "
+                ],
+                "3. Le SMS Marketing c’est rapide et facile à mettre en place": [
+                    "Une campagne SMS se met en place en seulement quelques clics !",
+                    "En effet, une fois choisie son pack SMS, au niveau de nos tarifs SMS votre base de données contacts importée, il vous suffit de créer votre message et de cliquer sur envoyer !  "
+                ],
+                "4. Le SMS Marketing est impactant": [
+                    "Un SMS compte 160 caractères soit deux phrases lisibles en un seul coup d’œil.",
+                    "Cela oblige donc à être concis et à avoir un message clair avec une accroche qui interpelle !"
+                ],
+                "5. Le SMS Marketing a de très bons taux de retour": [
+                    "Le taux d’ouverture des SMS commerciaux est de 98% !  Et ils sont lus en moyenne seulement 3 minutes après leur réception, une réactivité difficile à égaler par les autres leviers marketing….",
+                    "De plus, notre solution vous permet de suivre vos envois et de connaître chaque état des SMS (envoyés, délivrés, non délivrés) et d’exporter vos données sous forme de graphique pour en suivre l’évolution."
+                ],
+                "6. Le SMS Marketing est écologique ": [
+                    "Effectivement, le SMS ne laisse aucune empreinte carbone contrairement à tous les médias papier comme les prospectus ou les panneaux d’affichage."
+                ]
+            }
+        },
+        {
+            "id": "13",
+            "title": "Campagne SMS pro : 5 erreurs à ne pas commettre",
+            "image": "images/blog/Campagne-SMS-pro-5.jpg",
+            "description": "Ne tombez pas dans le piège des 5 erreurs décrites ici lors vos envois de campagnes SMS ! Les pires d'entre elles peuvent même vous entraîner dans l'illégalité...",
+            "date": "Publié 02/12/2020",
+            "detailContent": {
+                "Ne pas préciser votre enseigne dans le SMS": [
+                    "Bien que le nom de votre entreprise soit affiché comme expéditeur de votre SMS promotionnel, il est important de le préciser à nouveau dans le corps du message. Il est préférable à vos destinataires qu'ils sachent où profiter de l'offre que vous envoyez."
+                ],
+                "Envoyer un SMS au mauvais moment": [
+                    "Pour être le plus efficace possible, un SMS publicitaire doit être envoyé au bon moment. Il faut en particulier éviter les envois de SMS commerciaux à des horaires interdits (de 20h à 8h), ainsi que les jours fériés et le dimanche."
+                ],
+                "Ne pas tenir sa liste d'envoi SMS à jour": [
+                    "Pour des envois massifs de SMS, plus vous avez de contacts, meilleurs seront les retours. Vos clients les plus récents méritent d'être ajoutés à votre liste d'envoi, ce sont de nouveaux clients actifs que votre SMS aidera à fidéliser."
+                ],
+                "Trop d'informations dans le SMS": [
+                    "Un SMS est limité en nombre de caractères, le message doit être clair et concis. Il doit être lu en un coup d'œil, certains clients s’arrêteront à l'aperçu de leur notification. Si vous avez des informations en plus de votre offre, préférez l'utilisation du SMS enrichi."
+                ],
+                "Ne pas avoir le consentement des destinataires": [
+                    "Votre message ne doit pas être perçu comme envahissant. Lors de la collecte des numéros de mobile, pensez à demander le consentement de vos clients pour recevoir des SMS de votre part. N'oubliez pas non-plus qu'un numéro non-surtaxé doit être spécifié à la fin de votre texto, auquel les abonnés à vos news par SMS pourront se désinscrire en envoyant le mot STOP (gestion automatique de l'ajout du numéro en fin de SMS et de la mise en liste rouge des désabonnés sont gérés par notre plateforme d'envoi). Vous respectez ainsi la législation et la tranquillité et la confiance de votre clientèle."
+                ]
+            }
+        },
+        {
+            "id": "14",
+            "title": "La fidélisation par SMS pour booster les ventes de votre site e-commerce",
+            "date": "Publié 02/12/2020",
+            "image": "images/blog/Fidliser-sa-clientele.jpg",
+            "description": "Fidéliser sa clientèle, c'est inciter ses consommateurs à refaire un achat à diverses occasions. S’il est important de gagner des nouveaux clients, il est tout aussi, voire plus, essentiel de les fidéliser. En effet, vous êtes non seulement plus à même de déclencher un achat chez vos consommateurs que prospects, mais cela coute en outre moins cher.",
+            "detailDescription": [
+                "Le SMS marketing est un outil de communication aujourd'hui largement adopté par les sites e-commerces. Il permet de communiquer rapidement et facilement sur ses offres, promotions, événements... Mais aujourd’hui, pour fidéliser sa clientèle, il ne suffit plus d'envoyer un mail, un SMS ou encore de publier une publicité sur vos réseaux sociaux. N’oubliez pas que vos concurrents font tous la même chose et que l’accès aux informations n’a jamais été aussi facile.",
+                "Découvrez dans cet article nos conseils pour créer de meilleures campagnes et augmenter votre taux de conversion, notamment grâce à la fidélisation par SMS."
+            ],
+            "detailContent": {
+                "1. Alliez plusieurs outils de communication": [],
+                "Le SMS professionnel": [
+                    "Il est le plus utile lorsque vos messages sont courts et de dernière minute. Le SMS a un taux de mémorisation de 80 %, mais vous n’en bénéficierez pas si vous adressez vos campagnes SMS trop longtemps à l’avance. De plus, un SMS fait 160 caractères, ne rédigez donc pas un roman, vos destinataires ne le liront pas. Cela coûtera également plus cher."
+                ],
+                "L'e-mailing": [
+                    "Il permet, contrairement au sms pro, d’envoyer des annonces longues et détaillées. Ils sont idéaux pour préparer le terrain dans les jours ou semaines précédents une annonce (nouvelle collection, soldes…). Cependant, les mails sont ignorés de nombreux clients qui en reçoivent trop et peu adaptés à leur smartphone. Optimisez vos newsletters pour une lecture sur ce petit écran et assurez-vous de ne pas les harceler."
+                ],
+                "Les réseaux sociaux": [
+                    "Nouveauté de cette dernière décennie, ils sont notamment très prisés des adolescents et jeunes adultes. Ils permettent de créer une réelle relation de proximité avec ses clients. Profitez-en pour être plus amical et utiliser plus d’humour que vous ne le faites habituellement. Certaines marques ont une véritable identité sur leurs réseaux et les internautes ont un sentiment d'appartenance à une communauté.",
+                    "Nous parlons ici de moyens de communication digitaux, mais n'oubliez pas d'autres moyens plus traditionnels, tels que le print ou la radio. Choisissez correctement les outils adaptés à vos besoins, touchez vos clients là où ils sont avec un discours adapté. Le plus important est de comprendre que vous n'avez pas un choix à faire : alliez plusieurs outils pour communiquer efficacement. Leurs différences ne les opposent pas mais les rendent complémentaires."
+                ],
+                "2. Envoyez des campagnes personnalisées": [
+                    "Quels que soient vos moyens de communication, personnalisez vos campagnes marketing. Qui aime recevoir des informations sur des produits qu’il n’apprécie pas ou qu’il a déjà achetés ?",
+                    "Si vous créez des publicités sur les réseaux sociaux, triez vos clients selon les pages qu’ils ont pu visiter par le passé sur votre site e-commerce et créez plusieurs audiences. Vous toucherez certes moins de monde avec chaque campagne, mais vous aurez des résultats plus pertinents car les personnes ciblées seront plus intéressées.",
+                    "Que ce soit pour un envoi d'e-mailing ou un envoi de sms en masse, segmentez vos bases de données selon leurs intérêts et concevez des listes de contacts pertinentes. Utilisez par exemple leurs achats passés pour déterminer les articles qui les intéresse le plus ou encore des paniers qu'ils pourraient avoir abandonnés. Servez-vous également des retours des campagnes marketing passées : quels messages ont-ils lu ? Ont-ils cliqué sur des liens en particulier ?",
+                    "Personnalisez très simplement vos campagnes marketing SMS. Vos clients apprécieront ces messages avec une vraie plus value et ils n'auront pas l'impression d'être simplement un numéro supplémentaire dans votre liste de contacts."
+                ],
+                "3. Nettoyez vos bases de données": [
+                    "Pour envoyer des campagnes SMS personnalisées, vous avez besoin de fichiers clairs et ordonnés. De plus, avec des fichiers propres et à jour, vos envois de sms en masse auront de meilleurs résultats !",
+                    "Faites vérifier votre listes de contacts en moins d'une heure chez Servicesms.sn."
+                ],
+                "4. Ne négligez pas les liens tracés": [
+                    "Vous envoyez des campagnes e-mailing avec des articles différents et souhaitez savoir ceux qui intéressent vos clients ? En traçant les liens, découvrez quelles pages de votre site e-commerce ils ont visité depuis la newsletter.",
+                    "Tracez simplement vos campagnes dans Google Analytics. Même s'ils ne sont pas allés jusqu'à l'achat, vous pouvez déterminer un intérêt pour un produit. Recontactez les cliqueurs plus tard pour essayer de les convertir avec une campagne plus précise ou une offre plus attractive.",
+                    "L’avantage du SMS est qu'il est court et précis. Mais cela peut sembler être un désavantage si vous avez plus de choses à dire. Détrompez-vous ! Si vous avez des informations qui ne passent pas en 160 caractères, ajoutez un lien court tracé au SMS marketing. Il peut rediriger vers la page de votre boutique qui développe ce qui est abordé dans votre message. ",
+                    "Tracez les numéros des mobinautes qui ont cliqué et, de la même manière qu'avec votre campagne e-mailing, en savoir plus sur leurs intérêts",
+                    "En outre, ces liens permettent de réduire le parcours client. Ils ont reçu une offre attrayante ? Ils n’auront qu’à cliquer sur le lien pour être redirigés directement sur la page du produit concerné et ainsi effectuer leur achat en un clin d’œil ! Ce call-to-action est nécessaire : ne comptez pas sur les consommateurs pour se souvenir qu'une offre les a intéressée et aller d'eux-mêmes sur votre boutique en ligne."
+                ],
+                "5. Sortez des sentiers battus": [
+                    "Bien entendu, ne reniez pas les classiques de la communication : ils fonctionnent ! Envoyez vos campagnes marketing pour promouvoir les soldes ou pour l’anniversaire de vos clients. Mais ne vous satisfaites pas de vos habitudes et cherchez de nouvelles idées !",
+                    "La fidélisation client est un enjeu marketing pour les sites e-commerce : si vous souhaitez booster vos ventes, tournez-vous vers les consommateurs qui vous connaissent déjà et seront plus faciles à reconvertir. Besoin d'aide pour mettre en place votre stratégie de fidélisation par SMS ? Notre service client est à votre disposition."
                 ]
             }
         }
-
-
     ]
 }
