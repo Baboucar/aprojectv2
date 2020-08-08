@@ -69,6 +69,7 @@ export default {
   display: block;
   text-decoration: none;
   color: $color-tertiary;
+  font-weight: 500;
 }
 
 .blog__title {

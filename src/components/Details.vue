@@ -10,13 +10,13 @@
           <p>{{item}}</p>
         </div>
         <div v-for="(item, index) in blog.content" :key="index">
-         <h1>{{index}}</h1>
+         <h2>{{index}}</h2>
          <p>
          {{item}}
          </p>
         </div>
          <div v-for="(item, index) in blog.detailContent" :key="index">
-         <h1>{{index}}</h1>
+         <h2>{{index}}</h2>
        
          <p v-for="(item,index) in blog.detailContent[index]" :key="index">
              {{item}}
@@ -69,9 +69,15 @@ export default {
 .blog__details{
     border-radius: 0.25rem;
   box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
-  padding: 2rem;
-  width: 60%;
+  padding: 1rem;
+  width: 85%;
   margin-bottom:2rem;
+}
+
+@media(min-width: 64rem){
+    .blog__details{
+        width: 60%;
+    }
 }
 
 </style>
