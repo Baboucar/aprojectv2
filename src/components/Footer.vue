@@ -1,4 +1,5 @@
 <template>
+<div class="footer__background">
     <footer class="footer section__container">
         <div>
          <h3 class="footer__title footer__line">Produits</h3>
@@ -19,7 +20,7 @@
 
     <nav class="footer__nav">
          <h3 class=""><span class="footer__line">Notre </span> société </h3>
-         <router-link class="footer__navlinks" to="">Qui sommes nous?</router-link>
+         <router-link class="footer__navlinks" to="/sommes">Qui sommes nous?</router-link>
          <router-link class="footer__navlinks" to="">Comment ça marche</router-link>
          <router-link class="footer__navlinks" to="">Nos Références </router-link>
          <router-link class="footer__navlinks" to=""> Nous recrutons</router-link>
@@ -50,7 +51,7 @@
     
             
     </footer>
-    
+    </div>
 </template>
 
 <script>
@@ -63,7 +64,9 @@ export default {
 <style>
 @import "../assets/base.scss";
 
-
+.footer__background{
+    background:#f8f8f8;
+}
 .footer__navlinks{
     display: block;
     text-decoration: none;

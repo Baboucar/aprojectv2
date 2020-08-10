@@ -66,18 +66,10 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/base.scss";
-.blog__details{
-    border-radius: 0.25rem;
-  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
-  padding: 1rem;
-  width: 85%;
-  margin-bottom:2rem;
-}
+
 
 @media(min-width: 64rem){
-    .blog__details{
-        width: 60%;
-    }
+
 }
 
 </style>

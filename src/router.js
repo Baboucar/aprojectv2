@@ -8,7 +8,9 @@ import Metires from './components/Metires';
 import Api from  './components/Api';
 import Blog from './components/Blog';
 import  Details from './components/Details';
+import Sommes from './components/Sommes.vue';
 import { from } from 'core-js/fn/array';
+
 Vue.use(Router)
 
 export default new Router({
@@ -41,6 +43,11 @@ export default new Router({
      component:Tarif
     },
     {
+      path:'/sommes',
+      name:'sommes',
+      component:Sommes
+      },
+    {
     path:'/api',
     name:'api',
     component:Api
@@ -50,6 +57,7 @@ export default new Router({
       name:'details',
       component:Details
     },
+    
     {
       path: '/about',
       name: 'about',
