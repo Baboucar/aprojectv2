@@ -23,7 +23,7 @@
               {{item.description}}
 
              
-              <router-link class="blog__details" :to="'/' +item.id">{{item.title}}</router-link>
+              <router-link class="blog__detail" :to="'/' +item.id">{{item.title}}</router-link>
             </p>
           </div>
         </div>
@@ -68,11 +68,12 @@ export default {
   box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
   padding: 1rem;
 }
-.blog__details {
+.blog__detail {
   display: block;
   text-decoration: none;
   color: $color-tertiary;
   font-weight: 500;
+  padding-top: 1rem;
 }
 
 .blog__title {
