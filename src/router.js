@@ -8,7 +8,9 @@ import Metires from './components/Metires';
 import Api from  './components/Api';
 import Blog from './components/Blog';
 import  Details from './components/Details';
-import Sommes from './components/Sommes.vue';
+import Sommes from './components/Sommes';
+import Marche from './components/Marche';
+
 import { from } from 'core-js/fn/array';
 
 Vue.use(Router)
@@ -26,6 +28,11 @@ export default new Router({
     path:'/functionalities',
     name:'functionalities',
     component:Functionalities
+    },
+    {
+     path:'/marche',
+     name:'marche',
+     component:Marche
     },
     {
     path:'/metires',
