@@ -10,6 +10,7 @@ import Blog from './components/Blog';
 import  Details from './components/Details';
 import Sommes from './components/Sommes';
 import Marche from './components/Marche';
+import Recruitment from './components/Recruitment';
 
 import { from } from 'core-js/fn/array';
 
@@ -28,6 +29,11 @@ export default new Router({
     path:'/functionalities',
     name:'functionalities',
     component:Functionalities
+    },
+    {
+     path:'/recruitment',
+     name:'/recruitment',
+     component:Recruitment
     },
     {
      path:'/marche',

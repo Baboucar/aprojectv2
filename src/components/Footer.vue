@@ -23,7 +23,7 @@
          <router-link class="footer__navlinks" to="/sommes">Qui sommes nous?</router-link>
          <router-link class="footer__navlinks" to="/marche">Comment ça marche</router-link>
          <router-link class="footer__navlinks" to="">Nos Références </router-link>
-         <router-link class="footer__navlinks" to=""> Nous recrutons</router-link>
+         <router-link class="footer__navlinks" to="/recruitment"> Nous recrutons</router-link>
          <router-link class="footer__navlinks" to=""> FAQ</router-link>
 
     </nav>
