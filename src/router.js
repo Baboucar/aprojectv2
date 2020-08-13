@@ -12,6 +12,7 @@ import Sommes from './components/Sommes';
 import Marche from './components/Marche';
 import Recruitment from './components/Recruitment';
 import ProcessForm from './components/ProcessForm';
+import Reference from './components/Reference';
 
 import { from } from 'core-js/fn/array';
 
@@ -30,6 +31,12 @@ export default new Router({
     path:'/functionalities',
     name:'functionalities',
     component:Functionalities
+    },
+    {
+    path:'/reference',
+    name:'reference',
+    component:Reference
+
     },
     {
     path:'/form',

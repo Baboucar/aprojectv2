@@ -5,10 +5,10 @@
    <h1 class="center__text heading">Postuler</h1>
    <h3 class="center__text"> N'hésitez pas à nous transmettre votre candidature</h3>
 
-   <form class="seventy__container form">
+   <form class="seventy__container form" @submit.prevent="sendEmail">
      <div class="two__grid radio__buttons">
        <div>
-       <input type="radio" name="male" value="male" id="m" v-model="picked">
+       <input type="radio" name="user_name" value="male" id="m" v-model="picked">
        <label for="m" class="form__radio man" 
        v-bind:class="{ 'i-am-active':  first_button_active_state }"
     v-on:click="changeColor"
@@ -16,61 +16,61 @@
        </div>
        
         <div>
-        <input type="radio" name="female" value="female" id="f" v-model="picked" >
+        <input type="radio" name="user_name" value="female" id="f" v-model="picked" >
         <label for="f" class="form__radio woman"
           v-bind:class="{ 'i-am-active':second_button_active_state }"
     v-on:click="changeColor"
         
          >Madame</label>
-        {{picked}}
+      
         
         </div>
          </div>
 
         <div class="two__grid">
           <div>
-           <input type="text" placeholder="name" >
+           <input type="text"  name="user_firstname" placeholder="Nom" required>
           </div>
           <div>
-           <input type="text" name="" id="" placeholder="surname">
+           <input type="text" name="user_secondname" id="" placeholder="Prenom" required>
           </div>
         </div>
         <h2 class="center__text">Votre addresse</h2>
         <div class="address__input">
-          <input  type="text" placeholder="Numero, rue">
+          <input name="user_address" type="text" placeholder="Numero, rue" required>
         </div>
         <div  class="two__grid">
         <div>
-           <input type="text" name="" id="" placeholder="Votre code postal">
+           <input name="postalcode" type="text" id="" placeholder="Votre code postal" required>
         </div>
         <div>
-          <input type="text" name="" id="" placeholder="Votre Ville">
+          <input type="text" name="ville" id="" placeholder="Votre Ville" required>
         </div>
         </div>
            <h2 class="center__text">Vos coordonnées</h2>
            <div class="two__grid">
            <div>
-           <input type="text" name="" id="" placeholder="Votre telephone">
+           <input type="text" name="user_telephone" id="" placeholder="Votre telephone" required>
            </div>
            <div>
-             <input  type="text" name="" id="" placeholder="Votre adress email">
+             <input  type="email" name="user_address" id="" placeholder="Votre adress email">
            </div>
            </div>
 
             <h2 class="center__text">Votre message</h2>
             <div class="file">
             <label for="file" class="custom-file-input"></label>
-           <input type="file" name="file" id="file" class="hide__file" title="  ">
+           <input type="file" name="my_file" id="file" class="hide__file" title="  " required>
            </div>
            <div class="textarea">
-           <textarea name="" id="" cols="30" rows="10" placeholder="Saissez votre message"></textarea>
+           <textarea name="message" id="" cols="30" rows="10" placeholder="Saissez votre message"></textarea>
            </div>
            <h2 class="center__text">Poste souhaité</h2>
             <div class="address__input">
-          <input  type="text" placeholder="qui vous intéresse">
+          <input name="interese"  type="text" placeholder="qui vous intéresse">
         </div>
          <div class="btn__wrapper">
-         <button class="btn submit__btn">ENVOYER</button>
+         <input type="submit" value="Envoyer" class="btn submit__btn">
          </div>
    
    </form>
@@ -83,6 +83,8 @@
 <script>
 import Navigation from './Navigation';
 import Footer from './Footer';
+import emailjs from 'emailjs-com';
+
     export default {
         data(){
           return{
@@ -109,6 +111,15 @@ import Footer from './Footer';
                  this.second_button_active_state = true;
                  this.first_button_active_state= false;
             }
+          },
+          sendEmail:(e)=>{
+              
+              emailjs.sendForm('default_service','template_emzSbIOn',e.target,'user_kiAam0FeNfjJF70Eq6t1S',this)
+              .then((result)=>{
+                  console.log('Success',result.status,result.text)
+              },(error)=>{
+                console.log(error)
+              })
           }
         },
         components:{
@@ -189,7 +200,7 @@ input::placeholder{
 }
 
 
-input[type="text"]{
+input[type="text"], input[type="email"]{
     width: 100%;
     border:none;
     

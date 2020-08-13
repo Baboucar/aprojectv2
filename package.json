@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "emailjs-com": "^2.6.3",
     "normalize.css": "^8.0.1",
     "vue": "^2.6.10",
     "vue-modaltor": "^1.3.12",
