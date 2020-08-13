@@ -272,9 +272,10 @@
 </template>
 
 <script>
+import Vue from "vue";
 import Navigation from "./Navigation";
 import Footer from "./Footer";
-import Vue from "vue";
+
 import VueModalTor from "vue-modaltor";
 Vue.use(VueModalTor);
 export default {

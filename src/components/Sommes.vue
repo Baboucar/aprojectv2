@@ -27,6 +27,40 @@
         messages vocaux, mailing SMS, location de bases de données qualifies,
         vote par SMS, sondage par SMS…)
       </p>
+      <vue-modaltor :visible="open" @hide="hideModal">
+        <template slot="close-icon">
+          <svg
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 40 40"
+            width="20"
+            height="20"
+            xml:space="preserve"
+          >
+            <path
+              class="st0"
+              fill="#0074D9"
+              d="M8.7,7.6c-0.4-0.4-1-0.4-1.4,0C6.9,8,6.9,8.6,7.3,9l11,11l-11,11c-0.4,0.4-0.4,1,0,1.4c0.4,0.4,1,0.4,1.4,0 l11-11l11,11c0.4,0.4,1,0.4,1.4,0c0.4-0.4,0.4-1,0-1.4l-11-11L32,9c0.4-0.4,0.4-1,0-1.4c-0.4-0.4-1-0.4-1.4,0l-11,11L8.7,7.6z"
+            />
+          </svg>
+        </template>
+        <p>
+          Deux jeunes start-up Sénégalais chevronnés et diplômés comme <br />
+          Technicien spécialisé en Administration Système et Réseaux <br />
+          Informatique au Maroc. Voulant créer leur propre entreprise, qu’ils
+          <br />
+          décident de se lancer dans leur propre aventure en créant Service-sms,
+          <br />
+          fort de ses expériences techniques.
+        </p>
+        <p>
+          Notre motivation, répondre aux attentes de chaque client, dans le
+          <br />
+          souci du détail. Au cœur toujours plus loin pour offrir le meilleur de
+          <br />
+          la technologie et de la relation client.
+        </p>
+      </vue-modaltor>
       <div class="engagement">
         <h1 class="about__title center__text">Nos engagements</h1>
         <div class="grid__engagement">
@@ -73,7 +107,9 @@
               alt=""
               class="profile__image"
             />
-            <router-link to="" class="profile__name">Sylla Harouna</router-link>
+            <p to="" class="profile__name" @click="open = true">
+              Sylla Harouna
+            </p>
             <p class="profile__title">Président Fondateur</p>
           </div>
           <div class="other__profile">
@@ -88,9 +124,9 @@
                   class="profile__image"
                 />
                 <router-link to="" class="profile__name"
-                  >Sylla Harouna</router-link
+                  >Nom et Prénom</router-link
                 >
-                <p class="profile__title">Président Fondateur</p>
+                <p class="profile__title">Responsable communication Digitale</p>
                 <router-link to=""
                   ><img src="/../images/profile/linkedin.png" alt="" srcset=""
                 /></router-link>
@@ -103,9 +139,9 @@
                   class="profile__image"
                 />
                 <router-link to="" class="profile__name"
-                  >Sylla Harouna</router-link
+                  >Nom et Prénom</router-link
                 >
-                <p class="profile__title">Président Fondateur</p>
+                <p class="profile__title">Responsable commerciale</p>
               </div>
             </div>
           </div>
@@ -122,9 +158,9 @@
                   class="profile__image"
                 />
                 <router-link to="" class="profile__name"
-                  >Sylla Harouna</router-link
+                  >Nom et Prénom</router-link
                 >
-                <p class="profile__title">Président Fondateur</p>
+                <p class="profile__title">Responsable Marketing</p>
                 <router-link to=""
                   ><img src="/../images/profile/linkedin.png" alt="" srcset=""
                 /></router-link>
@@ -137,9 +173,9 @@
                   class="profile__image"
                 />
                 <router-link to="" class="profile__name"
-                  >Sylla Harouna</router-link
+                  >Nom et Prénom</router-link
                 >
-                <p class="profile__title">Président Fondateur</p>
+                <p class="profile__title">Assistante Marketing</p>
               </div>
             </div>
           </div>
@@ -153,8 +189,8 @@
               alt=""
               class="profile__image"
             />
-            <router-link to="" class="profile__name">Sylla Harouna</router-link>
-            <p class="profile__title">Président Fondateur</p>
+            <router-link to="" class="profile__name">Nom et Prénom</router-link>
+            <p class="profile__title">Responsable Service Clients</p>
           </div>
 
           <div class="other__profile">
@@ -188,7 +224,7 @@
                   >Baboucarr Drammeh</router-link
                 >
                 <p class="profile__title">Développeur d’applications</p>
-                 <router-link to=""
+                <router-link to=""
                   ><img src="/../images/profile/linkedin.png" alt="" srcset=""
                 /></router-link>
               </div>
@@ -197,17 +233,30 @@
         </div>
       </div>
     </section>
-    <Footer/>
+    <Footer />
   </div>
 </template>
 
 <script>
+import Vue from "vue";
 import Navigation from "./Navigation";
-import Footer from './Footer';
+import Footer from "./Footer";
+import VueModalTor from "vue-modaltor";
+Vue.use(VueModalTor);
 export default {
+  data() {
+    return {
+      open: false,
+    };
+  },
   components: {
     Navigation,
-    Footer
+    Footer,
+  },
+  methods: {
+    hideModal() {
+      this.open = false;
+    },
   },
 };
 </script>
@@ -237,6 +286,7 @@ export default {
   font-weight: bold;
   color: $color-tertiary;
   font-size: 1.2rem;
+  cursor: pointer;
 }
 
 .profile__title {
