@@ -24,25 +24,28 @@
             service-sms a sûrement un poste pour vous !
           </p>
           <h2>Equipe Commerciale et Marketing :</h2>
-          <li class="listing">
-            - Commercial Stagiaire Pré-Embauche
-            <span class="equip__link" @click="open = true"> (voir offre)</span>
-          </li>
-          <li class="listing">
-            - Stagiaire en Marketing Digital Pré-Embauche
-            <span class="equip__link" @click="secondopen = true"
-              >(voir offre)</span
-            >
-          </li>
-          <h3>Equipe Service clients :</h3>
-          <li class="listing">
-            - Customer Success Manager - Responsable relation et satisfaction
-            client
-            <span class="equip__link" @click="thirdopen = true"
-              >(voir offre)</span
-            >
-          </li>
-
+          <ul class="recruitment__listing">
+            <li class="listing">
+              - Commercial Stagiaire Pré-Embauche
+              <span class="equip__link" @click="open = true">
+                (voir offre)</span
+              >
+            </li>
+            <li class="listing">
+              - Stagiaire en Marketing Digital Pré-Embauche
+              <span class="equip__link" @click="secondopen = true"
+                >(voir offre)</span
+              >
+            </li>
+            <h3>Equipe Service clients :</h3>
+            <li class="listing">
+              - Customer Success Manager - Responsable relation et satisfaction
+              client
+              <span class="equip__link" @click="thirdopen = true"
+                >(voir offre)</span
+              >
+            </li>
+          </ul>
           <vue-modaltor :visible="open" @hide="hideModal">
             <template slot="close-icon">
               <svg
@@ -91,7 +94,10 @@
             </li>
             <li>Période : De 4 à 6 mois dès que possible</li>
             <li>Rémunération : Légale + repas + Primes sur objectif</li>
-            <button class="btn__apply">Postuler à cette offre</button>
+
+            <router-link class="btn__apply" to="/form"
+              >Postuler à cette offre</router-link
+            >
           </vue-modaltor>
 
           <vue-modaltor :visible="secondopen" @hide="hideModal">
@@ -173,7 +179,9 @@
               concluant.
             </p>
 
-            <button class="btn__apply">Postuler à cette offre</button>
+            <router-link class="btn__apply" to="/form"
+              >Postuler à cette offre</router-link
+            >
           </vue-modaltor>
 
           <vue-modaltor :visible="thirdopen" @hide="hideModal">
@@ -248,17 +256,24 @@
             <li>Service clients</li>
             <li>Marketing</li>
             <li>Développement commercial</li>
-                        <button class="btn__apply">Postuler à cette offre</button>
-  <p class="bold__details">Postulez vite, nous attendons votre CV !</p>
+            <router-link class="btn__apply" to="/form"
+              >Postuler à cette offre</router-link
+            >
+
+            <p class="bold__details">
+              Postulez vite, nous attendons votre CV !
+            </p>
           </vue-modaltor>
         </div>
       </section>
+      <Footer />
     </div>
   </div>
 </template>
 
 <script>
 import Navigation from "./Navigation";
+import Footer from "./Footer";
 import Vue from "vue";
 import VueModalTor from "vue-modaltor";
 Vue.use(VueModalTor);
@@ -279,6 +294,7 @@ export default {
   },
   components: {
     Navigation,
+    Footer,
   },
 };
 </script>
@@ -291,17 +307,18 @@ export default {
   border: 2px solid $color-tertiary;
   text-transform: uppercase;
   padding: 10px 15px;
+  display: inline-block;
+  text-decoration: none;
 
   line-height: 24px;
   border-radius: 50px;
   font-weight: 400;
-   margin: 1rem;
+  margin: 1rem;
   cursor: pointer;
   touch-action: manipulation;
   &:hover {
     background: $color-tertiary;
     color: $color-white;
-   
   }
 }
 li {
@@ -332,6 +349,10 @@ li {
   }
   .btn__apply {
     font-size: 20px;
+  }
+  .recruitment__listing {
+    margin-bottom: 4rem;
+    margin-top: 2rem;
   }
 }
 </style>

@@ -14,7 +14,7 @@
             </div>
 
             <div class="header__links">
-                <router-link class="header__link" to=""> <img class="link__icon" src="/../images/lock.png" alt=""> Se connecter</router-link>
+                <router-link class="header__link" to="/form"> <img class="link__icon" src="/../images/lock.png" alt=""> Se connecter</router-link>
                 <router-link class="header__link" to=""> <img class="link__icon" src="/../images/writing.png" alt=""> S'inscrire</router-link>
             </div>
             <div class="menu">
@@ -43,12 +43,7 @@
            <router-link class="nav__links" to="/functionalities">FONCTIONNALITES</router-link>
            <router-link class="nav__links" to="/tarif">NOS TARIFS</router-link>
            <router-link class="nav__links" to="/metires" >METIERS</router-link>
-            <!-- <div class="toggle__nav proqui"  v-if="seenp">
-                 <router-link to="" class="sub__nav--links">SMS LOW COST</router-link>
-                 <router-link to="" class="sub__nav--links">SMS PRO</router-link>
-                 
-
-             </div> -->
+         
            <router-link class="nav__links" to="/api">API</router-link>
            <router-link class="nav__links" to="/blog">BLOG</router-link>
            </div>

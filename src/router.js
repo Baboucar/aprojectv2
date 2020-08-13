@@ -11,6 +11,7 @@ import  Details from './components/Details';
 import Sommes from './components/Sommes';
 import Marche from './components/Marche';
 import Recruitment from './components/Recruitment';
+import ProcessForm from './components/ProcessForm';
 
 import { from } from 'core-js/fn/array';
 
@@ -29,6 +30,11 @@ export default new Router({
     path:'/functionalities',
     name:'functionalities',
     component:Functionalities
+    },
+    {
+    path:'/form',
+    name:'form',
+    component:ProcessForm
     },
     {
      path:'/recruitment',
