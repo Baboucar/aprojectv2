@@ -442,7 +442,10 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" >
+.faq__nav{
+    padding: 1rem ;
+}
 @media (min-width: 64rem) {
   .faq__header {
     padding: 2rem;
