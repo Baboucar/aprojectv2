@@ -13,6 +13,7 @@ import Marche from './components/Marche';
 import Recruitment from './components/Recruitment';
 import ProcessForm from './components/ProcessForm';
 import Reference from './components/Reference';
+import Faq from "./components/Faq";
 
 import { from } from 'core-js/fn/array';
 
@@ -31,6 +32,11 @@ export default new Router({
     path:'/functionalities',
     name:'functionalities',
     component:Functionalities
+    },
+    {
+     path:'/faq',
+     name:'faq',
+     component:Faq
     },
     {
     path:'/reference',

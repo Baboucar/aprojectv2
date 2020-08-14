@@ -24,7 +24,7 @@
          <router-link class="footer__navlinks" to="/marche">Comment ça marche</router-link>
          <router-link class="footer__navlinks" to="/reference">Nos Références </router-link>
          <router-link class="footer__navlinks" to="/recruitment"> Nous recrutons</router-link>
-         <router-link class="footer__navlinks" to=""> FAQ</router-link>
+         <router-link class="footer__navlinks" to="/faq"> FAQ</router-link>
 
     </nav>
 
@@ -78,7 +78,7 @@ export default {
     
 }
 .footer__line{
-    border-bottom: 2px solid #3585fe ;
+    border-bottom: 2px solid #0092ff ;
     width: 40px;
     
 }
