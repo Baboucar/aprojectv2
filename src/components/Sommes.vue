@@ -44,7 +44,7 @@
             />
           </svg>
         </template>
-        <p>
+        <p class="center__text">
           Deux jeunes start-up Sénégalais chevronnés et diplômés comme <br />
           Technicien spécialisé en Administration Système et Réseaux <br />
           Informatique au Maroc. Voulant créer leur propre entreprise, qu’ils
@@ -53,7 +53,7 @@
           <br />
           fort de ses expériences techniques.
         </p>
-        <p>
+        <p class="center__text">
           Notre motivation, répondre aux attentes de chaque client, dans le
           <br />
           souci du détail. Au cœur toujours plus loin pour offrir le meilleur de
