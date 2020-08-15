@@ -136,7 +136,7 @@ import emailjs from 'emailjs-com';
    
   border-radius: 0.25rem;
   box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
-  margin-top: 2rem;
+  margin: 2rem auto;
 }
 .i-am-active {
   

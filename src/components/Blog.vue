@@ -68,6 +68,9 @@ export default {
   box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
   padding: 1rem;
 }
+.blog__head{
+  color:$color-tertiary;
+}
 .blog__detail {
   display: block;
   text-decoration: none;

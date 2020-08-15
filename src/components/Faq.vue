@@ -6,14 +6,14 @@
         FAQ FOIRE AUX QUESTIONS SERVICE-SMS
       </h1>
 
-      <div class="two__grid">
+      <div class="two__grid spacer-1">
         <VueFaqAccordion :items="fouthItems" activeColor="#0092ff" />
 
         <VueFaqAccordion :items="secondItems" activeColor="#0092ff" />
       </div>
-      <div class="two__grid spacer-2">
+      <div class="two__grid spacer-1">
         <VueFaqAccordion :items="myItems" activeColor="#0092ff" />
-
+    
         <VueFaqAccordion :items="thirdItems" activeColor="#0092ff" />
       </div>
     </section>
@@ -181,38 +181,38 @@ export default {
           title: "QUELLE EST LA LONGUEUR MAXIMALE D'UN SMS ?",
           value:
             "La longueur maximale d’un SMS est de 160 caractères. Service-sms propose d’envoyer des SMS longs, dépassant les 160 caractères. Dans ce cas, le compteur de caractères et de SMS de l’interface vous indiquera en temps réel le nombre de SMS correspondant à votre message. Sur service-sms, les SMS longs sont concaténés pour être reçu d’un seul tenant par le destinataire (dans ce cas la longueur de chaque SMS est de 153 caractères). Certains caractères spéciaux peuvent compter double.",
-          category: "Messages SMS et modèles",
+          category: " SMS ET MODELES",
         },
         {
           title:
             "QUELS SONT LES CARACTERES AUTORISES DANS UN SMS ? ET CEUX INTERDITS ?",
           value:
             "Voici la liste des caractères interdits, tous les autres étant donc autorisés :",
-          category: "Messages SMS et modèles",
+          category: " SMS ET MODELES",
         },
         {
           title: "PUIS-JE DEFINIR DES MODELES DE MESSAGES A L’AVANCE ?",
           value:
             "Oui, vous disposez sur votre espace client d’un espace de gestion de modèles de messages. Vous pouvez créer, modifier et supprimer des modèles de messages SMS qui seront accessibles directement sur votre espace de composition de SMS. Votre interface de composition vous proposera également toujours d’avoir accès au dernier message envoyé.",
-          category: "Messages SMS et modèles",
+          category: " SMS ET MODELES",
         },
         {
           title: "PUIS-JE ACCEDER AU DERNIER MESSAGE ENVOYE POUR LE RENVOYER ?",
           value:
             "Oui, lors de la composition de SMS, vous pouvez sélectionner un modèle ou le dernier message envoyé afin de le re-transmettre.",
-          category: "Messages SMS et modèles",
+          category: " SMS ET MODELES",
         },
         {
           title: "PEUT-ON VISUALISER LE CONTENU D'UN SMS APRES SON ENVOI ?",
           value:
             "Oui, vous avez accès dans votre espace client au détail de toutes les campagnes envoyées et des messages correspondants.",
-          category: "Messages SMS et modèles",
+          category: " SMS ET MODELES",
         },
         {
           title: "COMMENT PERSONNALISER MES MESSAGES SMS ?",
           value:
             "Vous pouvez utiliser notre option de publipostage pour personnaliser un envoi. Chaque colonne de vos listes sont des colonnes de publipostage potentielles. Lors de la création de votre message, sélectionner des champs de fusion du type #Prenom# afin que celui-ci soit automatiquement remplacé par la valeur du champ de votre liste. Une prévisualisation sur les 5 premiers contacts s’affichera automatiquement pour valider visuellement que votre message est correct.",
-          category: "Messages SMS et modèles",
+          category: " SMS ET MODELES",
         },
         {
           title:
@@ -247,32 +247,32 @@ export default {
           title: "PUIS-JE AVOIR ACCES A L'HISTORIQUE DE MES ENVOIS ?",
           value:
             "Oui, dans votre espace client, toutes vos campagnes de SMS sont consultables, vous pouvez également visualiser vos statistiques d’envoi et télécharger les numéros invalides de vos listes. Vous avez la possibilité de télécharger un rapport PDF et le détail de réception de chaque destinataire est également disponible en temps réel.",
-          category: "GESTION ET SUIVI DES CAMPAGNES SMS / STATISTIQUES",
+          category: "GESTION ET SUIVI",
         },
         {
           title:
             "PENDANT COMBIEN DE TEMPS L'HISTORIQUE DE MES CAMPAGNES EST-IL CONSERVE ?",
           value:
             "Service-sms conserve l’intégralité de l’historique de vos campagnes SMS, toutes accessibles depuis votre espace client, quelque soit la date des campagnes, à partir du moment où votre compte est en activité sur la dernière année glissante. Ce réglage peut être modifié dans vos préférences.",
-          category: "GESTION ET SUIVI DES CAMPAGNES SMS / STATISTIQUES",
+          category: "GESTION ET SUIVI",
         },
         {
           title: "PUIS-JE REGLER UNE CAMPAIGN PLUS TARD ?",
           value:
             "Oui, vous pouvez préparer une campagne et ne pas la régler. Elle apparaîtra alors dans la section « Campagnes en attente »",
-          category: "GESTION ET SUIVI DES CAMPAGNES SMS / STATISTIQUES",
+          category: "GESTION ET SUIVI",
         },
         {
           title: "PUIS-JE ANNULER UNE CAMPAGNE SMS PROGRAMMEE ?",
           value:
             "Oui, via l’API ou sur votre espace client, vous avez la possibilité d’annuler une campagne programmée jusqu’à 15 minutes avant son déclenchement.",
-          category: "GESTION ET SUIVI DES CAMPAGNES SMS / STATISTIQUES",
+          category: "GESTION ET SUIVI",
         },
         {
           title: "MES SMS N'ONT TOUJOURS PAS ETE DELIVRES. QUE DOIS-JE FAIRE ?",
           value:
             "Les envois sont généralement instantanés. Cependant, dans de rare cas, un délai d’attente peut être observé. Si celui-ci dépasse 15-30 minutes, veuillez contacter le support, les temps d’acheminement peuvent être plus ou moins longs. Concernant les accusés de réception, les opérateurs ont jusqu’à 72 heures pour les fournir.",
-          category: "GESTION ET SUIVI DES CAMPAGNES SMS / STATISTIQUES",
+          category: "GESTION ET SUIVI",
         },
         {
           title:
@@ -364,52 +364,52 @@ export default {
             "EST-CE QUE SERVICE-SMS PROPOSE DE LOUER DES FICHIERS CLIENTS CIBLES DITS OPT-IN ?",
           value:
             "Oui, nous vous proposons la location de base de données client dites Opt-In à partir de 85F HT le contact, location et routage du SMS inclus.",
-          category: "LOCATION DE BASES DE DONNÉES CIBLÉES SMS OPT-IN",
+          category: "LOCATION BDD SMS",
         },
         {
           title:
             "VOS BASES DE DONNEES OPT-IN SONT-ELLES DISPONIBLES A L'ACHAT ?",
           value:
             "Non, nous ne fournissons que des bases de données en location.",
-          category: "LOCATION DE BASES DE DONNÉES CIBLÉES SMS OPT-IN",
+          category: "LOCATION BDD SMS",
         },
         {
           title:
             "OU TROUVER LES DOCUMENTATIONS D'INTEGRATION DES API ET WEB SERVICES ?",
           value:
             "Toutes documentations et informations sont disponibles sur service-sms dans les sections d’API.",
-          category: "LOCATION DE BASES DE DONNÉES CIBLÉES SMS OPT-IN",
+          category: "LOCATION BDD SMS",
         },
         {
           title: "FAUT-IL UNE AUTORISATION SPECIALE POUR UTILISER LES API ?",
           value:
             "Non, à partir du moment où vous disposez d’un compte valide sur service-sms, vous êtes en mesure d’utiliser nos API et Web Services sans surcoût.",
-          category: "LOCATION DE BASES DE DONNÉES CIBLÉES SMS OPT-IN",
+          category: "LOCATION BDD SMS",
         },
         {
           title:
             "QUE DIT LA LOI SENEGALAISE CONCERNANT L'ENVOI DE SMS DE PROSPECTION COMMERCIALE ?",
           value:
             "La prospection directe par SMS est régie par plusieurs règles et textes de loi La Commission de protection des données personnelles du Sénégal (CDP)Vu la Constitution ; Vu la loi n° 2008-12 du 25 janvier 2008 sur la protection des données à caractère personnel ;",
-          category: "CONFIDENTIALITÉ et RÈGLEMENTATION",
+          category: "ABUS DE SERVICE",
         },
         {
           title: "Faits et procédure :",
           value:
             "A l’instar des grandes démocraties, notre pays a institué un régime de protection des données à caractère personnel par la loi n° 2008-12 du 25 janvier 2008 afin de se prémunir contre les risques liés à l’utilisation frauduleuse ou abusive des données nominatives des sénégalais.A cet effet, la Commission de protection des données personnelles (CDP) a été mise en place pour veiller à l’application de la loi.",
-          category: "CONFIDENTIALITÉ et RÈGLEMENTATION",
+          category: "ABUS DE SERVICE",
         },
         {
           title: "QUELLE EST LA PLAGE HORAIRE AUTORISEE POUR L'ENVOI DE SMS ?",
           value:
             "L’envoi de SMS commerciaux est formellement interdit pendant les heures comprises entre 20h00 et 08h00 les jours calendaires, le dimanche toute la journée et les jours fériés.En cas de non-respect des dispositions légales, les sanctions pénales peuvent être lourdes.Soit par la CDP ou par les juridictions compétentes à l’égard de tout responsable de traitement n’ayant pas respecté ses obligations.",
-          category: "CONFIDENTIALITÉ et RÈGLEMENTATION",
+          category: "ABUS DE SERVICE",
         },
         {
           title: "PUIS-JE ENVOYER DES SMS A DES NUMEROS CHOISIS AU HASARD ?",
           value:
             "Non, vous ne pouvez envoyer des SMS qu’à des contacts l’ayant expressément accepté.",
-          category: "CONFIDENTIALITÉ et RÈGLEMENTATION",
+          category: "ABUS DE SERVICE",
         },
         {
           title:
@@ -417,19 +417,19 @@ export default {
           value:
             "Service-sms s’engage à ne jamais utiliser les données issues de vos listes de contacts, telle que défini dans notre charte de confidentialité. Un document d’engagement de confidentialité peut être fourni sur demande.",
 
-          category: "CONFIDENTIALITÉ et RÈGLEMENTATION",
+          category: "ABUS DE SERVICE",
         },
         {
           title: "QUEL EST L'ENGAGEMENT ANTI-SPAM SERVICE-SMS ?",
           value:
             "Service-sms s’engage à ce que le numéro fournit lors de votre inscription ne soit jamais transmis à aucun tiers.",
-          category: "CONFIDENTIALITÉ et RÈGLEMENTATION",
+          category: "ABUS DE SERVICE",
         },
         {
           title: "COMMENT SIGNALER UN ABUS DE SERVICE ?",
           value:
             "Si vous avez détecter un abus de service, merci de nous contacter via le formulaire de contact.",
-          category: "CONFIDENTIALITÉ et RÈGLEMENTATION",
+          category: "ABUS DE SERVICE",
         },
       ],
     };
@@ -445,6 +445,10 @@ export default {
 <style lang="scss" >
 .faq__nav{
     padding: 1rem ;
+}
+.two__grid{
+  
+    margin: 1rem 0 2rem 0;
 }
 @media (min-width: 64rem) {
   .faq__header {

@@ -2,7 +2,7 @@
   <div>
     <Navigation />
     <section class="section__container seventy__container ">
-      <h1 class="metres__head center__text fix__position">SMS via API</h1>
+      <h1 class="metres__head center__text fix__position title">SMS via API</h1>
       <p class="spacer-1">
         Vous êtes développeur web pour une entreprise ou représentez une agence
         de communication ou marketing ? Intégrez le
@@ -26,7 +26,7 @@
       </p>
     </section>
     <section class="section__container seventy__container ">
-      <h1 class="center__text">
+      <h1 class="center__text title">
         Comment automatiser les SMS à votre logiciel ?
       </h1>
       <div class="cards">
