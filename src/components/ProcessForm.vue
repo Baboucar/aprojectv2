@@ -258,7 +258,7 @@ input[type="text"], input[type="email"]{
         
     }
    .address__input{
-       width: 70%;
+       width: 74%;
        margin: 0 auto;
    }
    .file{
@@ -266,7 +266,7 @@ input[type="text"], input[type="email"]{
        margin: 0 auto;
    }
    .textarea{
-       width: 80%;
+       width: 74%;
        margin: 0 auto;
    }
 
