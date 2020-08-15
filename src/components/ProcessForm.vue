@@ -137,6 +137,7 @@ import emailjs from 'emailjs-com';
   border-radius: 0.25rem;
   box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
   margin: 2rem auto;
+  
 }
 .i-am-active {
   
@@ -152,6 +153,8 @@ input[type="radio"]{
 }
 input[type='file'] {
   color: transparent;
+  
+
 }
 .custom-file-input::-webkit-file-upload-button {
   visibility: hidden;
@@ -170,8 +173,14 @@ input[type='file'] {
 
 
 }
+.file{
+  width:90%;
+  margin: 0 auto;
+}
 textarea{
-    width: 100%;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
      border: 2px solid ;
     border-color: #bbb;
 }
@@ -201,7 +210,9 @@ input::placeholder{
 
 
 input[type="text"], input[type="email"]{
-    width: 100%;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
     border:none;
     
     border: 2px solid ;

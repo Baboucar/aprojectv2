@@ -18,6 +18,10 @@ $color-text:#5e5e5e;
     margin: 0 auto;
 }
 
+.center__text{
+  text-align: center;
+}
+
 .spacer-1{
     margin-top:2rem;
 }
@@ -110,10 +114,7 @@ $color-text:#5e5e5e;
       width: 60%;
       margin: 0 auto;
     }
-    .center__text{
-        text-align: center;
-    }
-
+   
     .cards {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
