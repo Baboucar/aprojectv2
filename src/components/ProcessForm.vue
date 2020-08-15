@@ -163,7 +163,8 @@ input[type='file'] {
         background-color: #eee;
         font-size: 1.2rem;
         margin-top: 2rem;
-
+       width:90%;
+       margin: 1rem auto;
         display: block;
     font-weight: 400;
     padding: 7px 5px;
