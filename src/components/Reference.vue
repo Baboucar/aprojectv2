@@ -3,7 +3,7 @@
 
   <Navigation/>
   <section class="top__container section__container">
-    <h1 class="center__text referene__heading">NOS REFERENCES</h1>
+    <h1 class="center__text referene__heading title">NOS REFERENCES</h1>
     <div class="reference__images">
      <img src="/../images/logo psej.png" class="img__resposive referene__image" alt="" srcset="">
     </div>
@@ -26,6 +26,7 @@ import Footer from './Footer';
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/base.scss';
 .referene__image{
     display: block;
     margin: 0 auto;

@@ -93,5 +93,8 @@ export default {
   .blog__details {
     padding-top: 2rem;
   }
+  .header__title{
+    padding: 4rem;
+  }
 }
 </style>
