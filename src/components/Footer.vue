@@ -40,7 +40,7 @@
     <nav class="footer__nav">
          <h3 class="footer__line">Contact</h3>
          <router-link class="footer__navlinks" to="">Contactez-nous</router-link>
-         <router-link class="footer__navlinks" to="">Blog</router-link>
+         <router-link class="footer__navlinks" to="/blog">Blog</router-link>
          <router-link class="footer__navlinks" to="">Plan du site</router-link>
          <router-link class="footer__navlinks" to=""> <img src="/../images/linkedin.png" alt="link" > LinkedIn</router-link>
            <router-link class="footer__navlinks" to=""> <img src="/../images/facebook.png" alt="link"> Facebook</router-link>
