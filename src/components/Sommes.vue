@@ -274,6 +274,11 @@ export default {
 .profile__image {
   display: block;
   margin: 0 auto;
+  transition: transform .2s;
+
+  &:hover{
+    transform: scale(1.1); 
+  }
 }
 .catogery__header {
   border-bottom: 2px solid $color-tertiary;
