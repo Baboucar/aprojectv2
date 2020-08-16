@@ -14,6 +14,10 @@ import Recruitment from './components/Recruitment';
 import ProcessForm from './components/ProcessForm';
 import Reference from './components/Reference';
 import Faq from "./components/Faq";
+import MentionLegal from './components/MentionLegal';
+import CGU from './components/CGU';
+import Politique from './components/Politique';
+import Cookie from './components/Cookie';
 
 import { from } from 'core-js/fn/array';
 
@@ -37,6 +41,26 @@ export default new Router({
      path:'/faq',
      name:'faq',
      component:Faq
+    },
+    {
+     path:'/legal',
+     name:'legal',
+     component:MentionLegal
+    },
+    {
+    path:'/politique',
+    name:'politique',
+    component:Politique
+    },
+    {
+    path:'/cookie',
+    name:'cookie',
+    component:Cookie
+    },
+    {
+    path:'/cgu',
+    name:'cgu',
+    component:CGU
     },
     {
     path:'/reference',

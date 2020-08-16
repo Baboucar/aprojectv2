@@ -30,10 +30,10 @@
 
     <nav class="footer__nav">
          <h3 class="footer__line">Légal</h3>
-         <router-link class="footer__navlinks" to="">Mentions légales</router-link>
-         <router-link class="footer__navlinks" to="">CGU-CGV</router-link>
-         <router-link class="footer__navlinks" to="">Politique de confidentialité</router-link>
-         <router-link class="footer__navlinks" to=""> Nos cookies</router-link>
+         <router-link class="footer__navlinks" to="/legal">Mentions légales</router-link>
+         <router-link class="footer__navlinks" to="/cgu">CGU-CGV</router-link>
+         <router-link class="footer__navlinks" to="/politique">Politique de confidentialité</router-link>
+         <router-link class="footer__navlinks" to="/cookie"> Nos cookies</router-link>
 
 
     </nav>
