@@ -18,6 +18,7 @@ import MentionLegal from './components/MentionLegal';
 import CGU from './components/CGU';
 import Politique from './components/Politique';
 import Cookie from './components/Cookie';
+import CGV from './components/CGV';
 
 import { from } from 'core-js/fn/array';
 
@@ -56,6 +57,11 @@ export default new Router({
     path:'/cookie',
     name:'cookie',
     component:Cookie
+    },
+    {
+    path:'/cgv',
+    name:'cgv',
+    component:CGV
     },
     {
     path:'/cgu',
