@@ -181,15 +181,15 @@
       </div>
       <div class="vocal__table">
        
-        <input placeholder="Quantité" type="text" name="" id="">
+        <input placeholder="Quantité" v-model="price" type="text" name="" id="">
        
         <div class="flex__item">
         <div class="sign">x</div>
-         <div class="result"> 0.13F</div>
+         <div class="result"> {{multiplyValue}}</div>
         </div>
          <div class="flex__item">
          <div class="sign">=</div>
-         <div class="result"> =0.00F</div>
+         <div class="result"> ={{calculatePrice}}</div>
          </div>
         
         <button class="vocal__btn">COMMANDER</button>
@@ -233,10 +233,37 @@
 import Navigation from "./Navigation";
 import Footer from "./Footer";
 export default {
+    data(){
+     return{
+         price:1,
+         multiplyValue:98
+     }
+    },
   components: {
     Navigation,
     Footer,
   },
+  computed:{
+      calculatePrice(){
+          if(this.price <= 9999){
+              this.multiplyValue= 98;
+              return this.price * 98;
+          }
+          else if(this.price ==10000 || this.price <=49999){
+              this.multiplyValue =91;
+              return this.price * 91;
+          }
+          else if(this.price == 50000 || this.price <=99999){
+              this.multiplyValue = 85;
+              return this.price *85;
+          }
+          else if(this.price >= 100000){
+              this.price = 75;
+              return this.price *75;
+          }
+      },
+
+  }
 };
 </script>
 

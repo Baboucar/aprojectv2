@@ -27,7 +27,7 @@
              <div class="toggle__nav"  v-if="seen"
              >
                  <router-link to="" class="sub__nav--links">SMS Pro</router-link>
-                 <router-link to="" class="sub__nav--links">SMS Vocal</router-link>
+                 <router-link to="/smsvocal" class="sub__nav--links">SMS Vocal</router-link>
                  <router-link to="" class="sub__nav--links">SMS Enrichi</router-link>
                  <router-link to="" class="sub__nav--links">Location BDD SMS</router-link>
                  <router-link to="" class="sub__nav--links">SMS MAILING</router-link>
