@@ -5,7 +5,8 @@
          <h3 class="footer__title footer__line">Produits</h3>
 
          <li class="footer__listings">SMS Pro</li>
-         <li class="footer__listings">SMS Vocal</li>
+         <router-link to="/smsvocal" class="footer__navlinks">SMS Vocal</router-link>
+       
          <li class="footer__listings">SMS Enrichi</li>
          <li class="footer__listings">Location BDD</li>
          <li class="footer__listings"> Mailing SMS</li>

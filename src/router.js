@@ -19,6 +19,7 @@ import CGU from './components/CGU';
 import Politique from './components/Politique';
 import Cookie from './components/Cookie';
 import CGV from './components/CGV';
+import SMSVOCAL from './components/SMSVOCAL';
 
 import { from } from 'core-js/fn/array';
 
@@ -62,6 +63,11 @@ export default new Router({
     path:'/cgv',
     name:'cgv',
     component:CGV
+    },
+  {
+    path:'/smsvocal',
+    name:'smsvocal',
+    component:SMSVOCAL
     },
     {
     path:'/cgu',
