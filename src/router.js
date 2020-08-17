@@ -20,7 +20,10 @@ import Politique from './components/Politique';
 import Cookie from './components/Cookie';
 import CGV from './components/CGV';
 import SMSVOCAL from './components/SMSVOCAL';
-
+import SMSPRO from './components/SMSPRO';
+import Location from './components/Location';
+import Mailing from './components/Mailing';
+import Votre from './components/Votre';
 import { from } from 'core-js/fn/array';
 
 Vue.use(Router)
@@ -45,9 +48,29 @@ export default new Router({
      component:Faq
     },
     {
+     path:'/mailing',
+     name:'mailing',
+     component:Mailing
+    },
+    {
      path:'/legal',
      name:'legal',
      component:MentionLegal
+    },
+    {
+    path:'/location',
+    name:'location',
+    component:Location
+    },
+    {
+     path:'/smspro',
+     name:'smspro',
+     component:SMSPRO
+    },
+    {
+    path:'/votre',
+    name:'votre',
+    component:Votre
     },
     {
     path:'/politique',

@@ -4,14 +4,18 @@
         <div>
          <h3 class="footer__title footer__line">Produits</h3>
 
-         <li class="footer__listings">SMS Pro</li>
-         <router-link to="/smsvocal" class="footer__navlinks">SMS Vocal</router-link>
+         
+                  <router-link to="/smsvocal" class="footer__navlinks">SMS Pro</router-link>
+
+         <router-link to="/smspro" class="footer__navlinks">SMS Vocal</router-link>
        
          <li class="footer__listings">SMS Enrichi</li>
          <li class="footer__listings">Location BDD</li>
-         <li class="footer__listings"> Mailing SMS</li>
+         <router-link to="/mailing" class="footer__navlinks">Mailing SMS</router-link>
          <li class="footer__listings">Sondage par SMS</li>
-         <li class="footer__listings">Vote par SMS</li>
+         <li class="footer__listings"></li>
+            <router-link to="/votre" class="footer__navlinks">Vote par SMS</router-link>
+
          <li class="footer__listings">Questionnaire de satisfaction <br> par sms</li>
          <li class="footer__listings">Mobile Ticketing</li>
          <li class="footer__listings">Rate'Pas votre Bus</li>
@@ -33,7 +37,7 @@
          <h3 class="footer__line">Légal</h3>
          <router-link class="footer__navlinks" to="/legal">Mentions légales</router-link>
          <router-link class="footer__navlinks" to="/cgu">CGU</router-link>
-         <router-link to="/cgv">CGV</router-link>
+         <router-link class="footer__navlinks" to="/cgv">CGV</router-link>
          <router-link class="footer__navlinks" to="/politique">Politique de confidentialité</router-link>
          <router-link class="footer__navlinks" to="/cookie"> Nos cookies</router-link>
 
