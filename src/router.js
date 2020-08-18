@@ -24,6 +24,9 @@ import SMSPRO from './components/SMSPRO';
 import Location from './components/Location';
 import Mailing from './components/Mailing';
 import Votre from './components/Votre';
+import RAP from './components/RAP';
+import Enrich from './components/Enrich';
+import Contact from './components/Contact';
 import { from } from 'core-js/fn/array';
 
 Vue.use(Router)
@@ -48,14 +51,30 @@ export default new Router({
      component:Faq
     },
     {
+    path:'/rap',
+    name:'rap',
+    component:RAP
+    },
+    {
+
      path:'/mailing',
      name:'mailing',
      component:Mailing
     },
     {
+    path:'/enrich',
+    name:'enrich',
+    component:Enrich
+    },
+    {
      path:'/legal',
      name:'legal',
      component:MentionLegal
+    },
+    {
+     path:'/contact',
+     name:'contanct',
+     component:Contact
     },
     {
     path:'/location',

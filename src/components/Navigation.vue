@@ -28,13 +28,13 @@
              >
                  <router-link to="/smspro" class="sub__nav--links">SMS Pro</router-link>
                  <router-link to="/smsvocal" class="sub__nav--links">SMS Vocal</router-link>
-                 <router-link to="" class="sub__nav--links">SMS Enrichi</router-link>
+                 <router-link to="/enrich" class="sub__nav--links">SMS Enrichi</router-link>
                  <router-link to="/location" class="sub__nav--links">Location BDD SMS</router-link>
-                 <router-link to="" class="sub__nav--links">SMS MAILING</router-link>
+                 <router-link to="/mailing" class="sub__nav--links">SMS MAILING</router-link>
                  <router-link to="" class="sub__nav--links">Sondages par SMS</router-link>
                  <router-link to="" class="sub__nav--links">Questionnaire de satisfaction par SMS</router-link>
                 <router-link to="" class="sub__nav--links">Mobile Ticketing</router-link>
-                <router-link to="" class="sub__nav--links">Rate'Pas Votre Bus</router-link>
+                <router-link to="/bus" class="sub__nav--links">Rate'Pas Votre Bus</router-link>
 
 
 
