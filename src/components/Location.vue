@@ -79,7 +79,7 @@
       <li>La location d’une base de prospection de Plus de 25 000 contacts coûte 85F HT / contact.</li>
       <p>Ensuite nous gérons la campagne de SMS pour vous.</p>
       <h2 class="center__text">Remplissez simplement le formulaire ci-dessous.</h2>
-      <form class="form" @submit.prevent="sendEmail">
+      <form class="form sixty__container" @submit.prevent="sendEmail">
       <div>
       <input type="email" name="email" id="" placeholder="votre email" required>
       </div>
@@ -89,6 +89,7 @@
       <div>
       <textarea name="message"  id="" cols="30" rows="10" placeholder="Votre question" required></textarea>
        <button class="form__btn"  @click="open = true">ENVOYER</button>
+    
       </div>
       
       </form>
@@ -170,6 +171,10 @@ margin-top: 1rem;
 input[type="text"],input[type="email"]{
     height: 50px;
 }
+::placeholder{
+  padding: 1rem;
+  font-weight: bold;
+}
 .form__btn{
     display: block;
     width: 80%;
@@ -184,4 +189,6 @@ input[type="text"],input[type="email"]{
         background: palevioletred;
     }
 }
+
+
 </style>
