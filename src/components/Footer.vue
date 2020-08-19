@@ -27,10 +27,7 @@
           >Vote par SMS</router-link
         >
 
-        <li class="footer__listings">
-          Questionnaire de satisfaction <br />
-          par sms
-        </li>
+     
         <li class="footer__listings">Mobile Ticketing</li>
         <router-link to="/rap" class="footer__navlinks"
           >Rate'Pas votre Bus</router-link

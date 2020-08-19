@@ -259,7 +259,7 @@ export default {
     grid-template-columns: 2fr 1fr;
     background: #fafafa;
     position: relative;
-    margin-top: 18rem;
+    margin-top: 17rem;
     z-index: -1;
   }
   .sms__description {

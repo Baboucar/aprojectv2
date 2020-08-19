@@ -47,7 +47,8 @@
            <router-link class="nav__links" to="/api">API</router-link>
            <router-link class="nav__links" to="/blog">BLOG</router-link>
            </div>
-         <router-link to="" class=" link__btn "><p class="desc">Entrez votre numéro et recevez <br> immédiatement un message de test</p> <div class="flex__two">  <img src="/../images/left-arrow.png" class="btn__icon" alt="">  <input type="text"> </div> </router-link>
+
+         <router-link to="" class=" link__btn "><p class="desc">Entrez votre numéro et recevez <br> immédiatement un message de test</p> <div class="flex__two">  <img src="/../images/left-arrow.png" class="btn__icon" alt="">  <input type="text"> <img src="/../images/icone.png" class="btn__icon" alt="">  </div> </router-link>
        </nav>
     </div>
 </template>
@@ -142,7 +143,8 @@
    }
 
    input[type="text"]{
-       height: 30px;
+       height: 35px;
+
        border: none;
        border: 1px solid #eee;
        border-radius: 5px;
@@ -153,6 +155,7 @@
     background-image: linear-gradient(to bottom, #ff54c4, #fe2a91);
     text-decoration: none;
     color: #FFFFFF;
+  
     
 
     
@@ -172,11 +175,6 @@
        }
    }
 
-   .btn__icon{
-     margin-right: 1rem;
-     
-   }
-
    .contact, .header__links{
        display: none;
    }
@@ -185,7 +183,6 @@
         display: none;
            margin: 0 auto;
            
-       box-shadow: 0 9px 20px 2px rgba(0, 0, 0, 0.24);
        &__links{
            display: block;
            text-decoration: none;
@@ -221,7 +218,13 @@
     }
 
    @media(min-width: 64rem){
-
+       .btn__icon{
+           margin-top: 1rem;
+       }
+    input[type="text"]{
+        width:15rem;
+        margin-top: 1rem;
+    }
         .nav__links{
         margin-left: 1.5rem;
        font-weight: bold; 
@@ -274,10 +277,14 @@
      
         margin-left: auto;
         flex-basis: 30%;
+          height: 70px;
       
 
           
         
+     }
+     .desc{
+         margin: -12px;
      }
      .nav{
          display: flex;
@@ -316,6 +323,10 @@
        }
      .sub__nav{
          flex-basis: 70%;
+        box-shadow: 0 9px 20px 2px rgba(0, 0, 0, 0.24);
+        padding: 2rem;
+
+         
      }
 
      .proqui{
