@@ -48,7 +48,7 @@
            <router-link class="nav__links" to="/blog">BLOG</router-link>
            </div>
 
-         <router-link to="" class=" link__btn "><p class="desc">Entrez votre numéro et recevez <br> immédiatement un message de test</p> <div class="flex__two">  <img src="/../images/left-arrow.png" class="btn__icon" alt="">  <input type="text"> <img src="/../images/icone.png" class="btn__icon" alt="">  </div> </router-link>
+         <router-link to="" class=" link__btn "><p class="desc">Entrez votre numéro et recevez <br> immédiatement un message de test</p> <div class="flex__two">  <img src="/../images/left-arrow.png" class="btn__icon " alt="">  <input type="text"> <img src="/../images/icone.png" class=" send__btn" alt="">  </div> </router-link>
        </nav>
     </div>
 </template>
@@ -141,13 +141,17 @@
        align-items: center;
        
    }
-
+.send__btn{
+   
+    margin-top: 10px;
+    height: 39px;
+}
    input[type="text"]{
        height: 35px;
 
        border: none;
        border: 1px solid #eee;
-       border-radius: 2px;
+      
    }
 .link__btn{
  
