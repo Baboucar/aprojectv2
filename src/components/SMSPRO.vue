@@ -89,7 +89,7 @@
       
     </section>
     <Footer/>
-  </div>
+</div>
 </template>
 
 <script>

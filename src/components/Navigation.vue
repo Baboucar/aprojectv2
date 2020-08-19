@@ -47,7 +47,7 @@
            <router-link class="nav__links" to="/api">API</router-link>
            <router-link class="nav__links" to="/blog">BLOG</router-link>
            </div>
-           <router-link to="" class=" link__btn"> <img src="/../images/left-arrow.png" class="btn__icon" alt="">  TESTEZ GRATUITMENT <br> <span class="sub__message">Sans engament -5 sms offerts</span> </router-link>
+         <router-link to="" class=" link__btn "><p class="desc">Entrez votre numéro et recevez <br> immédiatement un message de test</p> <div class="flex__two">  <img src="/../images/left-arrow.png" class="btn__icon" alt="">  <input type="text"> </div> </router-link>
        </nav>
     </div>
 </template>
@@ -129,22 +129,29 @@
        width:200px;
     
    }
-
+   .link__btn{
+       display: block;
+    
+   }
    .header{
        display: flex;
        align-items: center;
        
    }
 
+   input[type="text"]{
+       height: 30px;
+       border: none;
+       border: 1px solid #eee;
+       border-radius: 5px;
+   }
 .link__btn{
  
     box-shadow: 0 22px 33px 0 rgba(0, 0, 0, 0.1);
     background-image: linear-gradient(to bottom, #ff54c4, #fe2a91);
     text-decoration: none;
     color: #FFFFFF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
 
     
 }
@@ -202,6 +209,14 @@
         display: contents;
         font-size: .8rem;
     }
+    .flex__two{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    .desc{
+       text-align: center;
+    }
 
 @media(min-width: 60rem){
     .nav__links{
@@ -223,12 +238,7 @@
     }
    
 }
-// @media(min-width: 65rem){
-//     .nav__links{
-//          padding:.7rem;
-//         font-size: .7rem;
-//     }
-// }
+
    @media(min-width: 64rem){
        .logo__image{
            width: 300px;
@@ -262,9 +272,7 @@
        }
     
      .link__btn{
-        //  margin-left: 1rem;
-        //  padding: 1.5rem;
-        //  margin-left: 7.9rem;
+     
         margin-left: auto;
         flex-basis: 30%;
       
