@@ -134,6 +134,8 @@
     
    }
    .header{
+       width: 90%;
+       margin: 0 auto;
        display: flex;
        align-items: center;
        
@@ -218,9 +220,10 @@
        text-align: center;
     }
 
-@media(min-width: 60rem){
-    .nav__links{
-        margin-left: 2rem;
+   @media(min-width: 64rem){
+
+        .nav__links{
+        margin-left: 1.5rem;
        font-weight: bold; 
     
     }
@@ -236,10 +239,6 @@
         margin-left: .5rem;
         font-size: 1.2rem;
     }
-   
-}
-
-   @media(min-width: 64rem){
        .logo__image{
            width: 300px;
        }
