@@ -72,7 +72,7 @@
         <h3 class="footer__line">Contact</h3>
         <router-link class="footer__navlinks" to="/contact">Contactez-nous</router-link>
         <router-link class="footer__navlinks" to="/blog">Blog</router-link>
-        <router-link class="footer__navlinks" to="">Plan du site</router-link>
+        <router-link class="footer__navlinks" to="/plan">Plan du site</router-link>
         <router-link class="footer__navlinks" to="">
           <img src="/../images/linkedin.png" alt="link" /> LinkedIn</router-link
         >

@@ -27,6 +27,7 @@ import Votre from './components/Votre';
 import RAP from './components/RAP';
 import Enrich from './components/Enrich';
 import Contact from './components/Contact';
+import Plan from './components/Plan';
 import { from } from 'core-js/fn/array';
 
 Vue.use(Router)
@@ -70,6 +71,11 @@ export default new Router({
      path:'/legal',
      name:'legal',
      component:MentionLegal
+    },
+    {
+     path:'/plan',
+     name:'plan',
+     component:Plan
     },
     {
      path:'/contact',
