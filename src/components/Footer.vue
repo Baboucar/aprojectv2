@@ -21,8 +21,9 @@
         <router-link to="/mailing" class="footer__navlinks"
           >Mailing SMS</router-link
         >
-        <li class="footer__listings">Sondage par SMS</li>
-
+       <router-link to="/sondage" class="footer__navlinks"
+          >Sondage par SMS</router-link
+        >
         <router-link to="/votre" class="footer__navlinks"
           >Vote par SMS</router-link
         >

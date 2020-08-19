@@ -147,7 +147,7 @@
 
        border: none;
        border: 1px solid #eee;
-       border-radius: 5px;
+       border-radius: 2px;
    }
 .link__btn{
  
@@ -223,7 +223,7 @@
        }
     input[type="text"]{
         width:15rem;
-        margin-top: 1rem;
+        margin-top: .7rem;
     }
         .nav__links{
         margin-left: 1.5rem;

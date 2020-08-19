@@ -28,6 +28,7 @@ import RAP from './components/RAP';
 import Enrich from './components/Enrich';
 import Contact from './components/Contact';
 import Plan from './components/Plan';
+import Sondage from './components/Sondage';
 import { from } from 'core-js/fn/array';
 
 Vue.use(Router)
@@ -55,6 +56,11 @@ export default new Router({
     path:'/rap',
     name:'rap',
     component:RAP
+    },
+    {
+    path:'/sondage',
+    name:'sondage',
+    component:Sondage
     },
     {
 
