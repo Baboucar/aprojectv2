@@ -33,6 +33,8 @@ import MobileTicketing from './components/MobileTicketing';
 import Reponse from './components/Reponse';
 import Composition from './components/Composition';
 import Statistique from './components/Statistique';
+import Planification from './components/Planification';
+import Gestion  from './components/Gestion';
 import { from } from 'core-js/fn/array';
 
 Vue.use(Router)
@@ -75,6 +77,16 @@ export default new Router({
      path:'/statistique',
      name:'statistique',
      component:Statistique
+    },
+    {
+     path:'/gestion',
+     name:'gestion',
+     component:Gestion
+    },
+    {
+     path:'/planification',
+     name:'planification',
+     component:Planification
     },
 
     {

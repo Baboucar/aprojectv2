@@ -26,7 +26,7 @@
         <div class="card">
           <img class="card__image" src="/../images/Ges-cont89x96.png" alt />
           <div class="card__details">
-            <h3 class="card__title">Gestion des contacts</h3>
+            <router-link to="/gestion" class="card__title ">Gestion des contacts</router-link>
             <p>
               Intégrez très rapidement vos listes de contacts, gérez facilement
               vos listes noires, vos champs de publipostage . Bénéficiez
@@ -57,7 +57,8 @@
         <div class="card">
           <img class="card__image" src="/../images/plani-89x96.png" alt="" />
           <div class="card__details">
-            <h3 class="card__title">Planification</h3>
+          
+            <router-link to="/planification" class="card__title ">Planification</router-link>
             <p>
               Choisissez un envoi immédiat ou programmez votre campagne pour un
               envoi ultérieur. Sans limite de temps, vous anticipez vos envois
@@ -72,7 +73,7 @@
     <div class="seventy__container">
       <h2 class="card__header">Suivre les statistiques</h2>
       
-      <div class="cards">
+      <div class="two__cards">
         <div class="card ">
           <img class="card__image" src="/../images/statistiaque.png" alt />
           <div class="card__details">
@@ -308,7 +309,7 @@ export default {
    
   }
  .composition{
-   margin-top: 2rem;
+   margin-top: .5rem;
  }
   
   .grid-4 {

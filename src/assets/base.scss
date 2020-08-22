@@ -126,6 +126,13 @@ $color-text:#5e5e5e;
       gap: 3rem;
       
     }
+
+    .two__cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+      gap: 3rem;
+      margin-bottom: 2rem;
+    }
     
 
     .header__title {
