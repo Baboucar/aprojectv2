@@ -30,6 +30,9 @@ import Contact from './components/Contact';
 import Plan from './components/Plan';
 import Sondage from './components/Sondage';
 import MobileTicketing from './components/MobileTicketing';
+import Reponse from './components/Reponse';
+import Composition from './components/Composition';
+import Statistique from './components/Statistique';
 import { from } from 'core-js/fn/array';
 
 Vue.use(Router)
@@ -64,10 +67,26 @@ export default new Router({
     component:Sondage
     },
     {
+     path:'/composition',
+     name:'composition',
+     component:Composition
+    },
+    {
+     path:'/statistique',
+     name:'statistique',
+     component:Statistique
+    },
+
+    {
 
      path:'/mailing',
      name:'mailing',
      component:Mailing
+    },
+    {
+     path:'/reponse',
+     name:'reponse',
+     component:Reponse
     },
     {
     path:'/enrich',

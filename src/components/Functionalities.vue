@@ -41,7 +41,8 @@
           <img class="card__image" src="/../images/compos-96x89.png" alt />
 
           <div class="card__details">
-            <h3 class="card__title">Compositions SMS</h3>
+         
+            <router-link to="/composition" class="card__title composition">Compositions SMS</router-link>
             <p>
               Composez vos SMS sur une interface simple et intuitive, utilisez
               des modèles réutilisables et personnalisez vos envois avec des
@@ -70,11 +71,13 @@
 
     <div class="seventy__container">
       <h2 class="card__header">Suivre les statistiques</h2>
+      
       <div class="cards">
         <div class="card ">
           <img class="card__image" src="/../images/statistiaque.png" alt />
           <div class="card__details">
-            <h3 class="card__title">Réponses SMS</h3>
+          
+            <router-link to="/statistique" class="card__title">Statistiques</router-link>
             <p>
               Obtenez des rapports statistiques précis de vos campagnes,
               sondages, votes, et des volumes de SMS envoyés en direct, avec des
@@ -89,7 +92,8 @@
         <div class="card">
           <img class="card__image" src="/../images/reponse-sms.png" alt />
           <div class="card__details">
-            <h3 class="card__title">Réponses SMS</h3>
+           
+            <router-link to="/reponse" class="card__title">Réponses SMS</router-link>
             <p>
               Visualisez en temps réel les réponses SMS à vos campagnes SMS dans
               une boîte de réception dédiée et interagissez avec vos clients. Un
@@ -291,6 +295,10 @@ export default {
 
 .card__title {
   border-bottom: 2px solid $color-tertiary;
+  text-decoration: none;
+  font-weight: bold;
+  color: $color-tertiary;
+  display: block;
 }
 @media (min-width: 64rem) {
   .header__title {
@@ -299,7 +307,9 @@ export default {
      box-sizing: border-box;
    
   }
-
+ .composition{
+   margin-top: 2rem;
+ }
   
   .grid-4 {
     display: grid;
