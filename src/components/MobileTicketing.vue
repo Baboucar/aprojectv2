@@ -142,7 +142,7 @@
       <div class="card">
         <img
           class="card__image"
-          src="/../images/ticketing/icone-garantie.png"
+          src="/../images/ticketing/sur-securite.png"
           alt=""
         />
         <div class="card__details">
