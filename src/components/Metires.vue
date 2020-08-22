@@ -23,7 +23,8 @@
         </div>
         <div class="card">
           <img class="card__image" src="/../images/group-80x80.gif" alt="" />
-          <p class="card__description">Asso, organisations professionnelles</p>
+          
+          <router-link to="/association" class="card__description">Asso, organisations professionnelles</router-link>
         </div>
         <div class="card">
           <img
@@ -31,11 +32,12 @@
             src="/../images/icone_transport-logistique.gif"
             alt=""
           />
-          <p class="card__description">Logistique et transports</p>
+         
+          <router-link to="/logistique" class="card__description">Logistique et transports</router-link>
         </div>
         <div class="card">
           <img class="card__image" src="/../images/boutique.gif" alt="" />
-          <p class="card__description">Commerces, boutiques</p>
+          <router-link to="/commerce" class="card__description">Commerces, boutiques</router-link>
         </div>
         <div class="card">
           <img class="card__image" src="/../images/marketing.gif" alt="" />
@@ -45,7 +47,7 @@
         
         <div class="card">
           <img class="card__image" src="/../images/cafe.gif" alt="" />
-          <p class="card__description">Cafés, Hôtels, Restaurants</p>
+          <router-link to="/cafe" class="card__description">Cafés, Hôtels, Restaurants</router-link>
         </div>
 
         <div class="card">

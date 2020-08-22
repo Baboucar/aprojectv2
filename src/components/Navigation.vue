@@ -151,12 +151,14 @@
        border-radius: 2px;;
 
        border: none;
-       border: 1px solid #eee;
+       border-color: rgba(255, 255, 255, 0.3);
+    outline: none;
+    color: white;
       
    }
    input:focus{
        border:1px solid $color-tertiary;
-       box-shadow: 0 0 5px $color-tertiary;
+       box-shadow: 0 0 5px $color-secondary;
    }
 .link__btn{
  

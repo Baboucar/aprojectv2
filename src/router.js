@@ -36,6 +36,10 @@ import Statistique from './components/Statistique';
 import Planification from './components/Planification';
 import Gestion  from './components/Gestion';
 import Collective from './components/Collective';
+import Commerce from './components/Commerce';
+import Logistique from './components/Logistique';
+import Cafe from './components/Cafe';
+import Association from './components/Association';
 import { from } from 'core-js/fn/array';
 
 Vue.use(Router)
@@ -80,6 +84,11 @@ export default new Router({
      component:Statistique
     },
     {
+     path:'/logistique',
+     name:'logistique',
+     component:Logistique
+    },
+    {
      path:'/gestion',
      name:'gestion',
      component:Gestion
@@ -90,9 +99,24 @@ export default new Router({
     component:Collective
     },
     {
+    path:'/cafe',
+    name:'cafe',
+    component:Cafe
+    },
+    {
+     path:'/commerce',
+     name:'commerce',
+     component:Commerce
+    },
+    {
      path:'/planification',
      name:'planification',
      component:Planification
+    },
+    {
+    path:'/association',
+    name:'association',
+    component:Association
     },
 
     {
