@@ -148,10 +148,15 @@
 }
    input[type="text"]{
        height: 35px;
+       border-radius: 2px;;
 
        border: none;
        border: 1px solid #eee;
       
+   }
+   input:focus{
+       border:1px solid $color-tertiary;
+       box-shadow: 0 0 5px $color-tertiary;
    }
 .link__btn{
  
@@ -227,7 +232,7 @@
        }
     input[type="text"]{
         width:15rem;
-        margin-top: .7rem;
+        margin-top: 1rem;
     }
         .nav__links{
         margin-left: 1.5rem;
@@ -288,7 +293,7 @@
         
      }
      .desc{
-         margin: -12px;
+         margin: -15px;
      }
      .nav{
          display: flex;
