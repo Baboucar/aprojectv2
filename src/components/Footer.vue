@@ -28,8 +28,9 @@
           >Vote par SMS</router-link
         >
 
-     
-        <li class="footer__listings">Mobile Ticketing</li>
+     <router-link to="/mobileticketing" class="footer__navlinks"
+          >Mobile Ticketing</router-link
+        >
         <router-link to="/rap" class="footer__navlinks"
           >Rate'Pas votre Bus</router-link
         >

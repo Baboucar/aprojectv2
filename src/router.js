@@ -29,6 +29,7 @@ import Enrich from './components/Enrich';
 import Contact from './components/Contact';
 import Plan from './components/Plan';
 import Sondage from './components/Sondage';
+import MobileTicketing from './components/MobileTicketing';
 import { from } from 'core-js/fn/array';
 
 Vue.use(Router)
@@ -87,6 +88,11 @@ export default new Router({
      path:'/contact',
      name:'contanct',
      component:Contact
+    },
+    {
+    path:'/mobileticketing',
+    name:'mobileticketing',
+    component:MobileTicketing
     },
     {
     path:'/location',
