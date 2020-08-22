@@ -35,6 +35,7 @@ import Composition from './components/Composition';
 import Statistique from './components/Statistique';
 import Planification from './components/Planification';
 import Gestion  from './components/Gestion';
+import Collective from './components/Collective';
 import { from } from 'core-js/fn/array';
 
 Vue.use(Router)
@@ -82,6 +83,11 @@ export default new Router({
      path:'/gestion',
      name:'gestion',
      component:Gestion
+    },
+    {
+    path:'/collective',
+    name:'collective',
+    component:Collective
     },
     {
      path:'/planification',

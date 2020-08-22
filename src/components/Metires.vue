@@ -1,7 +1,7 @@
 <template>
   <div>
     <Navigation />
-    <section class="metres__head fix__position section__container center__text">
+    <section class="section__container top__container center__text">
       <h1 class="spacer-2 ">
         Métiers : les professionnels et les particulier <br />
         utilisent Service-SMS pour leur activité SMS pro au quotidien
@@ -23,7 +23,7 @@
         </div>
         <div class="card">
           <img class="card__image" src="/../images/group-80x80.gif" alt="" />
-          <p class="card__description">SMS pour le milieu scolaire</p>
+          <p class="card__description">Asso, organisations professionnelles</p>
         </div>
         <div class="card">
           <img
@@ -42,10 +42,7 @@
           <p class="card__description">Marketing et communication</p>
         </div>
 
-        <div class="card">
-          <img class="card__image" src="/../images/audition.png" alt="" />
-          <p class="card__description">Optique et audition</p>
-        </div>
+        
         <div class="card">
           <img class="card__image" src="/../images/cafe.gif" alt="" />
           <p class="card__description">Cafés, Hôtels, Restaurants</p>
@@ -53,9 +50,9 @@
 
         <div class="card">
           <img class="card__image" src="/../images/local.gif" alt="" />
-          <p class="card__description">
-            Collectivités locales, mairies, régions
-          </p>
+       
+           <router-link class="card__description" to="/collective"> Collectivités locales, mairies, régions</router-link>
+          
         </div>
         <div class="card">
           <img class="card__image" src="/../images/car.gif" alt="" />
@@ -125,6 +122,8 @@ export default {
      text-align: center;
      font-weight: bolder;
      display:inline-block;
+     text-decoration: none;
+     color: #000;
 }
 @media (min-width: 64rem) {
   .metres__head {
