@@ -71,6 +71,13 @@
       <input @keypress="onlyNumber" type="text" name="number" id="" placeholder="numero" required>
       </div>
       <div>
+       <select name="__question" id="">
+       <option value="Question Technique">Question Technique</option>
+       <option value="Informations commerciales">Informations commerciales</option>
+       <option value="Proposition de partenariat">Proposition de partenariat</option>
+       </select>
+      </div>
+      <div>
       <textarea name="message"  id="" cols="30" rows="10" placeholder="Votre question" required></textarea>
        <button class="form__btn"  @click="open = true">ENVOYER</button>
       </div>
@@ -148,8 +155,12 @@ export default {
     padding: 2rem;
 
 }
+  input:focus{
+       border:1px solid $color-tertiary;
+       box-shadow: 0 0 5px $color-secondary;
+   }
 
-input[type="text"],input[type="email"],textarea{
+input[type="text"],input[type="email"],textarea, select{
     width: 80%;
     display: block;
     margin: 0 auto;
@@ -167,7 +178,7 @@ margin-top: 1rem;
 ::placeholder{
    padding-left: 1rem;
 }
-input[type="text"],input[type="email"]{
+input[type="text"],input[type="email"],select{
     height: 50px;
 }
 .form__btn{

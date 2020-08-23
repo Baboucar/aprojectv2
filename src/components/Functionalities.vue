@@ -2,12 +2,15 @@
   <div>
     <Navigation />
 
-    <div class="   section__container fix__position header__title">
+    <div class="section__container fix__position header__title">
+      <div>
       <h1 class=" ">
         Fonctionnalités
         <br />Inclues dans nos solutions SMS
       </h1>
       <button class="btn">TESTEZ GRATUITEMENT</button>
+      </div>
+      <img src="/../images/principal-fonctionalite.png" alt="">
     </div>
     
 
@@ -290,6 +293,10 @@ export default {
  
  
 }
+.header__title{
+  background: $color-white;
+  color:$color-tertiary
+}
 .card__details {
   padding: 1rem;
 }
@@ -306,6 +313,8 @@ export default {
     padding-top: 2rem;
      padding-left: 2rem;
      box-sizing: border-box;
+     display: grid;
+     grid-template-columns: 2fr 1fr;
    
   }
  .composition{
