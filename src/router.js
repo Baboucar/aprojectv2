@@ -40,7 +40,14 @@ import Commerce from './components/Commerce';
 import Logistique from './components/Logistique';
 import Cafe from './components/Cafe';
 import Association from './components/Association';
+import Marketing from './components/Marketing';
+import Profession from './components/Profession';
+import Automobile from './components/Automobile';
+import Environmental from './components/Environmental';
+import Parti from './components/Parti';
+import Tourism from './components/Tourism';
 import { from } from 'core-js/fn/array';
+
 
 Vue.use(Router)
 
@@ -79,9 +86,29 @@ export default new Router({
      component:Composition
     },
     {
+     path:'/profession',
+     name:'profession',
+     component:Profession
+    },
+    {
+   path:'/environmental',
+   name:'/environmental',
+   component:Environmental
+    },
+    {
+   path:'/parti',
+   name:'environmental',
+   component:Parti
+    },
+    {
      path:'/statistique',
      name:'statistique',
      component:Statistique
+    },
+    {
+     path:'/tourism',
+     name:'tourism',
+     component:Tourism
     },
     {
      path:'/logistique',
@@ -92,6 +119,11 @@ export default new Router({
      path:'/gestion',
      name:'gestion',
      component:Gestion
+    },
+    {
+    path:'/automobile',
+    name:'automobile',
+    component:Automobile
     },
     {
     path:'/collective',
@@ -112,6 +144,11 @@ export default new Router({
      path:'/planification',
      name:'planification',
      component:Planification
+    },
+    {
+    path:'/marketing',
+    name:'marketing',
+    component:Marketing
     },
     {
     path:'/association',

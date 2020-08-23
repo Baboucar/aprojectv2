@@ -41,7 +41,7 @@
         </div>
         <div class="card">
           <img class="card__image" src="/../images/marketing.gif" alt="" />
-          <p class="card__description">Marketing et communication</p>
+          <router-link to="/marketing" class="card__description">Marketing et communication</router-link>
         </div>
 
         
@@ -58,16 +58,17 @@
         </div>
         <div class="card">
           <img class="card__image" src="/../images/car.gif" alt="" />
-          <p class="card__description">Professionnels de l’automobile</p>
+          <router-link to="/automobile" class="card__description">Professionnels de l’automobile</router-link>
         </div>
         <div class="card">
           <img class="card__image" src="/../images/sante.gif" alt="" />
-          <p class="card__description">Professions de santé</p>
+          
+          <router-link to="/profession" class="card__description">Professions de santé</router-link>
         </div>
 
         <div class="card">
           <img class="card__image" src="/../images/tourist.gif" alt="" />
-          <p class="card__description">SMS pour le Tourisme</p>
+          <router-link to="/parti" class="card__description">SMS pour le Tourisme</router-link>
         </div>
         <div class="card">
           <img class="card__image" src="/../images/recruit.gif" alt="" />
@@ -79,14 +80,16 @@
         </div>
          <div class="card">
           <img class="card__image" src="/../images/vote.gif" alt="" />
-          <p class="card__description">SMS Parti Politique</p>
+        
+          <router-link to="/parti" class="card__description">SMS Parti Politique</router-link>
         </div>
          <div class="card">
           <img class="card__image" src="/../images/environment.gif" alt="" />
-          <p class="card__description">SMS Evènementiel</p>
+         
+          <router-link to="/environmental" class="card__description">SMS Evènementiel</router-link>
         </div>
         
-         <div class="card last__card">
+         <div class="card">
           <img class="card__image" src="/../images/porter.gif" alt="" />
           <p class="card__description">SMS pour prêt-à-porter</p>
         </div>
