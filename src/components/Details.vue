@@ -22,6 +22,9 @@
              {{item}}
          </p>
         </div>
+         <router-link class="btn" to="/blog"
+              >&laquo; back</router-link
+            >  
     </section>
     <Footer/>
   </div>
@@ -67,7 +70,13 @@ export default {
 <style lang="scss" scoped>
 @import "../assets/base.scss";
 
-
+  .btn{
+    display: block;
+    width: 4rem;
+    text-align: center;
+    background: $color-tertiary;
+    font-weight: bold;
+  }
 @media(min-width: 64rem){
 
 }

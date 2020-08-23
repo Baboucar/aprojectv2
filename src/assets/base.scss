@@ -55,6 +55,7 @@ $color-text:#5e5e5e;
   }
 .btn {
     border: none;
+    text-decoration: none;
     padding: 1.3rem;
     border-radius: 25px;
     background: $color-secondary;
@@ -62,7 +63,7 @@ $color-text:#5e5e5e;
     font-weight: bold;
     font-size: 0.7rem;
     cursor: pointer;
-  
+    
     &:hover {
       background: #fb057c;
       cursor: pointer;

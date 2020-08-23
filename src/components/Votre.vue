@@ -78,9 +78,11 @@
     <section class="section__detail">
       <p>Pour en savoir plus sur l’utilisation du sondage par SMS ? Nous sommes là si vous avez la moindre question. </p>
        <div class="btn__wrapper">
-        <button class="connect__btn">CONTACTEZ-NOUS !</button>
+       <router-link class="btn" to="/contact"
+              >CONTACTEZ-NOUS</router-link
+            > 
        </div>
-    </section>
+  </section>
     <Footer/>
   </div>
 </template>

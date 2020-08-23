@@ -3,7 +3,7 @@
         {
             "id": 1,
             "title": "Le SMS marketing ",
-            "date": "Publié 02/12/2020",
+            "date": "Publié 02/9/2020",
             "description": "Le SMS marketing sert à la fois d’outil en interne au sein d’une entreprise pour la direction ou le service RH par exemple, ou en externe pour communiquer avec ses clients des messages à caractère informatif et bien sûr commercial.",
             "image": "images/blog/marketing.jpg",
             "content": {
@@ -17,7 +17,7 @@
         {
             "id": 2,
             "title": "Pourquoi & comment personnaliser vos SMS ?",
-            "date": "Publié 05/12/2020",
+            "date": "Publié 03/12/2020",
             "description": "De nos jours les consommateurs sont de plus en plus exigeants. Les personnes souhaitent avoir une relation personnalisée avec les entreprises, les marques… ce qui n’est pas toujours aisé et évident à mettre en place. Mais… bonne nouvelle ! Avec les campagnes SMS vous pouvez le faire facilement tout en bénéficiant d’un levier de communication efficace.",
             "image": "images/blog/personnaliser-ses-sms.jpg",
             "content": {
@@ -40,7 +40,7 @@
         {
             "id": 3,
             "title": "Quels outils de communication pour votre entreprise ?",
-            "date": "Publié 05/12/2020",
+            "date": "Publié 04/9/2020",
             "image": "images/blog/outils-de-communication-pour-votre-entreprise.jpg",
             "description": "La communication représente un enjeu de taille dans le monde de l’entreprise.Pour communiquer de façon efficiente, il est nécessaire de choisir des outils de communication en adéquation avec sa cible et son budget.",
             "detailDescription": [
@@ -96,7 +96,7 @@
         {
             "id": "4",
             "title": "PME/TPE boostez votre communication avec le SMS",
-            "date": "Publié 02/12/2020",
+            "date": "Publié 05/9/2020",
             "image": "images/blog/PME-TPE-boostez-votre-communication-avec-le-SMS.jpg",
             "description": "Le marketing mobile à savoir le SMS PRO est un levier pour se faire connaître et n’est pas destiné uniquement au grand groupe comme vous pouvez peut-être le croire. Découvrons ensemble quels en sont les avantages et les usages du SMS pour une PME/TPE !",
             "detailContent": {
@@ -143,7 +143,7 @@
         {
             "id": "5",
             "title": "L’usage du SMS pour une école",
-            "date": "Publié 02/12/2020",
+            "date": "Publié 06/9/2020",
             "image": "images/blog/usage-du-SMS-pour-une-ecole.jpg",
             "description": "La vie d’une école (primaire, grandes écoles, universités…) est riche en événements ! Le SMS pro apparaît comme un outil de choix pour assurer une diffusion des informations rapidement & directement à l’intention des parents et/ou étudiants.",
             "detailDescription": [
@@ -191,7 +191,7 @@
         {
             "id": "6",
             "title": "Les différents types de SMS à envoyer à vos clients !",
-            "date": "Publié 02/12/2020",
+            "date": "Publié 07/9/2020",
             "image": "images/blog/diffent-type-sms.jpg",
             "description": "A travers les différents types de SMS, découvrez ou re-découvrez l’utilisation efficiente que vous pouvez en faire !",
             "detailContent": {
@@ -237,7 +237,7 @@
         {
             "id": "7",
             "title": "Techniques de rédaction pour améliorer vos SMS PRO",
-            "date": "Publié 04/12/2020",
+            "date": "Publié 08/9/2020",
             "image": "images/blog/Techniques-de-redaction.jpg",
             "description": "L’efficacité du SMS pro tient, certes, dans son taux d’ouverture qui dépasse toutes les espérances car supérieur à 95% ! Mais est-ce pour autant qu’un SMS PRO ouvert sera lu dans son intégralité et retiendra l’attention de vos destinataires ?",
             "detailDescription": [
@@ -274,7 +274,7 @@
         {
             "id": "8",
             "title": "Communication interne et SMS",
-            "date": "Publié 04/12/2020",
+            "date": "Publié 09/9/2020",
             "image": "images/blog/Communication-interne-SMS.jpg",
             "description": "Les entreprises et organisations négligent  combien souvent leur stratégie de communication interne.",
             "detailDescription": [
@@ -303,7 +303,7 @@
         {
             "id": "9",
             "title": "API SMS, pourquoi l’utiliser ?",
-            "date": "Publié 02/12/2020",
+            "date": "Publié 10/9/2020",
             "image": "images/blog/API-SMS.jpg",
             "description": "Le SMS est devenu un outil incontournable du marketing notamment pour automatiser des messages, faire des envois en masse, …  et ce en l’intégrant à votre logiciel métier et c’est là qu’intervient l’API SMS ! ",
             "detailContent": {
@@ -347,7 +347,7 @@
             "id": "10",
             "title": "L’Histoire du SMS ",
             "description": "Connaissez-vous l’histoire du SMS, ce petit message qui a bouleversé notre quotidien ?",
-            "date": "Publié 02/12/2020",
+            "date": "Publié 11/9/2020",
             "image": "images/blog/HISTOIRE-SMS.jpg",
             "detailContent": {
                 "La naissance du SMS": [
@@ -392,6 +392,8 @@
         {
             "id": "11",
             "title": "Les pratiques efficaces du SMS Publicitaire",
+            "date": "Publié 14/9/2020",
+
             "description": "Le SMS Publicitaire est un vecteur de communication incontournable mais il requiert quelques bonnes pratiques pour en tirer pleinement bénéfice.",
             "image": "images/blog/SMS-PUB.jpg",
             "detailContent": {
@@ -446,7 +448,7 @@
             "title": "6 bonnes raisons d’utiliser le SMS Marketing",
             "description": "Les entreprises sont conscientes que l’usage du téléphone mobile ne fait que progresser ces dernières années et que 100% des utilisateurs de téléphone portable ont la fonction… SMS ! Et pourtant, elles en oublient souvent le mobile à travers l’envoi de campagne de SMS Marketing.",
             "image": "images/blog/6-SMS-Marketing.jpg",
-            "date": "Publié 02/12/2020",
+            "date": "Publié 12/9/2020",
             "detailDescription": [
                 "Voyons ensemble 6 bonnes raisons d’intégrer le SMS comme levier marketing :"
             ],
@@ -483,7 +485,7 @@
             "title": "Campagne SMS pro : 5 erreurs à ne pas commettre",
             "image": "images/blog/Campagne-SMS-pro-5.jpg",
             "description": "Ne tombez pas dans le piège des 5 erreurs décrites ici lors vos envois de campagnes SMS ! Les pires d'entre elles peuvent même vous entraîner dans l'illégalité...",
-            "date": "Publié 02/12/2020",
+            "date": "Publié 13/9/2020",
             "detailContent": {
                 "Ne pas préciser votre enseigne dans le SMS": [
                     "Bien que le nom de votre entreprise soit affiché comme expéditeur de votre SMS promotionnel, il est important de le préciser à nouveau dans le corps du message. Il est préférable à vos destinataires qu'ils sachent où profiter de l'offre que vous envoyez."
@@ -505,7 +507,7 @@
         {
             "id": "14",
             "title": "La fidélisation par SMS pour booster les ventes de votre site e-commerce",
-            "date": "Publié 02/12/2020",
+            "date": "Publié 14/9/2020",
             "image": "images/blog/Fidliser-sa-clientele.jpg",
             "description": "Fidéliser sa clientèle, c'est inciter ses consommateurs à refaire un achat à diverses occasions. S’il est important de gagner des nouveaux clients, il est tout aussi, voire plus, essentiel de les fidéliser. En effet, vous êtes non seulement plus à même de déclencher un achat chez vos consommateurs que prospects, mais cela coute en outre moins cher.",
             "detailDescription": [

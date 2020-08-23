@@ -102,7 +102,9 @@
           Pour en savoir plus sur l’utilisation du sondage par SMS ?)
           (CONTACTEZ-NOUS !
         </p>
-        <button class="btn">CONTACTEZ-NOUS</button>
+  <router-link class="btn" to="/contact"
+              >CONTACTEZ-NOUS</router-link
+            >         
       </div>
       <div class="cards spacer-1">
         <div class="card">
@@ -244,11 +246,16 @@ export default {
   margin: 0 auto;
   font-weight: bold;
 }
+
 .contact__us {
   background: $color-tertiary;
   padding: 4rem;
   text-align: center;
   color: $color-white;
+}
+.link{
+  text-decoration: none;
+  color:#FFF;
 }
 .card{
     border-radius: 0.25rem;

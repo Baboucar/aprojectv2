@@ -22,23 +22,28 @@
             </div>
        </header>
        <nav class="section__container nav">
+
            <div class="sub__nav">
-           <router-link class="nav__links" to="" @click.native="togglenav">SOLUTIONS <img class="drop_downicon" src="/../images/menu.png" alt="" ></router-link>
-             <div class="toggle__nav"  v-if="seen"
+      
+           <router-link class="nav__links" to="" @mouseover.native="hover=true" @mouseleave.native="hover=false" @click.native="togglenav"  >SOLUTIONS <img class="drop_downicon" src="/../images/menu.png" alt="" >
+           
+            <div  class="toggle__nav"  v-if="hover"  
              >
-                 <router-link to="/smspro" class="sub__nav--links">SMS Pro</router-link>
+                <div  >
+                 <router-link to="/smspro" class="sub__nav--links"  >SMS Pro</router-link>
                  <router-link to="/smsvocal" class="sub__nav--links">SMS Vocal</router-link>
-                 <router-link to="/enrich" class="sub__nav--links">SMS Enrichi</router-link>
-                 <router-link to="/location" class="sub__nav--links">Location BDD SMS</router-link>
-                 <router-link to="/mailing" class="sub__nav--links">SMS MAILING</router-link>
-                 <router-link to="" class="sub__nav--links">Sondages par SMS</router-link>
-                 <router-link to="" class="sub__nav--links">Questionnaire de satisfaction par SMS</router-link>
-                <router-link to="" class="sub__nav--links">Mobile Ticketing</router-link>
-                <router-link to="/bus" class="sub__nav--links">Rate'Pas Votre Bus</router-link>
-
-
+                 <router-link to="/enrich" class="sub__nav--links" >SMS Enrichi</router-link>
+                 <router-link to="/location" class="sub__nav--links" >Location BDD SMS</router-link>
+                 <router-link to="/mailing" class="sub__nav--links" >SMS MAILING</router-link>
+                 <router-link to="/sondage" class="sub__nav--links">Sondages par SMS</router-link>
+                <router-link to="/ticketing" class="sub__nav--links">Mobile Ticketing</router-link>
+                <router-link to="/rap" class="sub__nav--links"  @mouseleave.native="hover=false">Rate'Pas Votre Bus</router-link>
+                </div>
+            
 
              </div>
+           </router-link>
+            
 
            <router-link class="nav__links" to="/functionalities">FONCTIONNALITES</router-link>
            <router-link class="nav__links" to="/tarif">NOS TARIFS</router-link>
@@ -54,12 +59,16 @@
 </template>
 
 <script>
+import DropdownMenu from '@innologica/vue-dropdown-menu'
+
     export default {
 
         data(){
           return{
-              seen:false,
-              seenp:false
+             hover:false,
+             sub:false,
+            
+             seenp:false
               
           }
 
@@ -68,11 +77,11 @@
         methods:{
             // bad code fix it later
             togglenav(){
-               if(this.seen == false){
-                   this.seen = true;
+               if(this.hover == false){
+                   this.hover = true;
                }
                else{
-                   this.seen = false;
+                   this.hover = false;
                }
              
             },
@@ -330,6 +339,7 @@
        .toggle__nav{
           position:fixed;
           background:$color-white;
+          padding: 1rem;
        
        }
      .sub__nav{

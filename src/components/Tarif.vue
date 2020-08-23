@@ -168,7 +168,7 @@
             <div>
               <h3>Notre Tarif (HT)</h3>
               <div class="tarif__result">
-                <span>{{ calculatePrice }} F (28,24 F /SMS)</span>
+                <span>{{ calculatePrice }} F ({{intervalPrice}} F /SMS)</span>
               </div>
             </div>
           </div>
@@ -391,22 +391,29 @@ export default {
     return {
       price: 1,
       click: true,
+      intervalPrice: 28.24
     };
   },
   computed: {
     calculatePrice() {
       //  return (this.price *28.24).toFixed(2);
       if (this.price <= 4999) {
+         this.intervalPrice = 28.24;
         return (this.price * 28.24).toFixed(2);
       } else if (this.price == 5000 || this.price <= 9999) {
+         this.intervalPrice = 27.58;
         return (this.price * 27.58).toFixed(2);
       } else if (this.price == 10000 || this.price <= 24999) {
+            this.intervalPrice = 26.93;
         return (this.price * 26.93).toFixed(2);
       } else if (this.price == 25000 || this.price <= 49999) {
+           this.intervalPrice = 26.27;
         return (this.price * 26.27).toFixed(2);
       } else if (this.price == 50.0 || this.price <= 99999) {
+            this.intervalPrice =25.58;
         return (this.price * 25.58).toFixed(2);
       } else if (this.price == 100000 || this.price <= 250000) {
+         this.intervalPrice = 24.30;
         return (this.price * 24.3).toFixed(2);
       }
     },

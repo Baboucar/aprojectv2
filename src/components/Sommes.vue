@@ -14,11 +14,11 @@
         technologie pour vos campagnes SMS et vos opérations de marketing
         mobile.
       </p>
-      <h1 class="about__title">
-        Vos messages délivrés sur tous les canaux, partout au Sénégal. Nos
-        <br />
+      <h2 class="about__title">
+        Vos messages délivrés sur tous les canaux, partout au Sénégal.<br> Nos
+        
         solutions de communication vont vous simplifier la vie.
-      </h1>
+      </h2>
 
       <p>
         Nous proposons une offre transversale qui permet à nos clients de
@@ -107,7 +107,7 @@
               alt=""
               class="profile__image"
             />
-            <p to="" class="profile__name" @click="open = true">
+            <p to="" class="profile__name" @mouseover="open = true">
               Sylla Harouna
             </p>
             <p class="profile__title">Président Fondateur</p>

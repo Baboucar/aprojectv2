@@ -68,9 +68,9 @@
           ensemble
         </p>
         <div class="center__button band__text">
-          <button class="revolution__btn btn spacer-1">
-            Contactez-nous !
-          </button>
+          <router-link class="btn" to="/contact"
+              >CONTACTEZ-NOUS</router-link
+            > 
         </div>
       </div>
       <div>

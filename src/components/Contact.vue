@@ -64,6 +64,9 @@
       </div>
       <h2 class="center__text">Contactez-nous</h2>
         <form class="form" @submit.prevent="sendEmail">
+         <div>
+      <input type="text" name="name" id="" placeholder="Nom" required>
+      </div>
       <div>
       <input type="email" name="email" id="" placeholder="votre email" required>
       </div>
@@ -155,10 +158,7 @@ export default {
     padding: 2rem;
 
 }
-  input:focus{
-       border:1px solid $color-tertiary;
-       box-shadow: 0 0 5px $color-secondary;
-   }
+
 
 input[type="text"],input[type="email"],textarea, select{
     width: 80%;

@@ -16,7 +16,7 @@
           <div class="grid__blog">
             <figure>
               <img :src="item.image" alt="marketing" />
-              <figcaption>{{item.date}}</figcaption>
+              <figcaption class="date">{{item.date}}</figcaption>
             </figure>
 
             <p>
@@ -84,7 +84,10 @@ export default {
   color: $color-tertiary;
   font-weight: bolder;
 }
-
+.date{
+  font-weight: bold;
+  
+}
 @media (min-width: 64rem) {
   .grid__blog {
     display: grid;
