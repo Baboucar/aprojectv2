@@ -46,6 +46,10 @@ import Automobile from './components/Automobile';
 import Environmental from './components/Environmental';
 import Parti from './components/Parti';
 import Tourism from './components/Tourism';
+import Agency from './components/Agency';
+import Parent from './components/Parent';
+import Immoble from './components/Immoble';
+import Porter from './components/Porter';
 import { from } from 'core-js/fn/array';
 
 
@@ -96,6 +100,11 @@ export default new Router({
    component:Environmental
     },
     {
+    path:'/porter',
+    name:'porter',
+    component:Porter
+    },
+    {
    path:'/parti',
    name:'environmental',
    component:Parti
@@ -106,9 +115,24 @@ export default new Router({
      component:Statistique
     },
     {
+    path:'/immoble',
+    name:'immoble',
+    component:Immoble
+    },
+    {
      path:'/tourism',
      name:'tourism',
      component:Tourism
+    },
+    {
+    path:'/agency',
+    name:'agency',
+    component:Agency
+    },
+    {
+    path:'/parent',
+    name:'parent',
+    component:Parent
     },
     {
      path:'/logistique',

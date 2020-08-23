@@ -16,10 +16,10 @@
         objectifs
       </h3>
 
-      <div class="model__card">
+      <div class="model__card seventy__container">
         <div class="card">
           <img class="card__image" src="/../images/teach-80x80.gif" alt="" />
-          <p class="card__description">SMS pour le milieu scolaire</p>
+          <router-link to="/parent" class="card__description">SMS pour le milieu scolaire</router-link>
         </div>
         <div class="card">
           <img class="card__image" src="/../images/group-80x80.gif" alt="" />
@@ -72,7 +72,7 @@
         </div>
         <div class="card">
           <img class="card__image" src="/../images/recruit.gif" alt="" />
-          <p class="card__description">SMS pour le recrutement</p>
+          <router-link to="/agency" class="card__description">SMS pour le recrutement</router-link>
         </div>
          <div class="card">
           <img class="card__image" src="/../images/immoble.gif" alt="" />
@@ -81,7 +81,7 @@
          <div class="card">
           <img class="card__image" src="/../images/vote.gif" alt="" />
         
-          <router-link to="/parti" class="card__description">SMS Parti Politique</router-link>
+          <router-link to="/politique" class="card__description">SMS Parti Politique</router-link>
         </div>
          <div class="card">
           <img class="card__image" src="/../images/environment.gif" alt="" />
@@ -91,7 +91,8 @@
         
          <div class="card">
           <img class="card__image" src="/../images/porter.gif" alt="" />
-          <p class="card__description">SMS pour prêt-à-porter</p>
+          
+          <router-link to="/porter" class="card__description">SMS pour prêt-à-porter</router-link>
         </div>
       </div>
     </section>
@@ -120,6 +121,11 @@ export default {
   border-radius: 0.25rem;
   box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
   margin-top: 2rem;
+  transition: transform .3s;
+
+  &:hover{
+    transform: scale(1.1); 
+  }
 }
 .card__description{
      border-bottom: 4px solid $color-tertiary;
