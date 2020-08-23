@@ -181,20 +181,7 @@ margin-top: 1rem;
 input[type="text"],input[type="email"],select{
     height: 50px;
 }
-.form__btn{
-    display: block;
-    width: 80%;
-    margin: 1rem auto;
-    padding: 1rem;
-    background:$color-tertiary;
-    border: none;
-    color: $color-white;
-    font-weight: bold;
-    cursor: pointer;
-    &:hover{
-        background: rgb(32, 32, 133);
-    }
-}
+
 @media(min-width:64rem){
     .address__detail{
         position: absolute;

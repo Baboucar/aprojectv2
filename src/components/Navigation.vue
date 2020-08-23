@@ -14,7 +14,7 @@
             </div>
 
             <div class="header__links">
-                <router-link class="header__link" to="/form"> <img class="link__icon" src="/../images/lock.png" alt=""> Se connecter</router-link>
+                <router-link class="header__link" to="/login"> <img class="link__icon" src="/../images/lock.png" alt=""> Se connecter</router-link>
                 <router-link class="header__link" to=""> <img class="link__icon" src="/../images/writing.png" alt=""> S'inscrire</router-link>
             </div>
             <div class="menu">

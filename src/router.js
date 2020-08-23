@@ -50,6 +50,7 @@ import Agency from './components/Agency';
 import Parent from './components/Parent';
 import Immoble from './components/Immoble';
 import Porter from './components/Porter';
+import Login from './components/Login';
 import { from } from 'core-js/fn/array';
 
 
@@ -93,6 +94,12 @@ export default new Router({
      path:'/profession',
      name:'profession',
      component:Profession
+    },
+
+    {
+     path:'/login',
+     name:'login',
+     component:Login
     },
     {
    path:'/environmental',
