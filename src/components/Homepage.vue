@@ -3,7 +3,6 @@
     <Navigation />
     <section class="sms__pro section__container spacer-2">
       <div class="service__title">
-        <!-- <p class="solution spacer-1">SOLUTION PRO</p> -->
         <h1 class="home__title">Nos solutions SMS</h1>
 
         <p class="sms__description">Toutes nos solutions sur-mesure</p>
@@ -262,7 +261,9 @@ export default {
     font-weight: bold;
     font-size: 1.5rem;
   }
-
+ .center__button{
+   display: block;
+ }
   .home__title {
     font-size: 3rem;
     color: $color-tertiary;
