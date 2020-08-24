@@ -76,7 +76,8 @@
         </div>
          <div class="card">
           <img class="card__image" src="/../images/immoble.gif" alt="" />
-          <p class="card__description">SMS pour l'immobilier</p>
+          
+          <router-link to="/immoble" class="card__description">SMS pour l'immobilier</router-link>
         </div>
          <div class="card">
           <img class="card__image" src="/../images/vote.gif" alt="" />

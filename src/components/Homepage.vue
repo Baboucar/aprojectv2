@@ -131,16 +131,7 @@
           </div>
         </div>
 
-        <div class="services__card spacer-1">
-          <img class="card__image" src="/../images/icone-satisfaction.png" alt="satisfaction" />
-          <div class="card__details">
-            <a href="http://" class="card__title">Questionnaire de satisfaction par SMS</a>
-            <p class="card__description">
-              Découvrez tout ce qu’il y a savoir sur notre solution de
-              questionnaire de satisfaction par sms !
-            </p>
-          </div>
-        </div>
+     
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/mobile-Tiketing.png" alt="ticketing" />
           <div class="card__details">

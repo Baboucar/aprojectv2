@@ -51,6 +51,7 @@ import Parent from './components/Parent';
 import Immoble from './components/Immoble';
 import Porter from './components/Porter';
 import Login from './components/Login';
+import Signup from './components/Signup';
 import { from } from 'core-js/fn/array';
 
 
@@ -100,6 +101,11 @@ export default new Router({
      path:'/login',
      name:'login',
      component:Login
+    },
+    {
+    path:'/signup',
+    name:'signup',
+    component:Signup
     },
     {
    path:'/environmental',
