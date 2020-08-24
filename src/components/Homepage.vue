@@ -28,7 +28,8 @@
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/icon-sms-pro.png" alt="smspro" />
           <div class="card__details">
-            <a class="card__title" href="#">SMS Pro</a>
+            
+            <router-link to="/smspro" class="card__title">SMS Pro</router-link>
             <p class="card__description">
               Outil de communication performant vous permettra
               également de bénéficier de fonctions telles que la
@@ -42,10 +43,8 @@
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/icone-vocal-sms.png" alt="smsvocal" />
           <div class="card__details">
-            <a
-              class="card__title sms__vocal"
-              href="https://www.capitolemobile.com/vocal/sms-vocal"
-            >SMS Vocal</a>
+         
+            <router-link to="/smsvocal"  class="card__title sms__vocal">SMS Vocal</router-link>
             <p class="card__description">
               Facilitez la vie de vos clients en leur
               envoyant des messages vocaux de
@@ -57,10 +56,8 @@
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/icone-sms-20.png" alt="sms" />
           <div class="card__details">
-            <a
-              class="card__title"
-              href="https://www.capitolemobile.com/sms/rich-message"
-            >La fonction "SMS Enrichi</a>
+         
+            <router-link to="/enrich" class="card__title">La fonction "SMS Enrichi</router-link>
             <p class="card__description">
               Vos campagnes de SMS publicitaires une
               interactivité grâce à un message « enrichi » et «
@@ -72,7 +69,8 @@
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/loca-bdd-sms.png" alt="bdd" />
           <div class="card__details">
-            <a href class="card__title">Location BDD SMS</a>
+           
+            <router-link to="/location" class="card__title">Location BDD SMS</router-link>
             <p class="card__description">
               Nous proposons des solutions de locations des fichiers
               de Prospection pour agrandir votre réseau de prospects
@@ -91,7 +89,8 @@
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/emailing-icon-.png" alt="smsmailing" />
           <div class="card__details">
-            <a href="http://" class="card__title">SMS MAILING</a>
+          
+            <router-link to="/mailing" class="card__title">SMS MAILING</router-link>
             <p class="card__description">
               Envoyez un mailing SMS à autant de
               destinataires que vous le souhaitez.
@@ -102,10 +101,8 @@
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/sondage-par-sms.png" alt="sms" />
           <div class="card__details">
-            <a
-              class="card__title"
-              href="https://www.capitolemobile.com/fr/produits/wap-push-clic-to-call"
-            >Sondages par SMS</a>
+       
+            <router-link to="/sondage" class="card__title">Sondages par SMS</router-link>
             <p class="card__description">
               Automatisez vos sondages par SMS et restez à l'écoute
               de vos clients
@@ -120,7 +117,8 @@
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/vote-par-sms.png" alt="vote" />
           <div class="card__details">
-            <a href="http://" class="card__title">Votre par SMS</a>
+           
+            <router-link to="/votre" class="card__title">Votre par SMS</router-link>
             <p class="card__description">
               Boostez vos événements avec le Vote par SMS
               Organisez des événements inoubliables grâce à notre
@@ -135,7 +133,8 @@
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/mobile-Tiketing.png" alt="ticketing" />
           <div class="card__details">
-            <p class="card__title">Mobile Ticketing</p>
+      
+            <router-link to="/mobileticketing" class="card__title">Mobile Ticketing</router-link>
             <p class="card__description">
               Acheter et recevez vos tickets de TER,
               Bus par SMS
@@ -145,7 +144,8 @@
         <div class="services__card spacer-1">
           <img class="card__image" src="/../images/-bus-icon-blue-bus-png.png" alt="bus" />
           <div class="card__details">
-            <p class="card__title">Rate’ Pas Votre Bus</p>
+            
+            <router-link to="/rap" class="card__title">Rate’ Pas Votre Bus</router-link>
             <p class="card__description">
               Une solution qui vous permette de prendre le contrôle
               en main de vos informations horaires en temps réel
