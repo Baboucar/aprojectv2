@@ -59,7 +59,6 @@
 </template>
 
 <script>
-import DropdownMenu from '@innologica/vue-dropdown-menu'
 
     export default {
 
