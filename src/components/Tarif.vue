@@ -633,7 +633,7 @@ td {
 .sub__paragraph {
   font-size: 1.2rem;
   
-  padding-left: 1rem;
+  padding:0 1rem;
 }
 
 ::placeholder {

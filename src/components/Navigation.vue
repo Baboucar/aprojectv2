@@ -36,7 +36,7 @@
                  <router-link to="/location" class="sub__nav--links" >Location BDD SMS</router-link>
                  <router-link to="/mailing" class="sub__nav--links" >SMS MAILING</router-link>
                  <router-link to="/sondage" class="sub__nav--links">Sondages par SMS</router-link>
-                <router-link to="/ticketing" class="sub__nav--links">Mobile Ticketing</router-link>
+                <router-link to="/mobileticketing" class="sub__nav--links">Mobile Ticketing</router-link>
                 <router-link to="/rap" class="sub__nav--links"  @mouseleave.native="hover=false">Rate'Pas Votre Bus</router-link>
                 </div>
             

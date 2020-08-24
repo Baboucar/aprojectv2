@@ -55,6 +55,9 @@ label {
   
 }
 
+:-moz-placeholder{
+  padding: 1rem;
+}
 @import "../assets/base.scss";
 input[type="password"],
 input[type="email"] {

@@ -7,11 +7,23 @@ $color-grey:#f8f8f8;
 $color-text:#5e5e5e;
 
 
+  input[placeholder] {
+      box-sizing: initial;
+  }
+
 
 .title{
     color:$color-tertiary
 }
 
+::-moz-placeholder { 
+ box-sizing: initial;
+  text-indent: 3.8%;
+   font-weight: bold;
+  
+   padding: 0.6% 2%;
+   
+ } 
 
 .container{
     width: 90%;
