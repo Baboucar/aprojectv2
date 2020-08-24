@@ -55,15 +55,26 @@
         Appels aux dons
       </p>
       <h2>Quelques exemples de SMS :</h2>
-      <p>
+      <div class="cards">
+      <div class="card">
+          <p class="card__details">
       « Nous attendons tous les adhérents du parti samedi soir à partir de 18h pour une réunion d’information. »
       </p>
-      <p>
+      </div>
+      <div class="card">
+        <p class="card__details">
       « Retrouvez votre élu ce soir sur RTS1 TV à partir de 20h30 pour un grand débat politique. »
       </p>
-      <p>
+      </div>
+      <div class="card">
+      
+      <p class="card__details">
       « Les bureaux de vote sont ouverts samedi de 8h à 20h. Nous comptons sur tous nos adhérents pour s’y rendre et se mobiliser ! »
       </p>
+      </div>
+      </div>
+  
+    
     </section>
     <Footer/>
   </div>

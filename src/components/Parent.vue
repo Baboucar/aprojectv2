@@ -30,20 +30,30 @@
         scolaires à utiliser une de nos solutions SMS Scolaire.
       </p>
       <h2>Quelques exemples de SMS :</h2>
-      <p>
+      <div class="cards">
+       <div class="card">
+          <p class="card__details">
         « Chers Etudiants de la FAC droit, la période des examens commencera le
         lundi 8 décembre et terminera le samedi 12 décembre. Bonnes révisions
         ! »
       </p>
-      <p>
+       </div>
+      
+      <div class="card">
+        <p class="card__details">
         « Votre enfant Marième Sow ne s’est pas présenté en cours ce jour à
         8h00. Merci de prendre contact rapidement avec l’établissement scolaire
         au 01234567890″ »
       </p>
-      <p>
+      </div>
+      <div class="card">
+       <p class="card__details">
         « Chers parents, nous vous rappelons que la réunion parent/profs aura
         lieu demain soir à partir de 18h. »
       </p>
+      </div>
+    </div>
+     
     </section>
     <Footer/>
   </div>

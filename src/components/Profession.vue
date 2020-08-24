@@ -59,21 +59,32 @@
       </h2>
       <p>Rappel de rendez-vous programmé</p>
       <h2>Quelques exemples de SMS :</h2>
-      <p>
+      <div class="cards">
+       <div class="card">
+          <p class="card__details">
         « Bonjour Mme Moreau, N’oubliez pas votre RDV de demain 9h45 chez le
         Docteur Sané. En cas d’empêchement merci de nous prévenir au plus tôt
         par SMS ou appel au 1234567890. <br />
         Cabinet du Dr Sané »
       </p>
-      <p>
+       </div>
+       <div class="card">
+        <p class="card__details">
         « Pharmacie du centre-ville Votre renouvellement de médicament est
         disponible. ref : 86456 <br />
         Cordialement. »
       </p>
-      <p>
+       </div>
+       <div class="card">
+         <p class="card__details">
         « Bonjour, nous vous rappelons votre RDV du 13/01/2021 pour la révision
         de votre machine. Cordialement, CXG OXY. »
       </p>
+       </div>
+      </div>
+   
+     
+    
     </section>
     <Footer/>
   </div>

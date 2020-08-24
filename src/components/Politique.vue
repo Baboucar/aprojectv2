@@ -180,7 +180,7 @@
         suivants :
       </p>
       <p>
-        Un droit d’accès et de rectification ; L’Utilisateur peut à tout moment
+        Un droit d’accès et de rectification ; L’Utilisateur peut à tout moment
         modifier lui-même les données le concernant en se loguant sur
         https://www.servicesms.sn et en cliquant sur ” Mon profil ” ou en
         contactant le service de relation client à l’adresse

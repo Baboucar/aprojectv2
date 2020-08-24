@@ -33,20 +33,31 @@
         Ouverture exceptionnelle
       </p>
       <h2>Quelques exemples de SMS :</h2>
-      <p>
+      <div class="cards">
+      <div class="card">
+           <p class="card__details">
         « Votre Boutique gold swiss vous attend dès le lundi 10 juin pour les
         soldes privées et profitez ainsi de promotions jusqu’à -50%. Offre
         valable sur présentation de ce SMS. »
       </p>
-      <p>
+      </div>
+      <div class="card">
+       <p class="card__details">
         « Madame Diop, nous vous informons que les nouveaux Bazin Riche sont
         bien arrivés. Vous pouvez venir les récupérer du lundi au samedi de 10h
         à 19h. »
       </p>
-      <p>
+      </div>
+      <div class="card">
+        <p class="card__details">
         « La 2éme démarque a commencé dans votre Boutique gold. Profitez de
         promotions allant jusqu’à -60%. »
       </p>
+      </div>
+      </div>
+  
+     
+    
     </section>
     <Footer/>
   </div>

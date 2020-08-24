@@ -54,21 +54,33 @@
         et bien plus encore…
       </p>
       <h2>Quelques exemples de SMS :</h2>
-      <p>
+      <div class="cards">
+       <div class="card">
+        <p class="card__details">
         « Monsieur Mbacké, nous vous informons que votre abonnement pour la
         chaine Touba Tv arrive à terme. Pensez à vous réabonnez en cliquant sur
         ce lien : https://toubatv.sn »
       </p>
-      <p>
+       </div>
+       <div class="card">
+          <p class="card__details">
         « C’est la semaine des affaires chez swiss gold bazin. Saisissez le code
         « PROMO » dans votre e-panier pour bénéficier de 15% de remise jusqu’au
         18/08/2021. L’équipe swiss gold bazin »
       </p>
-      <p>
+       </div>
+
+       <div class="card">
+         <p class="card__details">
         « C’est le moment de consulter nos offres d’abonnements sur notre site
         internet : www.mag.sn Nous vous offrons une remise de 30% à partir de 2
         abonnements hebdomadaires à nos magazines. »
       </p>
+       </div>
+      </div>
+     
+    
+    
     </section>
     <Footer/>
   </div>

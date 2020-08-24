@@ -32,15 +32,26 @@
      Conseils de préparation pour un entretien ou trouver un emploi
       </p>
       <h2>Quelques exemples de SMS :</h2>
-      <p>
+      <div class="cards">
+      <div class="card">
+        <p class="card__details">
       « Nous cherchons un consultant junior pour agrandir notre Equipe. RDV sur notre site internet pour plus d’informations : https://recrutement.sn »
       </p>
-      <p>
+      </div>
+      <div class="card">
+        <p class="card__details">
       « Bonjour Khadija votre mission commerciale reprend le 26 Janvier à 8h30. Votre chef d’équipe va vous contactez pour plus d’informations » 
       </p>
-      <p>
+      </div>
+      <div class="card">
+       <p class="card__details">
       « Bonjour Fatima, nous avons une mission pour vous du lundi 13 au vendredi 17h juin. Merci de nous contacter au 1 23 45 67 890 pour plus de renseignements. »
       </p>
+      </div>
+      </div>
+    
+    
+     
     </section>
      <Footer/>
   </div>

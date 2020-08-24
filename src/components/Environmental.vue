@@ -41,21 +41,32 @@
         Communication avec les fournisseurs
       </p>
       <h2>Quelques exemples de SMS :</h2>
-      <p>
+      <div class="cards">
+       <div class="card">
+        <p class="card__details">
         « Monsieur Diop, Directeur BWTECH est heureux de vous inviter lundi 24
         avril, lors de sa soirée de l’entrepreneuriat. Nous vous attendons
         impatiemment ! »
       </p>
-      <p>
+       </div>
+       <div class="card">
+       <p class="card__details">
         « Madame, Monsieur, nous vous rappelons votre inscription au concert de
         Youssou Ndour organisé demain soir au grand théâtre. Nous vous y
         attendons à partir de 19h30. »
       </p>
-      <p>
+       </div>
+       <div class="card">
+         <p class="card__details">
         « Nous remercions tous nos invités pour cette agréable soirée. Nous
         espérons que ous avez passé un moment inoubliable ! Retrouvez nous sur :
         www.senevent.sn pour d’autres évènement dans la région. »
       </p>
+       </div>
+      </div>
+     
+      
+    
     </section>
     <Footer/>
   </div>

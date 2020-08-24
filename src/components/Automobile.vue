@@ -65,19 +65,30 @@
         Envoi de devis pour confirmation intervention post diagnostic…
       </p>
       <h2>Exemples de SMS pour le secteur automobile :</h2>
-      <p>
+      <div class="cards">
+       <div class="card">
+         <p class="card__details">
         « Bonjour Mr Diallo, Réservez votre essai et découvrez les technologies
         de la nouvelle gamme auto sur http://senecarauto.sn SenecarAuto. »
       </p>
-      <p>
+       </div>
+       <div class="card">
+          <p class="card__details">
         « Bonjour, Nous vous confirmons votre RDV de demain 9h pour la révision
         de votre véhicule dans notre concession. SenecarAuto »
       </p>
-      <p>
+       </div>
+       <div class="card">
+          <p class="card__details">
         « Cher(e) client(e), La révision de votre véhicule immatriculé DK 2543
         est terminée. Montant 75000FCFA. Récupération avant 17h merci Votre
         concession SenecarAuto. »
       </p>
+       </div>
+      </div>
+    
+   
+   
     </section>
     <Footer/>
   </div>

@@ -35,19 +35,30 @@
         Envoi de newsletter grâce à nos SMS enrichis (lien)
       </p>
       <h2>Quelques exemples de SMS :</h2>
-      <p>
+      <div class="cards">
+      <div class="card">
+        <p class="card__details">
         « Monsieur Diop, la villa que vous avez louée l’été dernier est
         disponible dès le mois de juin cette année ! Merci de nous contacter
         pour une nouvelle location. »
       </p>
-      <p>
-        « Madame, nous vous informons que votre appartement sera visité par de
-        potentiels acheteurs à demain à 1Oh »
-      </p>
-      <p>
+      </div>
+      <div class="card">
+        <p class="card__details">
         « Monsieur, le loyer du mois de juin n’a toujours pas été réglé. Merci
         de nous faire parvenir un chèque au plus vite. »
       </p>
+      </div>
+      <div class="card">
+      <p class="card__details">
+      « Monsieur, le loyer du mois de juin n’a toujours pas été réglé. Merci de nous faire parvenir
+un chèque au plus vite. »
+      </p>
+      </div>
+      </div>
+    
+     
+    
     </section>
     <Footer/>
   </div>
