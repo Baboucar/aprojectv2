@@ -30,6 +30,7 @@ import Footer from './Footer';
 .referene__image{
     display: block;
     margin: 0 auto;
+    max-width: 100%;
 }
    @media(min-width: 64rem){
        .referene__heading{
