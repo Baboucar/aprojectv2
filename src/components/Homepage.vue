@@ -12,7 +12,7 @@
       <div class="phone spacer-2">
         <img
           class="img"
-          src="/../images/servicesms-fonctionnalites-services-petit 500x500.gif"
+          src="/../images/principal-fonctionalite.png"
           alt="services"
         />
       </div>
