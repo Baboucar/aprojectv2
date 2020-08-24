@@ -404,5 +404,9 @@ input,select{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+  form{
+    width: 50%;
+    margin: 0 auto;
+  }
 }
 </style>
