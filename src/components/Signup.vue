@@ -34,7 +34,7 @@ export default {
   components: {
     Navigation,
     Footer,
-    VueTelInput
+ 
   },
 };
 </script>
