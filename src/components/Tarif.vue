@@ -3,7 +3,7 @@
     <Navigation />
     <div class="top__container section__container">
       <section class="head">
-        <div class="center__head">
+        <div class="">
           <h1 class="header__title ">
             Tarifs SMS professionnels <br />
             Acheter vos SMS au Meilleur Tarif du Web
@@ -20,7 +20,7 @@
             <p class="typing sub__paragraph"></p>
           </vue-typed-js>
 
-          <p class="">
+          <p class="sub__paragraph">
             Aucun frais d'inscription, ni d'abonnement... vous ne <br />
             payez que les crédits SMS que vous pouvez consommer à votre rythme !
           </p>
@@ -41,13 +41,13 @@
             :typeSpeed="270"
             :cursorChar="'_'"
           >
-            <p class="typing"></p>
+            <p class="typing sub__paragraph"></p>
           </vue-typed-js>
         </div>
       </section>
 
       <section class="tarrif">
-        <h2 class="tarif__price">Des packs adaptés à vos besoins</h2>
+        <h2 class="tarif__price sub__paragraph">Des packs adaptés à vos besoins</h2>
         <div class="terif__info">
           <h1 class="center__text tarif__header">
             NOS FORMULES D'ENVOIS DE SMS
@@ -617,10 +617,10 @@ td {
 
 .head {
   background: $color-grey;
-  padding: 1rem;
+  
   border-radius: 0.25rem;
   box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
-  padding-bottom: 1rem;
+ 
 }
 
 .partner__image {
@@ -631,7 +631,9 @@ td {
 }
 
 .sub__paragraph {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  
+  padding-left: 1rem;
 }
 
 ::placeholder {
