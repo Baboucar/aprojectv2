@@ -225,6 +225,11 @@ export default {
   background-color: white;
     border-radius: 0.25rem;
     box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+     transition: transform .3s;
+
+  &:hover{
+    transform: scale(1.1); 
+  }
 }
 .center__button {
   display: flex;

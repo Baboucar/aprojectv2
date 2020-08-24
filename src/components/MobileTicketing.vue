@@ -59,7 +59,171 @@
       </p>
     </section>
     <h2 class="center__text spacer-2">NOUS VOUS FACILITONS LA TÂCHE</h2>
+   
+    <div class="section__container">
+      
+      <form-wizard color="#0092ff">
+           <h2 slot="title">Mode d’utilisation du service</h2> 
 
+        <tab-content title="Saisir les informations d’achat de votre ticket">
+             <form action="">
+              <div>
+           <label for="compange">Compagnie</label>
+            <select name="" id="compange">
+            <option value="">AFTU</option>
+            <option value="">DDD</option>
+            </select>
+           </div>
+           <div>
+            <label for="">Numero de Bus</label>
+            <input type="text" name="" id="">
+           </div>
+           <div>
+            <label for="">Lieu de Départ</label>
+            <input type="date" name="" id="">
+           </div>
+           <div>
+            <label for="">Lieur de Destination</label>
+            <input type="date" name="" id="">
+           </div>
+           <div>
+           <label for="">Date d’achat</label>
+           <input type="date" name="" id="">
+           </div>
+           <div>
+             <label for="">Nombre de Ticket</label>
+             <input type="text" name="" id="">
+           </div>
+
+           <div>
+           
+           </div>
+             </form>
+        </tab-content>
+        <tab-content title="Identification">
+          <form action="">
+           <div>
+           <label for="">Nom</label>
+           <input type="text" name="" id="">
+           </div>
+           <div>
+            <label for="">Prénom</label>
+            <input type="text" name="" id="">
+           </div>
+           <div>
+           <label for="">E-mail</label>
+           <input type="email" name="" id="">
+           </div>
+          </form>
+        </tab-content>
+        <tab-content title="Suivant">
+         <form action="">
+          <div>
+          <label for="">Montant à payer</label>
+          <input type="text" name="" value="CFA" id="">
+          </div>
+          <div>
+          <label for="">Mode de paiement</label>
+          <select name="" id="">
+          <option value="">Orange Money</option>
+          </select>
+          </div>
+          <div>
+           <label for="">No tél Compte orange money</label>
+           <input type="text" name="" id="">
+          </div>
+          <div>
+          <label for="">Code mmid</label>
+          <input type="text" name="" id="">
+          </div>
+         </form>
+        </tab-content>
+      </form-wizard>
+    </div>
+
+    <div class="section__container">
+     <form-wizard color="#0092ff">
+           <h2 slot="title">Mode d’utilisation du service</h2> 
+
+        <tab-content title="Saisir les informations d’achat de votre ticket">
+             <form action="">
+              <div>
+           <label for="compange">Compagnie</label>
+            <select name="" id="compange">
+            <option value="">TER</option>
+           >
+            </select>
+           </div>
+         
+           <div>
+            <label for="">Lieu de Départ</label>
+            <input type="date" name="" id="">
+           </div>
+           <div>
+            <label for="">Lieur de Destination</label>
+            <input type="date" name="" id="">
+           </div>
+           <div>
+            <label for="">Classe</label>
+            <select name="" id="">
+            <option value="">1e classe</option>
+            <option value="">2e classe</option>
+            </select>
+           </div>
+           <div>
+           <label for="">Date d’achat</label>
+           <input type="date" name="" id="">
+           </div>
+           <div>
+             <label for="">Nombre de Ticket</label>
+             <input type="text" name="" id="">
+           </div>
+
+           <div>
+           
+           </div>
+             </form>
+        </tab-content>
+        <tab-content title="Identification">
+          <form action="">
+           <div>
+           <label for="">Nom</label>
+           <input type="text" name="" id="">
+           </div>
+           <div>
+            <label for="">Prénom</label>
+            <input type="text" name="" id="">
+           </div>
+           <div>
+           <label for="">E-mail</label>
+           <input type="email" name="" id="">
+           </div>
+          </form>
+        </tab-content>
+        <tab-content title="Suivant">
+         <form action="">
+          <div>
+          <label for="">Montant à payer</label>
+          <input type="text" name="" value="CFA" id="">
+          </div>
+          <div>
+          <label for="">Mode de paiement</label>
+          <select name="" id="">
+          <option value="">Orange Money</option>
+          </select>
+          </div>
+          <div>
+           <label for="">No tél Compte orange money</label>
+           <input type="text" name="" id="">
+          </div>
+          <div>
+          <label for="">Code mmid</label>
+          <input type="text" name="" id="">
+          </div>
+         </form>
+        </tab-content>
+      </form-wizard>
+    </div>
     <h2 class="center__text">
       Nous facilitons l'achat de vos billets Bus et TER <br />
       Economisez plus, voyagez plus !
@@ -166,40 +330,79 @@
       La Ponctualité. Nous y travaillons chaque minute.
     </h2>
     <section class="sixty__container ">
-     <h1 class="center__text">Nos partenaires</h1>
-     <div class="partners">
-      <img  class="img__responsive partner__image" src="/../images/ticketing/ddd-200x200.png" alt="ddk">
-      <img class="img__responsive partner__image" src="/../images/ticketing/aftu-logo-200x200.png" alt="afu">
-      <img class="img__responsive partner__image" src="/../images/ticketing/orange-logo-200x200.png" alt="orange">
+      <h1 class="center__text">Nos partenaires</h1>
+      <div class="partners">
+        <img
+          class="img__responsive partner__image"
+          src="/../images/ticketing/ddd-200x200.png"
+          alt="ddk"
+        />
+        <img
+          class="img__responsive partner__image"
+          src="/../images/ticketing/aftu-logo-200x200.png"
+          alt="afu"
+        />
+        <img
+          class="img__responsive partner__image"
+          src="/../images/ticketing/orange-logo-200x200.png"
+          alt="orange"
+        />
       </div>
     </section>
-    <Footer/>
+    <Footer />
   </div>
 </template>
 
 <script>
+import Vue from "vue";
 import Navigation from "./Navigation";
 import Footer from "./Footer";
+import { FormWizard, TabContent } from "vue-form-wizard";
+import "vue-form-wizard/dist/vue-form-wizard.min.css";
 
 export default {
   components: {
     Navigation,
     Footer,
+    FormWizard,
+    TabContent,
   },
 };
 </script>
 
 <style lang="scss" scoped>
-@import '../assets/base.scss';
-.partner__image{
-    display: block;
-    margin: 2rem auto;
+@import "../assets/base.scss";
+.partner__image {
+  display: block;
+  margin: 2rem auto;
+}
+label{
+  
+   display: block;
+  font-weight: bold;
+  margin-top: 1rem;
 }
 
-@media(min-width:64rem){
-    .partners{
-        display: grid;
-         grid-template-columns: 1fr 1fr 1fr;
-    }
+input,select{
+  width: 100%;
+  display: block;
+
+  box-sizing: border-box;
+  border: none;
+  color: #555;
+  height: 50px;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  margin-top: 1rem;
+}
+@media (min-width: 64rem) {
+  .partners {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 </style>
