@@ -3,7 +3,7 @@
     <Navigation />
 
     <div class="section__container fix__position header__title">
-      <div >
+      <div class="center__text fun__title" >
       <h1 class=" ">
         Fonctionnalités
         <br />Inclues dans nos solutions SMS
@@ -17,8 +17,8 @@
     
 
     <div class="section__container center__text">
-      <h2>Une plateforme d'envoi de SMS aux fonctionnalités uniques</h2>
-      <p class="sub__heading--text">
+      <h2 class="title">Une plateforme d'envoi de SMS aux fonctionnalités uniques</h2>
+      <p class="sub__heading--text ">
         Optimisez l'envoi de SMS pro en masse avec les fonctionnalités de la
         plateforme Service-SMS
       </p>
@@ -289,6 +289,7 @@ export default {
 }
 .function__img{
   height: auto;
+  margin:0 auto;
   display: block;
   margin-top: 2rem;
 
@@ -330,8 +331,12 @@ export default {
   }
   .function__img{
    margin-top: 0;
+
   }
 
+.fun__title{
+  text-align: left;
+}
  .composition{
    margin-top: .5rem;
  }

@@ -3,9 +3,9 @@
     <Navigation />
     <section class="sms__pro section__container spacer-2">
       <div class="service__title">
-        <h1 class="home__title">Nos solutions SMS</h1>
+        <h1 class="home__title title">Nos solutions SMS</h1>
 
-        <p class="sms__description">Toutes nos solutions sur-mesure</p>
+        <p class="sms__description title">Toutes nos solutions sur-mesure</p>
         
         <router-link to="/signup" class="btn">TESTEZ GRATUITEMENT</router-link>
       </div>
@@ -252,6 +252,14 @@ export default {
 .card__details{
   padding: 1rem;
 }
+.img{
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.service__title{
+  text-align: center;
+}
 @media (min-width: 64rem) {
   .sms__pro {
     display: grid;
@@ -293,6 +301,7 @@ export default {
  
   
   .service__title {
+    text-align: left;
     padding: 2rem;
   }
  
