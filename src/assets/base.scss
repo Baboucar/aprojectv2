@@ -75,6 +75,7 @@ $color-text:#5e5e5e;
     
     box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
     transition: transform .3s;
+   
 
     &:hover{
       transform: scale(1.1); 
@@ -105,6 +106,7 @@ $color-text:#5e5e5e;
   width: 85%;
   margin-bottom:2rem;
 }
+
 @media(min-width:64rem){
   .top__container{
     margin-top: 17rem;
@@ -130,6 +132,7 @@ $color-text:#5e5e5e;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       gap: 3rem;
+   
       
     }
 
