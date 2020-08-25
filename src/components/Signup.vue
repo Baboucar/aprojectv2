@@ -25,9 +25,10 @@
 </template>
 
 <script>
+import Vue from 'vue';
 import Navigation from "./Navigation";
 import Footer from "./Footer";
-import Vue from 'vue';
+
 import VueTelInput from 'vue-tel-input';
 Vue.use(VueTelInput)
 export default {

@@ -1,16 +1,18 @@
 <template>
-  <div>
+  <div class="sticky">
     <Navigation />
 
     <div class="section__container fix__position header__title">
-      <div>
+      <div >
       <h1 class=" ">
         Fonctionnalités
         <br />Inclues dans nos solutions SMS
       </h1>
-      <button class="btn">TESTEZ GRATUITEMENT</button>
+      
+             <router-link to="/signup" class="btn">TESTEZ GRATUITEMENT</router-link>
+
       </div>
-      <img src="/../images/principal-fonctionalite.png" alt="">
+      <img  class="img__responsive function__img" src="/../images/principal-fonctionalite.png" alt="">
     </div>
     
 
@@ -285,6 +287,15 @@ export default {
 .sub__heading--text {
   font-size: 1.2rem;
 }
+.function__img{
+  height: auto;
+  display: block;
+  margin-top: 2rem;
+
+}
+.sticky{
+  position: sticky;
+}
 
 .card__header {
   background: $color-tertiary;
@@ -317,6 +328,10 @@ export default {
      grid-template-columns: 2fr 1fr;
    
   }
+  .function__img{
+   margin-top: 0;
+  }
+
  .composition{
    margin-top: .5rem;
  }

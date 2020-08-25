@@ -1,12 +1,13 @@
 <template>
-  <div>
+  <div class="sticky">
     <Navigation />
     <section class="sms__pro section__container spacer-2">
       <div class="service__title">
         <h1 class="home__title">Nos solutions SMS</h1>
 
         <p class="sms__description">Toutes nos solutions sur-mesure</p>
-        <button class="btn">TESTEZ GRATUITEMENT</button>
+        
+        <router-link to="/signup" class="btn">TESTEZ GRATUITEMENT</router-link>
       </div>
       <div class="phone spacer-2">
         <img
@@ -205,6 +206,9 @@ export default {
   background: $color-tertiary;
 }
 
+.sticky{
+  position: sticky;
+}
 .services__cards{
   background-color: white;
     border-radius: 0.25rem;
