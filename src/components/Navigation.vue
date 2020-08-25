@@ -161,7 +161,7 @@
        border: none;
        border-color: rgba(255, 255, 255, 0.3);
     outline: none;
-    color: white;
+   
       
    }
    input:focus{

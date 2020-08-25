@@ -59,168 +59,167 @@
       </p>
     </section>
     <h2 class="center__text spacer-2">NOUS VOUS FACILITONS LA TÂCHE</h2>
-   
+
     <div class="section__container">
-      
+      <div class="center__text">
+        <img src="/../images/icone-bus.png" alt="" />
+
+        <h2 slot="title">Mode d’utilisation du service</h2>
+      </div>
       <form-wizard color="#0092ff">
-           <h2 slot="title">Mode d’utilisation du service</h2> 
-
         <tab-content title="Saisir les informations d’achat de votre ticket">
-             <form action="">
-              <div>
-           <label for="compange">Compagnie</label>
-            <select name="" id="compange">
-            <option value="">AFTU</option>
-            <option value="">DDD</option>
-            </select>
-           </div>
-           <div>
-            <label for="">Numero de Bus</label>
-            <input type="text" name="" id="">
-           </div>
-           <div>
-            <label for="">Lieu de Départ</label>
-            <input type="date" name="" id="">
-           </div>
-           <div>
-            <label for="">Lieur de Destination</label>
-            <input type="date" name="" id="">
-           </div>
-           <div>
-           <label for="">Date d’achat</label>
-           <input type="date" name="" id="">
-           </div>
-           <div>
-             <label for="">Nombre de Ticket</label>
-             <input type="text" name="" id="">
-           </div>
+          <form action="">
+            <div>
+              <label for="compange">Compagnie</label>
+              <select name="" id="compange">
+                <option value="">AFTU</option>
+                <option value="">DDD</option>
+              </select>
+            </div>
+            <div>
+              <label for="">Numero de Bus</label>
+              <input type="text" name="" id="" />
+            </div>
+            <div>
+              <label for="">Lieu de Départ</label>
+              <input type="date" name="" id="" />
+            </div>
+            <div>
+              <label for="">Lieur de Destination</label>
+              <input type="date" name="" id="" />
+            </div>
+            <div>
+              <label for="">Date d’achat</label>
+              <input type="date" name="" id="" />
+            </div>
+            <div>
+              <label for="">Nombre de Ticket</label>
+              <input type="text" name="" id="" />
+            </div>
 
-           <div>
-           
-           </div>
-             </form>
+            <div></div>
+          </form>
         </tab-content>
         <tab-content title="Identification">
           <form action="">
-           <div>
-           <label for="">Nom</label>
-           <input type="text" name="" id="">
-           </div>
-           <div>
-            <label for="">Prénom</label>
-            <input type="text" name="" id="">
-           </div>
-           <div>
-           <label for="">E-mail</label>
-           <input type="email" name="" id="">
-           </div>
+            <div>
+              <label for="">Nom</label>
+              <input type="text" name="" id="" />
+            </div>
+            <div>
+              <label for="">Prénom</label>
+              <input type="text" name="" id="" />
+            </div>
+            <div>
+              <label for="">E-mail</label>
+              <input type="email" name="" id="" />
+            </div>
           </form>
         </tab-content>
         <tab-content title="Suivant">
-         <form action="">
-          <div>
-          <label for="">Montant à payer</label>
-          <input type="text" name="" value="CFA" id="">
-          </div>
-          <div>
-          <label for="">Mode de paiement</label>
-          <select name="" id="">
-          <option value="">Orange Money</option>
-          </select>
-          </div>
-          <div>
-           <label for="">No tél Compte orange money</label>
-           <input type="text" name="" id="">
-          </div>
-          <div>
-          <label for="">Code mmid</label>
-          <input type="text" name="" id="">
-          </div>
-         </form>
+          <form action="">
+            <div>
+              <label for="">Montant à payer</label>
+              <input type="text" name="" value="CFA" id="" />
+            </div>
+            <div>
+              <label for="">Mode de paiement</label>
+              <select name="" id="">
+                <option value="">Orange Money</option>
+              </select>
+            </div>
+            <div>
+              <label for="">No tél Compte orange money</label>
+              <input type="text" name="" id="" />
+            </div>
+            <div>
+              <label for="">Code mmid</label>
+              <input type="text" name="" id="" />
+            </div>
+          </form>
         </tab-content>
       </form-wizard>
     </div>
-
+    <div class="center__text">
+      <img src="/../images/icone-bus.png" alt="" />
+      <h2 slot="title">Mode d’utilisation du service</h2>
+    </div>
     <div class="section__container">
-     <form-wizard color="#0092ff">
-           <h2 slot="title">Mode d’utilisation du service</h2> 
-
+      <form-wizard color="#0092ff">
         <tab-content title="Saisir les informations d’achat de votre ticket">
-             <form action="">
-              <div>
-           <label for="compange">Compagnie</label>
-            <select name="" id="compange">
-            <option value="">TER</option>
-           >
-            </select>
-           </div>
-         
-           <div>
-            <label for="">Lieu de Départ</label>
-            <input type="date" name="" id="">
-           </div>
-           <div>
-            <label for="">Lieur de Destination</label>
-            <input type="date" name="" id="">
-           </div>
-           <div>
-            <label for="">Classe</label>
-            <select name="" id="">
-            <option value="">1e classe</option>
-            <option value="">2e classe</option>
-            </select>
-           </div>
-           <div>
-           <label for="">Date d’achat</label>
-           <input type="date" name="" id="">
-           </div>
-           <div>
-             <label for="">Nombre de Ticket</label>
-             <input type="text" name="" id="">
-           </div>
+          <form action="">
+            <div>
+              <label for="compange">Compagnie</label>
+              <select name="" id="compange">
+                <option value="">TER</option>
+                >
+              </select>
+            </div>
 
-           <div>
-           
-           </div>
-             </form>
+            <div>
+              <label for="">Lieu de Départ</label>
+              <input type="date" name="" id="" />
+            </div>
+            <div>
+              <label for="">Lieur de Destination</label>
+              <input type="date" name="" id="" />
+            </div>
+            <div>
+              <label for="">Classe</label>
+              <select name="" id="">
+                <option value="">1e classe</option>
+                <option value="">2e classe</option>
+              </select>
+            </div>
+            <div>
+              <label for="">Date d’achat</label>
+              <input type="date" name="" id="" />
+            </div>
+            <div>
+              <label for="">Nombre de Ticket</label>
+              <input type="text" name="" id="" />
+            </div>
+
+            <div></div>
+          </form>
         </tab-content>
         <tab-content title="Identification">
           <form action="">
-           <div>
-           <label for="">Nom</label>
-           <input type="text" name="" id="">
-           </div>
-           <div>
-            <label for="">Prénom</label>
-            <input type="text" name="" id="">
-           </div>
-           <div>
-           <label for="">E-mail</label>
-           <input type="email" name="" id="">
-           </div>
+            <div>
+              <label for="">Nom</label>
+              <input type="text" name="" id="" />
+            </div>
+            <div>
+              <label for="">Prénom</label>
+              <input type="text" name="" id="" />
+            </div>
+            <div>
+              <label for="">E-mail</label>
+              <input type="email" name="" id="" />
+            </div>
           </form>
         </tab-content>
         <tab-content title="Suivant">
-         <form action="">
-          <div>
-          <label for="">Montant à payer</label>
-          <input type="text" name="" value="CFA" id="">
-          </div>
-          <div>
-          <label for="">Mode de paiement</label>
-          <select name="" id="">
-          <option value="">Orange Money</option>
-          </select>
-          </div>
-          <div>
-           <label for="">No tél Compte orange money</label>
-           <input type="text" name="" id="">
-          </div>
-          <div>
-          <label for="">Code mmid</label>
-          <input type="text" name="" id="">
-          </div>
-         </form>
+          <form action="">
+            <div>
+              <label for="">Montant à payer</label>
+              <input type="text" name="" value="CFA" id="" />
+            </div>
+            <div>
+              <label for="">Mode de paiement</label>
+              <select name="" id="">
+                <option value="">Orange Money</option>
+              </select>
+            </div>
+            <div>
+              <label for="">No tél Compte orange money</label>
+              <input type="text" name="" id="" />
+            </div>
+            <div>
+              <label for="">Code mmid</label>
+              <input type="text" name="" id="" />
+            </div>
+          </form>
         </tab-content>
       </form-wizard>
     </div>
@@ -376,14 +375,14 @@ export default {
   display: block;
   margin: 2rem auto;
 }
-label{
-  
-   display: block;
+label {
+  display: block;
   font-weight: bold;
   margin-top: 1rem;
 }
 
-input,select{
+input,
+select {
   width: 100%;
   display: block;
 
@@ -404,7 +403,7 @@ input,select{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
-  form{
+  form {
     width: 50%;
     margin: 0 auto;
   }

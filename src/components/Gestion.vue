@@ -3,10 +3,10 @@
     <Navigation />
     <section class="section__container top__container blog__details">
       <h1>Gestion des contacts</h1>
-      <h1>
+      <h2>
         ENVOYEZ DES SMS EN MASSE À VOS LISTES DE CLIENTS EXCEL, ACCESS, TEXTE
         ETC…
-      </h1>
+      </h2>
       <p>
         L’envoi depuis une liste de contacts est la solution professionnelle la
         plus adaptée aux envois de SMS en masse. Une fois vos listes traitées
@@ -59,7 +59,7 @@
           </div>
         </div>
         <div class="card">
-          <img class="card__image" src="/../images/gestion/DÉDOUBLONNAGE.png" alt="" />
+          <img class="card__image" src="/../images/gestion/NETTOYAGE-FORMATAGE.png" alt="" />
           <div class="card__details">
             <h2>NETTOYAGE & FORMATAGE</h2>
             <p>
@@ -68,7 +68,7 @@
           </div>
         </div>
         <div class="card">
-          <img class="card__image" src="/../images/gestion/DÉDOUBLONNAGE.png" alt="" />
+          <img class="card__image" src="/../images/gestion/Exporter.png" alt="" />
           <div class="card__details">
             <h2>EXPORTER</h2>
             <p>

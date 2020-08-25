@@ -46,36 +46,34 @@
         considération que vous leur témoignez.
       </p>
       <h2>Exemples de campagnes SMS :</h2>
+
       <div class="cards">
-      
-      <div class="card">
+        <div class="card">
           <p class="card__details">
-        « Bonjour Fatima Seneboutique vous invite à découvrir la nouvelle
-        collection en exclusivité lors de notre vente privée vendredi soir.
-        Soirée et conseils maquillage rien que pour vous. Confirmez votre
-        réponse au 37833″ »
-      </p>
+            « Bonjour Fatima Seneboutique vous invite à découvrir la nouvelle
+            collection en exclusivité lors de notre vente privée vendredi soir.
+            Soirée et conseils maquillage rien que pour vous. Confirmez votre
+            réponse au 37833″ »
+          </p>
+        </div>
+        <div class="card">
+          <p class="card__details">
+            « Chers clients, Vendredi 18H, venez à notre dégustation de nos
+            nouveaux plats et partagez une expérience unique avec notre chef
+            cuisinière invité pour la soirée. Infos et résa sur :
+             senethieboudjien.sn »
+          </p>
+        </div>
+        <div class="card">
+          <p class="card__details">
+            « Bonjour Mr Faye, L’épicerie Terranga vous remercie pour votre
+            inscription à l’atelier cuisine. Rendez-vous à la boutique samedi
+            8H00. »
+          </p>
+        </div>
       </div>
-      <div class="card">
-        <p class="card__details">
-        « Chers clients, Vendredi 18H, venez à notre dégustation de nos nouveaux
-        plats et partagez une expérience unique avec notre chef cuisinière
-        invité pour la soirée. Infos et résa sur :  senethieboudjien.sn »
-      </p>
-      </div>
-      <div class="card">
-       <p class="card__details">
-        « Bonjour Mr Faye, L’épicerie Terranga vous remercie pour votre
-        inscription à l’atelier cuisine. Rendez-vous à la boutique samedi
-        8H00. »
-      </p>
-      </div>
-      </div>
-    
-    
-      
     </section>
-    <Footer/>
+    <Footer />
   </div>
 </template>
 
@@ -90,4 +88,6 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+@import "../assets/base.scss";
+</style>
