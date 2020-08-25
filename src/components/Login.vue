@@ -21,7 +21,12 @@
           <button class="form__btn">Connexion</button>
         </div>
 
-        <p class="center__text title">mot de passe oublié</p>
+        <p class="center__text title">mot de passe oublié <br>
+        Vous avez déjà un compte : <router-link to="/signup" class="connection">Connexion</router-link>
+
+        
+        </p>
+       
       </form>
     </section>
     <Footer />
@@ -65,6 +70,10 @@ input[type="email"] {
   margin-top: 1rem;
   width: 90%;
   margin: 1rem auto;
+}
+.connection{
+  text-decoration: none;
+  color: $color-secondary;
 }
 ::placeholder {
   padding-left: 1rem;
