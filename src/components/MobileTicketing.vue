@@ -141,7 +141,7 @@
       </form-wizard>
     </div>
     <div class="center__text">
-      <img src="/../images/icone-bus.png" alt="" />
+      <img src="/../images/icone-train.png" alt="" />
       <h2 slot="title">Mode d’utilisation du service</h2>
     </div>
     <div class="section__container">
