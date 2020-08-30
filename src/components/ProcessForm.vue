@@ -139,6 +139,7 @@ import emailjs from 'emailjs-com';
   margin: 2rem auto;
   
 }
+
 .i-am-active {
   
 color:$color-white;
@@ -148,6 +149,11 @@ color:$color-white;
     display: none;
 }
 
+ input:focus{
+  outline: none !important;
+  border-color: #0074d9;
+  box-shadow: 0 0 10px #719ece;
+ }
 input[type="radio"]{
     display: none;
 }
@@ -210,6 +216,7 @@ input::placeholder{
 }
 
 
+
 input[type="text"], input[type="email"]{
     width: 90%;
     display: block;
@@ -233,9 +240,15 @@ input[type="text"], input[type="email"]{
     width: 10rem;
     margin: 2rem auto;
     border-radius: 5px;
-    font-weight: bold;
-
+    font-weight: bolder;
+    
 }
+
+ input:focus, textarea:focus{
+  outline: none !important;
+  border-color: #0074d9;
+  box-shadow: 0 0 10px #719ece;
+ }
 .btn__wrapper{
     width: 10rem;
     margin: 0 auto;  

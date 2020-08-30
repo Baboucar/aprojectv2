@@ -198,6 +198,11 @@ input[type="text"],input[type="email"],select{
     background: rgb(32, 32, 133);
   }
 }
+ input:focus, textarea:focus{
+  outline: none !important;
+  border-color: #0074d9;
+  box-shadow: 0 0 10px #719ece;
+ }
 @media(min-width:64rem){
     .address__detail{
         position: absolute;

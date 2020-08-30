@@ -165,9 +165,12 @@
       
    }
    input:focus{
-       border:1px solid $color-tertiary;
-       box-shadow: 0 0 5px $color-secondary;
+      outline: none !important;
+    border-color: #0074d9;
+    box-shadow: 0 0 10px #719ece;
    }
+
+  
 .link__btn{
  
     box-shadow: 0 22px 33px 0 rgba(0, 0, 0, 0.1);

@@ -108,6 +108,11 @@ input[type="email"]{
     background: rgb(32, 32, 133);
   }
 }
+ input:focus{
+  outline: none !important;
+  border-color: #0074d9;
+  box-shadow: 0 0 10px #719ece;
+ }
 @media (min-width: 64rem) {
   .form{
    width: 50%;
