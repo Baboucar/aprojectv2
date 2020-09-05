@@ -18,10 +18,10 @@
                 <router-link class="header__link" to="/signup"> <img class="link__icon" src="/../images/writing.png" alt=""> S'inscrire</router-link>
             </div>
             <div class="menu">
-                    <span class="menu__button" v-on:click="item1Visible = !item1Visible ">&#9776;</span>
+                    <span class="menu__button" v-on:click="item2Visible = !item2Visible ">&#9776;</span>
             </div>
        </header>
-       <nav class="section__container nav" v-show="!item1Visible">
+       <nav class="section__container nav" v-show="item2Visible"   >
 
            <div class="sub__nav">
       
@@ -69,8 +69,8 @@
              nav:'vis',
             
              seenp:false,
-              item1Visible: 'vis',
-      item2Visible: false
+              item1Visible: false,
+            item2Visible: true
               
           }
 
@@ -96,16 +96,16 @@
             //        this.seenp = false;
             //    }
             // },
-            // open(){
+            open(){
                
-            //     let item =  document.querySelector('.nav');
-            //       if(item.style.display == 'none'){
-            //           item.style.display = 'block';
-            //       }
-            //       else{
-            //           item.style.display = 'none';
-            //       }
-            // },
+                let item =  document.querySelector('.nav');
+                  if(item.style.display == 'none'){
+                      item.style.display = 'block';
+                  }
+                  else{
+                      item.style.display = 'none';
+                  }
+            },
             changenavbarcolor(){
     
              
@@ -314,6 +314,7 @@
          margin: -15px;
      }
      .nav{
+       
          display: flex;
          
         align-items: center;
