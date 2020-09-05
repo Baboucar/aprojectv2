@@ -18,10 +18,10 @@
                 <router-link class="header__link" to="/signup"> <img class="link__icon" src="/../images/writing.png" alt=""> S'inscrire</router-link>
             </div>
             <div class="menu">
-                    <span class="menu__button" @click="open">&#9776;</span>
+                    <span class="menu__button" v-on:click="item1Visible = !item1Visible ">&#9776;</span>
             </div>
        </header>
-       <nav class="section__container nav">
+       <nav class="section__container nav" v-show="!item1Visible">
 
            <div class="sub__nav">
       
@@ -29,7 +29,7 @@
            
             <div  class="toggle__nav"  v-if="hover"  
              >
-                <div  >
+                <div>
                  <router-link to="/smspro" class="sub__nav--links"  >SMS Pro</router-link>
                  <router-link to="/smsvocal" class="sub__nav--links">SMS Vocal</router-link>
                  <router-link to="/enrich" class="sub__nav--links" >SMS Enrichi</router-link>
@@ -66,8 +66,11 @@
           return{
              hover:false,
              sub:false,
+             nav:'vis',
             
-             seenp:false
+             seenp:false,
+              item1Visible: 'vis',
+      item2Visible: false
               
           }
 
@@ -85,24 +88,24 @@
              
             },
             // really crappy code fix it later
-            togglenavp(){
-               if(this.seenp == false){
-                   this.seenp = true;
-               }
-               else{
-                   this.seenp = false;
-               }
-            },
-            open(){
+            // togglenavp(){
+            //    if(this.seenp == false){
+            //        this.seenp = true;
+            //    }
+            //    else{
+            //        this.seenp = false;
+            //    }
+            // },
+            // open(){
                
-                let item =  document.querySelector('.nav');
-                  if(item.style.display == 'none'){
-                      item.style.display = 'block';
-                  }
-                  else{
-                      item.style.display = 'none';
-                  }
-            },
+            //     let item =  document.querySelector('.nav');
+            //       if(item.style.display == 'none'){
+            //           item.style.display = 'block';
+            //       }
+            //       else{
+            //           item.style.display = 'none';
+            //       }
+            // },
             changenavbarcolor(){
     
              
@@ -133,7 +136,9 @@
 
 <style lang="scss" scoped>
 @import  '../assets/base.scss';
-
+  .vis{
+      display: none;
+  }
    .logo__image{
        width:200px;
     
@@ -202,7 +207,7 @@
    }
 
    .nav{
-        display: none;
+        
            margin: 0 auto;
            
        &__links{
